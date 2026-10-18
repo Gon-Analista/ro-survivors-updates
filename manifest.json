@@ -2,9 +2,9 @@
   "base": "0.1.5",
   "page": "https://nearq.itch.io/ro-survivors",
   "patch": {
-    "version": "0.1.56",
-    "file": "patches/patch_0.1.56.bin",
-    "size": 86649052,
-    "sha256": "2c577269ba8c3ad06c241a875cf7126d249ce8e409b0d97dc86171e48a71bb2c"
+    "version": "0.1.57",
+    "file": "patches/patch_0.1.57.bin",
+    "size": 91989132,
+    "sha256": "5b74efc5a1284691b64b6aeab1e757a406db0e873fc5ff9c0356282c4e47e154"
   }
 }
