@@ -2,12 +2,22 @@
   "base": "0.1.81",
   "page": "https://nearq.itch.io/ro-survivors",
   "patch": {
-    "version": "0.1.83",
-    "file": "patches/patch_0.1.83.bin",
-    "size": 2883020,
-    "sha256": "74ee23b4edba6971491796472ffb83437bfe1979e85c5d8171f19a259442cb48"
+    "version": "0.1.84",
+    "file": "patches/patch_0.1.84.bin",
+    "size": 2890716,
+    "sha256": "a39246745d431b5b565aa17295e8cbdd46a4b7503e7ad89190f96c2d3e96acb2"
   },
   "notes": [
+    {
+      "version": "0.1.84",
+      "items": [
+        {
+          "t": "new",
+          "es": "Ventana de privacidad y opci\u00f3n para no salir en los r\u00e9cords.",
+          "en": "Privacy window and an option to stay out of the records."
+        }
+      ]
+    },
     {
       "version": "0.1.82",
       "items": [
