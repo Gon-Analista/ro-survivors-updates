@@ -1,7 +1,28 @@
 {
   "base": "0.1.81",
   "page": "https://nearq.itch.io/ro-survivors",
+  "patch": {
+    "version": "0.1.82",
+    "file": "patches/patch_0.1.82.bin",
+    "size": 919004,
+    "sha256": "d44dab6d3621b0c66f85d82ec31cc7ddbfeb63d4b40d58a6db6fe9760b26264e"
+  },
   "notes": [
+    {
+      "version": "0.1.82",
+      "items": [
+        {
+          "t": "new",
+          "es": "R\u00e9cords del mes por mapa: por clase y general, con tu nombre de personaje.",
+          "en": "Monthly records per map: per class and overall, with your character's name."
+        },
+        {
+          "t": "new",
+          "es": "Al terminar una partida ves tu puesto del mes.",
+          "en": "Your monthly rank shows when a run ends."
+        }
+      ]
+    },
     {
       "version": "0.1.81",
       "items": [
