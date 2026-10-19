@@ -2,12 +2,22 @@
   "base": "0.1.81",
   "page": "https://nearq.itch.io/ro-survivors",
   "patch": {
-    "version": "0.1.84",
-    "file": "patches/patch_0.1.84.bin",
-    "size": 2890716,
-    "sha256": "a39246745d431b5b565aa17295e8cbdd46a4b7503e7ad89190f96c2d3e96acb2"
+    "version": "0.1.85",
+    "file": "patches/patch_0.1.85.bin",
+    "size": 2892236,
+    "sha256": "bef03813671713c9d73b69056603e94703d198d6c671eaba1f4f2af913cbf229"
   },
   "notes": [
+    {
+      "version": "0.1.85",
+      "items": [
+        {
+          "t": "up",
+          "es": "El mapa del mundo es m\u00e1s grande. Los r\u00e9cords del mes se abren encima del mapa y se ocultan con R.",
+          "en": "The world map is bigger. The monthly records open over the map and hide with R."
+        }
+      ]
+    },
     {
       "version": "0.1.84",
       "items": [
@@ -145,16 +155,6 @@
           "t": "up",
           "es": "Hovers nuevos en todo el juego.",
           "en": "New hover cards all over the game."
-        }
-      ]
-    },
-    {
-      "version": "0.1.68",
-      "items": [
-        {
-          "t": "new",
-          "es": "Destroyer: nueva legendaria del Gunslinger para sus habilidades.",
-          "en": "Destroyer: a new Gunslinger legendary for skills."
         }
       ]
     }
