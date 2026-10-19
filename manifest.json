@@ -1,10 +1,131 @@
 {
-  "base": "0.1.66",
+  "base": "0.1.81",
   "page": "https://nearq.itch.io/ro-survivors",
-  "patch": {
-    "version": "0.1.80",
-    "file": "patches/patch_0.1.80.bin",
-    "size": 2832588,
-    "sha256": "87d0cd3ba418cd6d9105474b0ef2b8eabbd10054c74eb06e71a339a7ec263fd0"
-  }
+  "notes": [
+    {
+      "version": "0.1.81",
+      "items": [
+        {
+          "t": "new",
+          "es": "Altares de los Dioses: aparecen por el mapa y te ofrecen un trato para toda la partida.",
+          "en": "Altars of the Gods: they show up around the map and offer a deal for the whole run."
+        },
+        {
+          "t": "up",
+          "es": "El juego pesa unos 200 MB menos.",
+          "en": "The game is about 200 MB smaller."
+        },
+        {
+          "t": "new",
+          "es": "Las actualizaciones te preguntan antes y muestran sus novedades.",
+          "en": "Updates now ask first and show what's new."
+        },
+        {
+          "t": "fix",
+          "es": "Pantalla de arranque sin logos de terceros.",
+          "en": "Boot screen without third-party logos."
+        }
+      ]
+    },
+    {
+      "version": "0.1.80",
+      "items": [
+        {
+          "t": "new",
+          "es": "El mapa del d\u00eda se ve en el mapa del mundo.",
+          "en": "The map of the day shows on the world map."
+        },
+        {
+          "t": "new",
+          "es": "Primera partida del d\u00eda: +50% de zeny.",
+          "en": "First run of the day: +50% zeny."
+        }
+      ]
+    },
+    {
+      "version": "0.1.79",
+      "items": [
+        {
+          "t": "fix",
+          "es": "El informe final ya no se sale de la pantalla.",
+          "en": "The end report no longer runs off the screen."
+        }
+      ]
+    },
+    {
+      "version": "0.1.78",
+      "items": [
+        {
+          "t": "up",
+          "es": "Nuevos precios de la Kafra y el Sabio.",
+          "en": "New Kafra and Sage prices."
+        }
+      ]
+    },
+    {
+      "version": "0.1.76",
+      "items": [
+        {
+          "t": "new",
+          "es": "Cartas Eternas: funde tus copias repetidas en cartas permanentes.",
+          "en": "Eternal Cards: fuse duplicate copies into permanent cards."
+        },
+        {
+          "t": "new",
+          "es": "nearQ engarza las Cartas Eternas en tu equipo del Almac\u00e9n.",
+          "en": "nearQ sets Eternal Cards in your Storage gear."
+        }
+      ]
+    },
+    {
+      "version": "0.1.75",
+      "items": [
+        {
+          "t": "fix",
+          "es": "Sonidos originales de Mammonite, Cart Revolution y m\u00e1s habilidades.",
+          "en": "Original sounds for Mammonite, Cart Revolution and more skills."
+        }
+      ]
+    },
+    {
+      "version": "0.1.74",
+      "items": [
+        {
+          "t": "up",
+          "es": "Merchant m\u00e1s fuerte y resistente.",
+          "en": "Stronger, sturdier Merchant."
+        }
+      ]
+    },
+    {
+      "version": "0.1.70",
+      "items": [
+        {
+          "t": "new",
+          "es": "Tu gorro del equipo inicial se ve en la selecci\u00f3n y en Prontera.",
+          "en": "Your starting headgear shows in the character select and in Prontera."
+        }
+      ]
+    },
+    {
+      "version": "0.1.69",
+      "items": [
+        {
+          "t": "up",
+          "es": "Hovers nuevos en todo el juego.",
+          "en": "New hover cards all over the game."
+        }
+      ]
+    },
+    {
+      "version": "0.1.68",
+      "items": [
+        {
+          "t": "new",
+          "es": "Destroyer: nueva legendaria del Gunslinger para sus habilidades.",
+          "en": "Destroyer: a new Gunslinger legendary for skills."
+        }
+      ]
+    }
+  ]
 }
