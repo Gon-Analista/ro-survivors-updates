@@ -2,12 +2,22 @@
   "base": "0.1.81",
   "page": "https://nearq.itch.io/ro-survivors",
   "patch": {
-    "version": "0.1.87",
-    "file": "patches/patch_0.1.87.bin",
-    "size": 2928300,
-    "sha256": "81959c88a92dfef199142cfdaa4a4c3d26bc7de1a45ad33486a4600ae13b732a"
+    "version": "0.1.88",
+    "file": "patches/patch_0.1.88.bin",
+    "size": 2928252,
+    "sha256": "2169a841eceee567d4ddc35eda365a5dfd1fa2d4f5aec69d79bfff7f9d99d83b"
   },
   "notes": [
+    {
+      "version": "0.1.88",
+      "items": [
+        {
+          "t": "up",
+          "es": "En el \u00e1lbum, \"Eterna xN\" sale arriba de la carta.",
+          "en": "In the album, \"Eternal xN\" shows on top of the card."
+        }
+      ]
+    },
     {
       "version": "0.1.87",
       "items": [
@@ -145,16 +155,6 @@
           "t": "fix",
           "es": "Sonidos originales de Mammonite, Cart Revolution y m\u00e1s habilidades.",
           "en": "Original sounds for Mammonite, Cart Revolution and more skills."
-        }
-      ]
-    },
-    {
-      "version": "0.1.74",
-      "items": [
-        {
-          "t": "up",
-          "es": "Merchant m\u00e1s fuerte y resistente.",
-          "en": "Stronger, sturdier Merchant."
         }
       ]
     }
