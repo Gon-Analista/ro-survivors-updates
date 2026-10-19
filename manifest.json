@@ -2,12 +2,42 @@
   "base": "0.1.81",
   "page": "https://nearq.itch.io/ro-survivors",
   "patch": {
-    "version": "0.1.89",
-    "file": "patches/patch_0.1.89.bin",
-    "size": 2954892,
-    "sha256": "2167e1190870ff8b06f9eab276606999df58c6e72b2615fc6652bcd6837cec75"
+    "version": "0.1.90",
+    "file": "patches/patch_0.1.90.bin",
+    "size": 3185804,
+    "sha256": "712449691010f870db66e5262a9d0618bd43cb90e8b891cec4cd71965c48b150"
   },
   "notes": [
+    {
+      "version": "0.1.90",
+      "items": [
+        {
+          "t": "new",
+          "es": "5 mejoras nuevas en la Kafra: da\u00f1o cr\u00edtico, recuperaci\u00f3n, velocidad de proyectil, duraci\u00f3n y la maldici\u00f3n Bloody Branch.",
+          "en": "5 new Kafra upgrades: critical damage, recovery, projectile speed, duration and the Bloody Branch curse."
+        },
+        {
+          "t": "up",
+          "es": "Las mejoras de la Kafra y del Sabio se pueden apagar, y la Kafra las ordena por secciones.",
+          "en": "Kafra and Sage upgrades can be turned off, and the Kafra sorts them in sections."
+        },
+        {
+          "t": "up",
+          "es": "Los puntos del Perfil no tienen tope por atributo y se ponen manteniendo apretada la flecha.",
+          "en": "Profile points have no cap per attribute and can be placed by holding the arrow."
+        },
+        {
+          "t": "up",
+          "es": "El minimapa muestra el peligro del mapa.",
+          "en": "The minimap shows the map's danger."
+        },
+        {
+          "t": "fix",
+          "es": "Las ventas autom\u00e1ticas ya no parecen n\u00fameros de da\u00f1o, y Lucky Soup da como mucho un cofre cada 30 s.",
+          "en": "Auto-sales no longer look like damage numbers, and Lucky Soup gives at most one chest every 30 s."
+        }
+      ]
+    },
     {
       "version": "0.1.89",
       "items": [
@@ -150,21 +180,6 @@
           "t": "up",
           "es": "Nuevos precios de la Kafra y el Sabio.",
           "en": "New Kafra and Sage prices."
-        }
-      ]
-    },
-    {
-      "version": "0.1.76",
-      "items": [
-        {
-          "t": "new",
-          "es": "Cartas Eternas: funde tus copias repetidas en cartas permanentes.",
-          "en": "Eternal Cards: fuse duplicate copies into permanent cards."
-        },
-        {
-          "t": "new",
-          "es": "nearQ engarza las Cartas Eternas en tu equipo del Almac\u00e9n.",
-          "en": "nearQ sets Eternal Cards in your Storage gear."
         }
       ]
     }
