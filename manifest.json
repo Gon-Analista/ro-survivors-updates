@@ -2,12 +2,42 @@
   "base": "0.1.81",
   "page": "https://nearq.itch.io/ro-survivors",
   "patch": {
-    "version": "0.1.93",
-    "file": "patches/patch_0.1.93.bin",
-    "size": 6697500,
-    "sha256": "baa75a4a991f8ab2d1fbda1d25011a8b532b1be68f46e10e40991bf4a202d58e"
+    "version": "0.1.94",
+    "file": "patches/patch_0.1.94.bin",
+    "size": 6702876,
+    "sha256": "a1cb5850ce51b21e907abb7a8567be9aa45c45a69b96981f61ed5b873514caf2"
   },
   "notes": [
+    {
+      "version": "0.1.94",
+      "items": [
+        {
+          "t": "new",
+          "es": "Mascotas: elige el bonus de una y el aspecto de la que quieras que te siga.",
+          "en": "Pets: pick one pet's bonus and the look of whichever pet you want to follow you."
+        },
+        {
+          "t": "up",
+          "es": "Cada mascota tiene un bonus propio y \u00fatil (zeny, cartas, EXP, robo de vida, cr\u00edticos...).",
+          "en": "Every pet has its own useful bonus (zeny, cards, EXP, lifesteal, crits...)."
+        },
+        {
+          "t": "up",
+          "es": "\u00c1lbum: filtra las cartas por ranura (arma, cabeza, armadura...).",
+          "en": "Album: filter cards by slot (weapon, head, armor...)."
+        },
+        {
+          "t": "up",
+          "es": "Kafra: las mejoras van en pesta\u00f1as, y al comprar la ventana y su lista no se mueven.",
+          "en": "Kafra: upgrades are in tabs, and buying no longer moves the window or its list."
+        },
+        {
+          "t": "up",
+          "es": "nearQ te se\u00f1ala el hueco nuevo para que pongas tu primera Carta Eterna.",
+          "en": "nearQ points at the new slot so you can set your first Eternal Card."
+        }
+      ]
+    },
     {
       "version": "0.1.93",
       "items": [
@@ -255,31 +285,6 @@
           "t": "new",
           "es": "Al terminar una partida ves tu puesto del mes.",
           "en": "Your monthly rank shows when a run ends."
-        }
-      ]
-    },
-    {
-      "version": "0.1.81",
-      "items": [
-        {
-          "t": "new",
-          "es": "Altares de los Dioses: aparecen por el mapa y te ofrecen un trato para toda la partida.",
-          "en": "Altars of the Gods: they show up around the map and offer a deal for the whole run."
-        },
-        {
-          "t": "up",
-          "es": "El juego pesa unos 200 MB menos.",
-          "en": "The game is about 200 MB smaller."
-        },
-        {
-          "t": "new",
-          "es": "Las actualizaciones te preguntan antes y muestran sus novedades.",
-          "en": "Updates now ask first and show what's new."
-        },
-        {
-          "t": "fix",
-          "es": "Pantalla de arranque sin logos de terceros.",
-          "en": "Boot screen without third-party logos."
         }
       ]
     }
