@@ -2,12 +2,47 @@
   "base": "0.1.81",
   "page": "https://nearq.itch.io/ro-survivors",
   "patch": {
-    "version": "0.1.99",
-    "file": "patches/patch_0.1.99.bin",
-    "size": 11940364,
-    "sha256": "020a7c6883c57f65493263a2910a46c328d9d0c01294b4fcc952f1fcbabe1a79"
+    "version": "0.1.100",
+    "file": "patches/patch_0.1.100.bin",
+    "size": 13629004,
+    "sha256": "3a7a1654ce50efcc17f1abaaed84c4cf8bb98d18a595b146f7f9393191d17964"
   },
   "notes": [
+    {
+      "version": "0.1.100",
+      "items": [
+        {
+          "t": "new",
+          "es": "Nueva clase Ninja, que se compra con zeny: shuriken, kunai de cada elemento que cambias con E / R, Huuma Shuriken, Throw Zeny y ninjutsu de fuego, agua y viento.",
+          "en": "New Ninja class, bought with zeny: shuriken, kunai of every element you swap with E / R, Huuma Shuriken, Throw Zeny and fire, water and wind ninjutsu."
+        },
+        {
+          "t": "new",
+          "es": "Mirror Image crea sombras que reciben los golpes por ti y Cicada Skin Shed esquiva un golpe saltando hacia atr\u00e1s.",
+          "en": "Mirror Image makes shadows that take hits for you and Cicada Skin Shed dodges a hit with a leap back."
+        },
+        {
+          "t": "new",
+          "es": "El Ninja pasa a Kagerou, u Oboro si es mujer: Cross Slash, Kunai Splash, Exploding Dragon, Final Strike e Izayoi.",
+          "en": "The Ninja becomes a Kagerou, or an Oboro if female: Cross Slash, Kunai Splash, Exploding Dragon, Final Strike and Izayoi."
+        },
+        {
+          "t": "new",
+          "es": "12 evoluciones del Ninja, armas Huuma y la legendaria Huuma Giant Wheel.",
+          "en": "12 Ninja evolutions, Huuma weapons and the legendary Huuma Giant Wheel."
+        },
+        {
+          "t": "new",
+          "es": "Nuevo: bot\u00f3n para reportar bugs y enviar ideas (en la pausa, en Opciones o con F8 en cualquier momento), con una captura de lo que pasaba.",
+          "en": "New: report bugs and send ideas (from the pause menu, Options or F8 anytime), with a screenshot of the moment."
+        },
+        {
+          "t": "up",
+          "es": "El Gunslinger ahora cuesta 20.000 z. Si ya lo ten\u00edas, sigue desbloqueado.",
+          "en": "The Gunslinger now costs 20,000 z. If you already had it, it stays unlocked."
+        }
+      ]
+    },
     {
       "version": "0.1.99",
       "items": [
@@ -420,16 +455,6 @@
           "t": "up",
           "es": "Esc cierra el \u00e1lbum, el almac\u00e9n y el perfil y vuelve a la selecci\u00f3n de clase.",
           "en": "Esc closes the album, the storage and the profile and goes back to the class select."
-        }
-      ]
-    },
-    {
-      "version": "0.1.88",
-      "items": [
-        {
-          "t": "up",
-          "es": "En el \u00e1lbum, \"Eterna xN\" sale arriba de la carta.",
-          "en": "In the album, \"Eternal xN\" shows on top of the card."
         }
       ]
     }
