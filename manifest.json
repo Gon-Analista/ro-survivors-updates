@@ -2,12 +2,72 @@
   "base": "0.1.81",
   "page": "https://nearq.itch.io/ro-survivors",
   "patch": {
-    "version": "0.1.92",
-    "file": "patches/patch_0.1.92.bin",
-    "size": 3273324,
-    "sha256": "b3833c3c670bacb44721b55f832899fe7274fd1256285501a2b2ac951352d56f"
+    "version": "0.1.93",
+    "file": "patches/patch_0.1.93.bin",
+    "size": 6697500,
+    "sha256": "baa75a4a991f8ab2d1fbda1d25011a8b532b1be68f46e10e40991bf4a202d58e"
   },
   "notes": [
+    {
+      "version": "0.1.93",
+      "items": [
+        {
+          "t": "new",
+          "es": "Cada monstruo tiene ahora su carta: 65 cartas nuevas y 9 mascotas nuevas para domar.",
+          "en": "Every monster now has its card: 65 new cards and 9 new pets to tame."
+        },
+        {
+          "t": "new",
+          "es": "Al cambiar de oficio eliges tu primera habilidad, como al empezar la partida.",
+          "en": "On the job change you choose your first skill, like at the start of a run."
+        },
+        {
+          "t": "new",
+          "es": "\u00c1lbum: bot\u00f3n \u00ab\u00a1Fundir todo!\u00bb para fundir de una vez todas las cartas listas, con su propia animaci\u00f3n.",
+          "en": "Album: a \u00abFuse all!\u00bb button fuses every ready card at once, with its own animation."
+        },
+        {
+          "t": "up",
+          "es": "Shield Boomerang lanza tu propio escudo y pega m\u00e1s fuerte; Holy Cross vuela hasta el monstruo m\u00e1s cercano si no hay nadie cerca.",
+          "en": "Shield Boomerang throws your own shield and hits harder; Holy Cross flies to the nearest monster if nobody is close."
+        },
+        {
+          "t": "up",
+          "es": "Las cartas caen con menos frecuencia (SUE da +2% y cada nivel de peligro +1%).",
+          "en": "Cards drop less often (LUK gives +2% and each danger level +1%)."
+        },
+        {
+          "t": "up",
+          "es": "Los altares se ven siempre en el minimapa y aparecen m\u00e1s cerca del h\u00e9roe.",
+          "en": "Altars always show on the minimap and appear closer to the hero."
+        },
+        {
+          "t": "up",
+          "es": "El Sabio ya no vende la Gema de Sabidur\u00eda: si la ten\u00edas, recuperas su zeny.",
+          "en": "The Sage no longer sells the Gem of Wisdom: if you had it, you get its zeny back."
+        },
+        {
+          "t": "fix",
+          "es": "El cofre del MVP llega hasta ti antes de que termine la partida.",
+          "en": "The MVP's chest reaches you before the run ends."
+        },
+        {
+          "t": "fix",
+          "es": "Ya no aparece el mapa anterior al jugar otro mapa despu\u00e9s de terminar en la arena de un MVP.",
+          "en": "The previous map no longer shows up when playing another map after ending in an MVP arena."
+        },
+        {
+          "t": "fix",
+          "es": "Los nombres largos de habilidades caben en sus cartas y la barra de habilidades ya no crece de m\u00e1s.",
+          "en": "Long skill names fit their cards and the skill bar no longer grows too wide."
+        },
+        {
+          "t": "fix",
+          "es": "Cofres con muchos objetos: la lista se desplaza y el bot\u00f3n Continuar siempre se ve.",
+          "en": "Chests with many items: the list scrolls and the Continue button always shows."
+        }
+      ]
+    },
     {
       "version": "0.1.92",
       "items": [
@@ -220,21 +280,6 @@
           "t": "fix",
           "es": "Pantalla de arranque sin logos de terceros.",
           "en": "Boot screen without third-party logos."
-        }
-      ]
-    },
-    {
-      "version": "0.1.80",
-      "items": [
-        {
-          "t": "new",
-          "es": "El mapa del d\u00eda se ve en el mapa del mundo.",
-          "en": "The map of the day shows on the world map."
-        },
-        {
-          "t": "new",
-          "es": "Primera partida del d\u00eda: +50% de zeny.",
-          "en": "First run of the day: +50% zeny."
         }
       ]
     }
