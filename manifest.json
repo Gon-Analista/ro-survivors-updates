@@ -2,12 +2,27 @@
   "base": "0.1.81",
   "page": "https://nearq.itch.io/ro-survivors",
   "patch": {
-    "version": "0.1.95",
-    "file": "patches/patch_0.1.95.bin",
-    "size": 6913692,
-    "sha256": "9e3df02c19d9534a9e3932b6019dc2e0c356f6706f9995085177de923636fe37"
+    "version": "0.1.96",
+    "file": "patches/patch_0.1.96.bin",
+    "size": 7056764,
+    "sha256": "a50acab91fa5792afacb9a4b753bee10dbc620df5f7cf5507428c297a31839b8"
   },
   "notes": [
+    {
+      "version": "0.1.96",
+      "items": [
+        {
+          "t": "up",
+          "es": "R\u00e9cords m\u00e1s c\u00f3modos: el panel ya no mueve la pantalla, colores m\u00e1s suaves y un Poring que carga sin trabarse.",
+          "en": "Records are easier to use: the panel no longer shifts the screen, softer colors and a loading Poring that doesn't glitch."
+        },
+        {
+          "t": "up",
+          "es": "La ventana del juego se llama Midgard Survivors y el \u00edcono ya no lleva \u00abRO\u00bb.",
+          "en": "The game window is now called Midgard Survivors and the icon no longer shows \u00abRO\u00bb."
+        }
+      ]
+    },
     {
       "version": "0.1.95",
       "items": [
@@ -335,16 +350,6 @@
           "t": "up",
           "es": "El mapa del mundo es m\u00e1s grande. Los r\u00e9cords del mes se abren encima del mapa y se ocultan con R.",
           "en": "The world map is bigger. The monthly records open over the map and hide with R."
-        }
-      ]
-    },
-    {
-      "version": "0.1.84",
-      "items": [
-        {
-          "t": "new",
-          "es": "Ventana de privacidad y opci\u00f3n para no salir en los r\u00e9cords.",
-          "en": "Privacy window and an option to stay out of the records."
         }
       ]
     }
