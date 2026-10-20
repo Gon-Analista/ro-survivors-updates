@@ -2,12 +2,42 @@
   "base": "0.1.81",
   "page": "https://nearq.itch.io/ro-survivors",
   "patch": {
-    "version": "0.1.102",
-    "file": "patches/patch_0.1.102.bin",
-    "size": 13658732,
-    "sha256": "f7a1f0653ff140c6fdaf3a4d2f862efc312a78a81048f7e528a08c2c2c3ce3d7"
+    "version": "0.1.103",
+    "file": "patches/patch_0.1.103.bin",
+    "size": 13663420,
+    "sha256": "9812c1c3f3fca42a55b161928c867add06fd1e4faaed37ce51741f428c90c337"
   },
   "notes": [
+    {
+      "version": "0.1.103",
+      "items": [
+        {
+          "t": "new",
+          "es": "Al empezar la partida y al cambiar de oficio puedes elegir una pasiva en vez de una habilidad: se puede jugar solo con ataques b\u00e1sicos.",
+          "en": "At the start of a run and at the job change you can pick a passive instead of a skill: you can play with basic attacks only."
+        },
+        {
+          "t": "fix",
+          "es": "La ventana de elecci\u00f3n de habilidad ya no se sale de la pantalla en clases con muchas habilidades.",
+          "en": "The skill choice window no longer goes off screen for classes with many skills."
+        },
+        {
+          "t": "new",
+          "es": "Las mejoras de atributo muestran \u00abMAX\u00bb en lo que ya lleg\u00f3 a su tope.",
+          "en": "Attribute upgrades show \u00abMAX\u00bb on effects that already reached their cap."
+        },
+        {
+          "t": "up",
+          "es": "Los rebotes saltan hasta 25 casillas al siguiente monstruo.",
+          "en": "Bounces now jump up to 25 cells to the next monster."
+        },
+        {
+          "t": "up",
+          "es": "Velocidad de movimiento con tope de 10 y velocidad de proyectiles con tope de x1,8; la DES da +10% de velocidad de proyectiles por punto.",
+          "en": "Movement speed caps at 10 and projectile speed at x1.8; DEX gives +10% projectile speed per point."
+        }
+      ]
+    },
     {
       "version": "0.1.102",
       "items": [
@@ -425,56 +455,6 @@
           "t": "fix",
           "es": "El texto de AGI ya no se sale de la carta al subir de nivel.",
           "en": "The AGI text no longer overflows its level-up card."
-        }
-      ]
-    },
-    {
-      "version": "0.1.91",
-      "items": [
-        {
-          "t": "up",
-          "es": "Si subes varios niveles a la vez, eliges uno tras otro en la misma ventana.",
-          "en": "If you gain several levels at once, you pick them one after another in the same window."
-        },
-        {
-          "t": "up",
-          "es": "Las mec\u00e1nicas de los MVP quitan un % de tu vida: la armadura no las reduce, pero puedes esquivarlas, bloquearlas o anularlas con escudos.",
-          "en": "MVP mechanics take a share of your HP: armor doesn't reduce them, but you can dodge, block or shield them."
-        },
-        {
-          "t": "up",
-          "es": "Modo infinito: los monstruos (salvo el MVP) se vuelven m\u00e1s r\u00e1pidos, numerosos, fuertes y resistentes con el tiempo.",
-          "en": "Endless mode: monsters (except the MVP) get faster, more numerous, stronger and tougher over time."
-        },
-        {
-          "t": "up",
-          "es": "Las legendarias son m\u00e1s raras y ya no hay protecci\u00f3n contra la mala suerte.",
-          "en": "Legendaries are rarer and there's no bad-luck protection anymore."
-        },
-        {
-          "t": "up",
-          "es": "nearQ ya no pide Oridecon ni Elunium normales; abrir un hueco puede fallar, m\u00e1s cuanto m\u00e1s raro es el objeto (el objeto nunca se rompe).",
-          "en": "nearQ no longer asks for normal Oridecon or Elunium; opening a slot can fail, more often the rarer the item (the item never breaks)."
-        },
-        {
-          "t": "up",
-          "es": "En Infinito puedes activar o quitar la elecci\u00f3n al azar desde la pausa.",
-          "en": "In Endless you can turn random picks on or off from the pause menu."
-        },
-        {
-          "t": "up",
-          "es": "Los dioses aceptados se muestran junto a los pactos, sobre la barra de habilidades.",
-          "en": "Accepted gods now show next to the pacts, above the skill bar."
-        },
-        {
-          "t": "up",
-          "es": "Los r\u00e9cords se abren en el General.",
-          "en": "Records open on the General board."
-        },
-        {
-          "t": "fix",
-          "es": "El portal del MVP se marca de lejos con la cara del MVP.",
-          "en": "The MVP portal is marked from afar with the MVP's face."
         }
       ]
     }
