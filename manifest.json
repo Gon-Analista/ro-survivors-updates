@@ -2,12 +2,87 @@
   "base": "0.1.81",
   "page": "https://nearq.itch.io/ro-survivors",
   "patch": {
-    "version": "0.1.94",
-    "file": "patches/patch_0.1.94.bin",
-    "size": 6702876,
-    "sha256": "a1cb5850ce51b21e907abb7a8567be9aa45c45a69b96981f61ed5b873514caf2"
+    "version": "0.1.95",
+    "file": "patches/patch_0.1.95.bin",
+    "size": 6913692,
+    "sha256": "9e3df02c19d9534a9e3932b6019dc2e0c356f6706f9995085177de923636fe37"
   },
   "notes": [
+    {
+      "version": "0.1.95",
+      "items": [
+        {
+          "t": "new",
+          "es": "Frenes\u00ed reemplaza a x2 / x3: todo el juego va x1.5 m\u00e1s r\u00e1pido, con +40% de zeny y +15% en los r\u00e9cords.",
+          "en": "Frenzy replaces x2 / x3: the whole game runs x1.5 faster, with +40% zeny and +15% on the records."
+        },
+        {
+          "t": "new",
+          "es": "5 niveles de Infierno tras el peligro 15, con monstruos de todos los mapas, curaci\u00f3n a la mitad, m\u00e1s especiales y lluvia de fuego.",
+          "en": "5 Hell levels after danger 15, with monsters from every map, halved healing, more special monsters and fire rain."
+        },
+        {
+          "t": "new",
+          "es": "Monstruos especiales: Veloz, Maldito y Gigante, adem\u00e1s del Feroz.",
+          "en": "Special monsters: Swift, Cursed and Giant besides the Ferocious."
+        },
+        {
+          "t": "new",
+          "es": "Poring Dorado: rara vez aparece con un tesoro y huye; cada golpe suelta zeny.",
+          "en": "Golden Poring: rarely shows up with a treasure and flees; every hit drops zeny."
+        },
+        {
+          "t": "new",
+          "es": "A los 3 minutos de pelea despierta el Coraz\u00f3n de Ymir: t\u00fa y el MVP pegan cada vez m\u00e1s fuerte.",
+          "en": "3 minutes into an MVP fight Ymir's Heart awakens: you and the MVP hit harder and harder."
+        },
+        {
+          "t": "new",
+          "es": "Ultra cr\u00edtico: con da\u00f1o cr\u00edtico x2.5, tus cr\u00edticos hacen +25% y se ven m\u00e1s grandes.",
+          "en": "Ultra critical: with x2.5 critical damage, your crits deal +25% and show bigger."
+        },
+        {
+          "t": "new",
+          "es": "R\u00e9cords del mes en el panel del mapa (pesta\u00f1a R\u00e9cords, tecla R): tu puesto, cu\u00e1nto te falta y el personaje de cada jugador.",
+          "en": "Monthly records in the map panel (Records tab, R key): your place, how far the next one is, and every player's character."
+        },
+        {
+          "t": "up",
+          "es": "El cr\u00edtico que pasa del 100% se vuelve da\u00f1o cr\u00edtico, y la Fuerza da +1% de da\u00f1o cr\u00edtico por punto.",
+          "en": "Critical chance past 100% becomes critical damage, and Strength gives +1% critical damage per point."
+        },
+        {
+          "t": "up",
+          "es": "El nombre del personaje se puede cambiar una vez cada 8 horas y se actualiza en el ranking.",
+          "en": "Character names can change once every 8 hours and update on the board."
+        },
+        {
+          "t": "up",
+          "es": "Esc cierra las ventanas de NPC en Prontera y salir de Prontera pide confirmaci\u00f3n.",
+          "en": "Esc closes NPC windows in Prontera, and leaving Prontera asks first."
+        },
+        {
+          "t": "up",
+          "es": "nearQ explica c\u00f3mo conseguir una Carta Eterna si no tienes ninguna para el hueco.",
+          "en": "nearQ explains how to get an Eternal Card when you have none for the slot."
+        },
+        {
+          "t": "up",
+          "es": "En Infinito los monstruos ganan m\u00e1s vida, da\u00f1o y velocidad.",
+          "en": "In Endless, monsters gain more HP, damage and speed."
+        },
+        {
+          "t": "fix",
+          "es": "El aura de renacido se ve igual en la selecci\u00f3n que en Prontera.",
+          "en": "The reborn aura looks the same in the character select as in Prontera."
+        },
+        {
+          "t": "fix",
+          "es": "\u00a1Eficaz! / Resiste van sobre su n\u00famero de da\u00f1o, los altares no aparecen en la arena del MVP y el refinador ya no ofrece refinar accesorios.",
+          "en": "Effective! / Resisted sit above their damage number, altars no longer appear in the MVP arena, and the refiner no longer offers to refine accessories."
+        }
+      ]
+    },
     {
       "version": "0.1.94",
       "items": [
@@ -270,21 +345,6 @@
           "t": "new",
           "es": "Ventana de privacidad y opci\u00f3n para no salir en los r\u00e9cords.",
           "en": "Privacy window and an option to stay out of the records."
-        }
-      ]
-    },
-    {
-      "version": "0.1.82",
-      "items": [
-        {
-          "t": "new",
-          "es": "R\u00e9cords del mes por mapa: por clase y general, con tu nombre de personaje.",
-          "en": "Monthly records per map: per class and overall, with your character's name."
-        },
-        {
-          "t": "new",
-          "es": "Al terminar una partida ves tu puesto del mes.",
-          "en": "Your monthly rank shows when a run ends."
         }
       ]
     }
