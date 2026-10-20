@@ -2,12 +2,62 @@
   "base": "0.1.81",
   "page": "https://nearq.itch.io/ro-survivors",
   "patch": {
-    "version": "0.1.98",
-    "file": "patches/patch_0.1.98.bin",
-    "size": 7066380,
-    "sha256": "b78496f40ce112a77f9bd9ef4d2238dc5c73f3e3543279289f364bc15e2d0761"
+    "version": "0.1.99",
+    "file": "patches/patch_0.1.99.bin",
+    "size": 11940364,
+    "sha256": "020a7c6883c57f65493263a2910a46c328d9d0c01294b4fcc952f1fcbabe1a79"
   },
   "notes": [
+    {
+      "version": "0.1.99",
+      "items": [
+        {
+          "t": "new",
+          "es": "Knight y Crusader montan su Peco Peco con Peco Peco Ride: corren m\u00e1s y sus lanzadas pegan m\u00e1s fuerte.",
+          "en": "Knight and Crusader ride their Peco Peco with Peco Peco Ride: they run faster and their spear skills hit harder."
+        },
+        {
+          "t": "new",
+          "es": "Habilidades propias de RO por clase: Auto Counter, Reflect Shield, Hindsight, Enchant Poison, Aspersio, Weapon Perfection y Coin Flip.",
+          "en": "RO class signatures: Auto Counter, Reflect Shield, Hindsight, Enchant Poison, Aspersio, Weapon Perfection and Coin Flip."
+        },
+        {
+          "t": "new",
+          "es": "El Monk encadena Triple Attack, Chain Combo y Combo Finish.",
+          "en": "The Monk chains Triple Attack, Chain Combo and Combo Finish."
+        },
+        {
+          "t": "new",
+          "es": "El Alchemist llama a su Hom\u00fanculo: Lif, Amistr, Filir o Vanilmirth.",
+          "en": "The Alchemist calls a Homunculus: Lif, Amistr, Filir or Vanilmirth."
+        },
+        {
+          "t": "new",
+          "es": "Plagiarism: el Rogue copia para siempre la habilidad de cada jefe que vence. Cons\u00faltalas en el \u00e1lbum.",
+          "en": "Plagiarism: the Rogue copies for good the skill of every boss it beats. See them in the album."
+        },
+        {
+          "t": "new",
+          "es": "Bard: Assassin Cross of Sunset. Wizard: Mystical Amplification, hechizos m\u00e1s peque\u00f1os pero mucho m\u00e1s fuertes.",
+          "en": "Bard: Assassin Cross of Sunset. Wizard: Mystical Amplification, smaller but much stronger spells."
+        },
+        {
+          "t": "up",
+          "es": "El halc\u00f3n del Hunter pega m\u00e1s y ataca solo, m\u00e1s seguido con SUE. El veneno se acumula hasta 5 veces.",
+          "en": "The Hunter's falcon hits harder and attacks on its own, more often with LUK. Poison stacks up to 5 times."
+        },
+        {
+          "t": "up",
+          "es": "Las canciones del Bard ya no se amontonan, y Poem of Bragi suena con su canci\u00f3n original.",
+          "en": "Bard songs no longer pile up, and Poem of Bragi plays its original song."
+        },
+        {
+          "t": "up",
+          "es": "Altares: Loki da cartas y legendarias, Niflheim da EXP. La barra de peligro agrupa los niveles de Infierno.",
+          "en": "Altars: Loki gives cards and legendaries, Niflheim gives EXP. The danger bar groups the Hell levels."
+        }
+      ]
+    },
     {
       "version": "0.1.98",
       "items": [
@@ -380,16 +430,6 @@
           "t": "up",
           "es": "En el \u00e1lbum, \"Eterna xN\" sale arriba de la carta.",
           "en": "In the album, \"Eternal xN\" shows on top of the card."
-        }
-      ]
-    },
-    {
-      "version": "0.1.87",
-      "items": [
-        {
-          "t": "fix",
-          "es": "Los hovers ya no parpadean un instante arriba a la izquierda.",
-          "en": "Hover cards no longer flash for a moment in the top-left corner."
         }
       ]
     }
