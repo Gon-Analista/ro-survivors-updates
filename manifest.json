@@ -2,12 +2,42 @@
   "base": "0.1.81",
   "page": "https://nearq.itch.io/ro-survivors",
   "patch": {
-    "version": "0.1.96",
-    "file": "patches/patch_0.1.96.bin",
-    "size": 7056764,
-    "sha256": "a50acab91fa5792afacb9a4b753bee10dbc620df5f7cf5507428c297a31839b8"
+    "version": "0.1.97",
+    "file": "patches/patch_0.1.97.bin",
+    "size": 7065260,
+    "sha256": "1d9b813ad4d54dc263232dce13440961b3d661ddab1e0c974eeec08b57cc9a38"
   },
   "notes": [
+    {
+      "version": "0.1.97",
+      "items": [
+        {
+          "t": "new",
+          "es": "Tormenta desde el peligro 10: cae una cadena de rayos que te persigue, mu\u00e9vete para esquivarlos.",
+          "en": "Storm from danger 10: a chain of lightning bolts chases you, keep moving to dodge them."
+        },
+        {
+          "t": "up",
+          "es": "En Frenes\u00ed, la pelea contra el MVP va a velocidad normal.",
+          "en": "In Frenzy, the MVP fight plays at normal speed."
+        },
+        {
+          "t": "up",
+          "es": "Los monstruos especiales se distinguen mejor: anillo y chispas del color de su tipo.",
+          "en": "Special monsters stand out more: a ring and sparks in their kind's color."
+        },
+        {
+          "t": "up",
+          "es": "Los cofres nunca caen en sitios inalcanzables, se abren a un paso y se ven aunque est\u00e9n detr\u00e1s de un \u00e1rbol, igual que tu personaje.",
+          "en": "Chests never land out of reach, open a step away and show behind trees, just like your character."
+        },
+        {
+          "t": "up",
+          "es": "Los r\u00e9cords muestran la partida completa y el Frenes\u00ed se explica m\u00e1s simple.",
+          "en": "Records show the full run and Frenzy is explained more simply."
+        }
+      ]
+    },
     {
       "version": "0.1.96",
       "items": [
@@ -340,16 +370,6 @@
           "t": "up",
           "es": "Los r\u00e9cords del mes empiezan ocultos al abrir el mapa del mundo; \u00e1brelos con R o con su pesta\u00f1a.",
           "en": "The monthly records start hidden when the world map opens; open them with R or their tab."
-        }
-      ]
-    },
-    {
-      "version": "0.1.85",
-      "items": [
-        {
-          "t": "up",
-          "es": "El mapa del mundo es m\u00e1s grande. Los r\u00e9cords del mes se abren encima del mapa y se ocultan con R.",
-          "en": "The world map is bigger. The monthly records open over the map and hide with R."
         }
       ]
     }
