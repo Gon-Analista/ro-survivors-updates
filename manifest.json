@@ -2,12 +2,42 @@
   "base": "0.1.81",
   "page": "https://nearq.itch.io/ro-survivors",
   "patch": {
-    "version": "0.1.97",
-    "file": "patches/patch_0.1.97.bin",
-    "size": 7065260,
-    "sha256": "1d9b813ad4d54dc263232dce13440961b3d661ddab1e0c974eeec08b57cc9a38"
+    "version": "0.1.98",
+    "file": "patches/patch_0.1.98.bin",
+    "size": 7066380,
+    "sha256": "b78496f40ce112a77f9bd9ef4d2238dc5c73f3e3543279289f364bc15e2d0761"
   },
   "notes": [
+    {
+      "version": "0.1.98",
+      "items": [
+        {
+          "t": "up",
+          "es": "Altar de Freyja: ahora da +8% de cr\u00edtico y +15% de da\u00f1o cr\u00edtico.",
+          "en": "Freyja's altar: now gives +8% critical and +15% critical damage."
+        },
+        {
+          "t": "up",
+          "es": "Altar de Niflheim: +30% de cartas y +6% de legendarias en los cofres.",
+          "en": "Niflheim's altar: +30% cards and +6% legendaries in chests."
+        },
+        {
+          "t": "up",
+          "es": "Pueden esperar hasta 5 altares a la vez.",
+          "en": "Up to 5 altars can wait at once."
+        },
+        {
+          "t": "up",
+          "es": "La guardia del Emperium es enorme, dorada y se anuncia al despertar.",
+          "en": "The Emperium's guard is huge, golden and announced when it awakens."
+        },
+        {
+          "t": "up",
+          "es": "La Fuerza da +3% de da\u00f1o cr\u00edtico por punto.",
+          "en": "Strength gives +3% critical damage per point."
+        }
+      ]
+    },
     {
       "version": "0.1.97",
       "items": [
@@ -360,16 +390,6 @@
           "t": "fix",
           "es": "Los hovers ya no parpadean un instante arriba a la izquierda.",
           "en": "Hover cards no longer flash for a moment in the top-left corner."
-        }
-      ]
-    },
-    {
-      "version": "0.1.86",
-      "items": [
-        {
-          "t": "up",
-          "es": "Los r\u00e9cords del mes empiezan ocultos al abrir el mapa del mundo; \u00e1brelos con R o con su pesta\u00f1a.",
-          "en": "The monthly records start hidden when the world map opens; open them with R or their tab."
         }
       ]
     }
