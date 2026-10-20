@@ -2,12 +2,47 @@
   "base": "0.1.81",
   "page": "https://nearq.itch.io/ro-survivors",
   "patch": {
-    "version": "0.1.100",
-    "file": "patches/patch_0.1.100.bin",
-    "size": 13629004,
-    "sha256": "3a7a1654ce50efcc17f1abaaed84c4cf8bb98d18a595b146f7f9393191d17964"
+    "version": "0.1.101",
+    "file": "patches/patch_0.1.101.bin",
+    "size": 13658732,
+    "sha256": "1da5028115a25f64bbe696fcaa24cfb6ab3bea157f398e431e14da64bf800445"
   },
   "notes": [
+    {
+      "version": "0.1.101",
+      "items": [
+        {
+          "t": "up",
+          "es": "Los disparos y flechas ya no atraviesan: rebotan de monstruo en monstruo, un poco m\u00e1s d\u00e9biles con cada rebote. La AGI da m\u00e1s rebotes al ataque a distancia.",
+          "en": "Shots and arrows no longer pierce: they bounce from monster to monster, a bit weaker each time. AGI gives ranged attacks more bounces."
+        },
+        {
+          "t": "up",
+          "es": "El carro del Merchant rueda detr\u00e1s de ti como un carro de verdad: sigue tu camino, frena despacio y gira las ruedas al rodar.",
+          "en": "The Merchant's cart rolls behind you like a real cart: it follows your path, slows down gently and turns its wheels as it rolls."
+        },
+        {
+          "t": "up",
+          "es": "El aura de renacido es la del RO original: el destello en el suelo y las chispitas lilas que suben.",
+          "en": "The rebirth aura is the original RO one: the flare on the ground and the lilac sparkles rising."
+        },
+        {
+          "t": "new",
+          "es": "La ventana de Equipo muestra el resto de tus estad\u00edsticas, las que no caben en la ventana Estado.",
+          "en": "The Equipment window shows the rest of your stats, the ones that don't fit in the Status window."
+        },
+        {
+          "t": "up",
+          "es": "Mejor rendimiento con muchos monstruos y gemas de EXP en pantalla.",
+          "en": "Better performance with lots of monsters and EXP gems on screen."
+        },
+        {
+          "t": "fix",
+          "es": "El aura ya no tapa los pies del personaje ni se sale del recuadro en la selecci\u00f3n de clase.",
+          "en": "The aura no longer covers the character's feet or spills out of its frame in the class select."
+        }
+      ]
+    },
     {
       "version": "0.1.100",
       "items": [
@@ -435,26 +470,6 @@
           "t": "fix",
           "es": "Las ventas autom\u00e1ticas ya no parecen n\u00fameros de da\u00f1o, y Lucky Soup da como mucho un cofre cada 30 s.",
           "en": "Auto-sales no longer look like damage numbers, and Lucky Soup gives at most one chest every 30 s."
-        }
-      ]
-    },
-    {
-      "version": "0.1.89",
-      "items": [
-        {
-          "t": "new",
-          "es": "Filtro de nombres y de chat: los nombres ofensivos ya no se pueden usar.",
-          "en": "Name and chat filter: offensive names can no longer be used."
-        },
-        {
-          "t": "up",
-          "es": "Chat de Prontera m\u00e1s simple: una franja oscura y transparente.",
-          "en": "Simpler Prontera chat: a dark see-through strip."
-        },
-        {
-          "t": "up",
-          "es": "Esc cierra el \u00e1lbum, el almac\u00e9n y el perfil y vuelve a la selecci\u00f3n de clase.",
-          "en": "Esc closes the album, the storage and the profile and goes back to the class select."
         }
       ]
     }
