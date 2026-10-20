@@ -2,12 +2,37 @@
   "base": "0.1.81",
   "page": "https://nearq.itch.io/ro-survivors",
   "patch": {
-    "version": "0.1.103",
-    "file": "patches/patch_0.1.103.bin",
-    "size": 13663420,
-    "sha256": "9812c1c3f3fca42a55b161928c867add06fd1e4faaed37ce51741f428c90c337"
+    "version": "0.1.104",
+    "file": "patches/patch_0.1.104.bin",
+    "size": 13666076,
+    "sha256": "3879b5c87f9379bec933c1c2e16e61878b3ac3477c990ac3e540c1b98b7439dd"
   },
   "notes": [
+    {
+      "version": "0.1.104",
+      "items": [
+        {
+          "t": "up",
+          "es": "Las cartas que lanzan habilidades con el ataque b\u00e1sico tienen m\u00e1s probabilidad y su da\u00f1o crece con tu nivel.",
+          "en": "Cards that cast skills on basic attacks trigger more often and their damage grows with your level."
+        },
+        {
+          "t": "up",
+          "es": "El veneno de cartas y armas dura m\u00e1s, crece con el da\u00f1o de tu ataque b\u00e1sico y tiene su propia l\u00ednea en el medidor de da\u00f1o.",
+          "en": "Poison from cards and weapons lasts longer, grows with your basic attack damage and has its own line on the damage meter."
+        },
+        {
+          "t": "up",
+          "es": "El tope de velocidad de movimiento sube a 12.",
+          "en": "The movement speed cap goes up to 12."
+        },
+        {
+          "t": "new",
+          "es": "El estudio y la versi\u00f3n del juego tambi\u00e9n se ven en la selecci\u00f3n de personaje.",
+          "en": "The studio and the game version also show on the character select."
+        }
+      ]
+    },
     {
       "version": "0.1.103",
       "items": [
@@ -430,31 +455,6 @@
           "t": "fix",
           "es": "Cofres con muchos objetos: la lista se desplaza y el bot\u00f3n Continuar siempre se ve.",
           "en": "Chests with many items: the list scrolls and the Continue button always shows."
-        }
-      ]
-    },
-    {
-      "version": "0.1.92",
-      "items": [
-        {
-          "t": "new",
-          "es": "Cada habilidad muestra su elemento, y al golpear se ve \u00ab\u00a1Eficaz!\u00bb o \u00abResiste\u00bb seg\u00fan el elemento del monstruo.",
-          "en": "Every skill shows its element, and hits show \u00abEffective!\u00bb or \u00abResisted\u00bb depending on the monster's element."
-        },
-        {
-          "t": "up",
-          "es": "Con la ASPD al m\u00e1ximo, cada ataque pega varias veces.",
-          "en": "With maxed ASPD, each attack hits several times."
-        },
-        {
-          "t": "fix",
-          "es": "El altar de Odin da +2 cambios y +1 destierro: ya no llena de cartas la subida de nivel.",
-          "en": "Odin's altar gives +2 rerolls and +1 banish: it no longer floods the level-up with cards."
-        },
-        {
-          "t": "fix",
-          "es": "El texto de AGI ya no se sale de la carta al subir de nivel.",
-          "en": "The AGI text no longer overflows its level-up card."
         }
       ]
     }
