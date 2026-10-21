@@ -2,12 +2,32 @@
   "base": "0.1.81",
   "page": "https://nearq.itch.io/ro-survivors",
   "patch": {
-    "version": "0.1.105",
-    "file": "patches/patch_0.1.105.bin",
-    "size": 18037660,
-    "sha256": "9fd54346b4cf53b154e2447689f4c69efdb7db328e271caf96ec747848702f64"
+    "version": "0.1.106",
+    "file": "patches/patch_0.1.106.bin",
+    "size": 18046252,
+    "sha256": "6d6e234fdb3be16e9aadd0d3276802f7258be2cda021115e44bbb8a540f48292"
   },
   "notes": [
+    {
+      "version": "0.1.106",
+      "items": [
+        {
+          "t": "new",
+          "es": "Opciones nuevas y ordenadas: pantalla completa (tambi\u00e9n con F11 o Alt+Enter), VSync, l\u00edmite de FPS y contador de FPS.",
+          "en": "New, tidier options: fullscreen (also with F11 or Alt+Enter), VSync, FPS limit and an FPS counter."
+        },
+        {
+          "t": "new",
+          "es": "Volumen general, silenciar el juego en segundo plano, apagar la sacudida de pantalla y ocultar los n\u00fameros de da\u00f1o.",
+          "en": "Master volume, mute in the background, turn off screen shake and hide damage numbers."
+        },
+        {
+          "t": "up",
+          "es": "El idioma tambi\u00e9n se cambia desde Opciones.",
+          "en": "The language can also be changed from Options."
+        }
+      ]
+    },
     {
       "version": "0.1.105",
       "items": [
@@ -415,36 +435,6 @@
           "t": "fix",
           "es": "\u00a1Eficaz! / Resiste van sobre su n\u00famero de da\u00f1o, los altares no aparecen en la arena del MVP y el refinador ya no ofrece refinar accesorios.",
           "en": "Effective! / Resisted sit above their damage number, altars no longer appear in the MVP arena, and the refiner no longer offers to refine accessories."
-        }
-      ]
-    },
-    {
-      "version": "0.1.94",
-      "items": [
-        {
-          "t": "new",
-          "es": "Mascotas: elige el bonus de una y el aspecto de la que quieras que te siga.",
-          "en": "Pets: pick one pet's bonus and the look of whichever pet you want to follow you."
-        },
-        {
-          "t": "up",
-          "es": "Cada mascota tiene un bonus propio y \u00fatil (zeny, cartas, EXP, robo de vida, cr\u00edticos...).",
-          "en": "Every pet has its own useful bonus (zeny, cards, EXP, lifesteal, crits...)."
-        },
-        {
-          "t": "up",
-          "es": "\u00c1lbum: filtra las cartas por ranura (arma, cabeza, armadura...).",
-          "en": "Album: filter cards by slot (weapon, head, armor...)."
-        },
-        {
-          "t": "up",
-          "es": "Kafra: las mejoras van en pesta\u00f1as, y al comprar la ventana y su lista no se mueven.",
-          "en": "Kafra: upgrades are in tabs, and buying no longer moves the window or its list."
-        },
-        {
-          "t": "up",
-          "es": "nearQ te se\u00f1ala el hueco nuevo para que pongas tu primera Carta Eterna.",
-          "en": "nearQ points at the new slot so you can set your first Eternal Card."
         }
       ]
     }
