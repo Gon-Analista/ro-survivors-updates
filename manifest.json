@@ -2,12 +2,62 @@
   "base": "0.1.81",
   "page": "https://nearq.itch.io/ro-survivors",
   "patch": {
-    "version": "0.1.104",
-    "file": "patches/patch_0.1.104.bin",
-    "size": 13666076,
-    "sha256": "3879b5c87f9379bec933c1c2e16e61878b3ac3477c990ac3e540c1b98b7439dd"
+    "version": "0.1.105",
+    "file": "patches/patch_0.1.105.bin",
+    "size": 18037660,
+    "sha256": "9fd54346b4cf53b154e2447689f4c69efdb7db328e271caf96ec747848702f64"
   },
   "notes": [
+    {
+      "version": "0.1.105",
+      "items": [
+        {
+          "t": "new",
+          "es": "El Thief aprende Throw Stone: una piedra que rebota de monstruo en monstruo y puede aturdir.",
+          "en": "The Thief learns Throw Stone: a stone that bounces from monster to monster and can stun."
+        },
+        {
+          "t": "new",
+          "es": "El Hipnotista aparece en la partida: te deja olvidar una habilidad y cambiarla por otra que conserva todos sus niveles.",
+          "en": "The Hypnotist shows up during the run: forget a skill and swap it for another that keeps all its levels."
+        },
+        {
+          "t": "new",
+          "es": "Creaci\u00f3n de personaje renovada: 42 peinados, 20 trajes nuevos, giras al personaje y un bot\u00f3n al azar.",
+          "en": "Renewed character creation: 42 hairstyles, 20 new outfits, turn your character and a random button."
+        },
+        {
+          "t": "new",
+          "es": "Los logros se cobran en el \u00e1lbum y el Rogue elige qu\u00e9 habilidades copiadas usar.",
+          "en": "Achievements are claimed in the album and the Rogue picks which copied skills to use."
+        },
+        {
+          "t": "new",
+          "es": "El tesoro del Poring Dorado es un cofre propio con 5 objetos, m\u00e1s que el del MVP, y suelta una lluvia de zeny.",
+          "en": "The Golden Poring's treasure is its own chest with 5 items, more than an MVP's, plus a shower of zeny."
+        },
+        {
+          "t": "up",
+          "es": "El Ninja tiene menos habilidades pero mejores; Throw Shuriken lanza kunai del elemento que llevas.",
+          "en": "The Ninja has fewer but better skills; Throw Shuriken throws kunai of the element you carry."
+        },
+        {
+          "t": "up",
+          "es": "La ventana de cambio de oficio es sim\u00e9trica y muestra qu\u00e9 hace cada habilidad al pasar el mouse.",
+          "en": "The job change window is symmetric and shows what each skill does on hover."
+        },
+        {
+          "t": "fix",
+          "es": "Holy Water cambia solo la mejora desterrada, no las tres.",
+          "en": "Holy Water now changes only the banished upgrade, not all three."
+        },
+        {
+          "t": "fix",
+          "es": "Las pasivas muestran nombres claros al subir de nivel.",
+          "en": "Passives show clear names on level up."
+        }
+      ]
+    },
     {
       "version": "0.1.104",
       "items": [
@@ -395,66 +445,6 @@
           "t": "up",
           "es": "nearQ te se\u00f1ala el hueco nuevo para que pongas tu primera Carta Eterna.",
           "en": "nearQ points at the new slot so you can set your first Eternal Card."
-        }
-      ]
-    },
-    {
-      "version": "0.1.93",
-      "items": [
-        {
-          "t": "new",
-          "es": "Cada monstruo tiene ahora su carta: 65 cartas nuevas y 9 mascotas nuevas para domar.",
-          "en": "Every monster now has its card: 65 new cards and 9 new pets to tame."
-        },
-        {
-          "t": "new",
-          "es": "Al cambiar de oficio eliges tu primera habilidad, como al empezar la partida.",
-          "en": "On the job change you choose your first skill, like at the start of a run."
-        },
-        {
-          "t": "new",
-          "es": "\u00c1lbum: bot\u00f3n \u00ab\u00a1Fundir todo!\u00bb para fundir de una vez todas las cartas listas, con su propia animaci\u00f3n.",
-          "en": "Album: a \u00abFuse all!\u00bb button fuses every ready card at once, with its own animation."
-        },
-        {
-          "t": "up",
-          "es": "Shield Boomerang lanza tu propio escudo y pega m\u00e1s fuerte; Holy Cross vuela hasta el monstruo m\u00e1s cercano si no hay nadie cerca.",
-          "en": "Shield Boomerang throws your own shield and hits harder; Holy Cross flies to the nearest monster if nobody is close."
-        },
-        {
-          "t": "up",
-          "es": "Las cartas caen con menos frecuencia (SUE da +2% y cada nivel de peligro +1%).",
-          "en": "Cards drop less often (LUK gives +2% and each danger level +1%)."
-        },
-        {
-          "t": "up",
-          "es": "Los altares se ven siempre en el minimapa y aparecen m\u00e1s cerca del h\u00e9roe.",
-          "en": "Altars always show on the minimap and appear closer to the hero."
-        },
-        {
-          "t": "up",
-          "es": "El Sabio ya no vende la Gema de Sabidur\u00eda: si la ten\u00edas, recuperas su zeny.",
-          "en": "The Sage no longer sells the Gem of Wisdom: if you had it, you get its zeny back."
-        },
-        {
-          "t": "fix",
-          "es": "El cofre del MVP llega hasta ti antes de que termine la partida.",
-          "en": "The MVP's chest reaches you before the run ends."
-        },
-        {
-          "t": "fix",
-          "es": "Ya no aparece el mapa anterior al jugar otro mapa despu\u00e9s de terminar en la arena de un MVP.",
-          "en": "The previous map no longer shows up when playing another map after ending in an MVP arena."
-        },
-        {
-          "t": "fix",
-          "es": "Los nombres largos de habilidades caben en sus cartas y la barra de habilidades ya no crece de m\u00e1s.",
-          "en": "Long skill names fit their cards and the skill bar no longer grows too wide."
-        },
-        {
-          "t": "fix",
-          "es": "Cofres con muchos objetos: la lista se desplaza y el bot\u00f3n Continuar siempre se ve.",
-          "en": "Chests with many items: the list scrolls and the Continue button always shows."
         }
       ]
     }
