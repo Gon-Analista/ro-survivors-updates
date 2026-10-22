@@ -463,5 +463,10 @@
         }
       ]
     }
-  ]
+  ],
+  "broadcast": {
+    "id": "1792641698",
+    "es": "Chupala claudio",
+    "en": "Chuapala Claudio"
+  }
 }
