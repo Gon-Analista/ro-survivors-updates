@@ -2,12 +2,47 @@
   "base": "0.1.81",
   "page": "https://nearq.itch.io/ro-survivors",
   "patch": {
-    "version": "0.1.109",
-    "file": "patches/patch_0.1.109.bin",
-    "size": 18292940,
-    "sha256": "93a276a4ffc1c29dc7ce9269b5edacd55f07ddf7b95eda6a4c47dcc28ff5d91c"
+    "version": "0.1.110",
+    "file": "patches/patch_0.1.110.bin",
+    "size": 18426012,
+    "sha256": "f109adc68d810e9cb89789f0cc8d27386937983a41e5e3da90337cd35bc42946"
   },
   "notes": [
+    {
+      "version": "0.1.110",
+      "items": [
+        {
+          "t": "new",
+          "es": "Rebellion: Heat Barrel gasta tus monedas y calienta el ca\u00f1\u00f3n unos segundos: disparas mucho m\u00e1s r\u00e1pido y m\u00e1s fuerte.",
+          "en": "Rebellion: Heat Barrel spends your coins and heats the barrel for a few seconds: much faster, harder shots."
+        },
+        {
+          "t": "up",
+          "es": "Ataque b\u00e1sico cuerpo a cuerpo: el barrido de AGI llega m\u00e1s lejos y cada golpe extra tambi\u00e9n barre.",
+          "en": "Melee basic attack: the AGI sweep reaches farther and every extra hit sweeps too."
+        },
+        {
+          "t": "up",
+          "es": "Los monstruos ganan m\u00e1s velocidad con el peligro (Peligro 15: +84%).",
+          "en": "Monsters get faster with danger (Danger 15: +84%)."
+        },
+        {
+          "t": "up",
+          "es": "Frenes\u00ed: los monstruos normales nunca superan el 90% de tu velocidad.",
+          "en": "Frenzy: normal monsters never exceed 90% of your speed."
+        },
+        {
+          "t": "up",
+          "es": "Las cartas de nivel muestran los n\u00fameros de la habilidad nueva.",
+          "en": "Level-up cards show the new skill's numbers."
+        },
+        {
+          "t": "fix",
+          "es": "Los buffs sobre la barra de habilidades ya no se salen de ella.",
+          "en": "Buffs above the skill bar no longer spill past it."
+        }
+      ]
+    },
     {
       "version": "0.1.109",
       "items": [
@@ -432,41 +467,6 @@
           "en": "Altars: Loki gives cards and legendaries, Niflheim gives EXP. The danger bar groups the Hell levels."
         }
       ]
-    },
-    {
-      "version": "0.1.98",
-      "items": [
-        {
-          "t": "up",
-          "es": "Altar de Freyja: ahora da +8% de cr\u00edtico y +15% de da\u00f1o cr\u00edtico.",
-          "en": "Freyja's altar: now gives +8% critical and +15% critical damage."
-        },
-        {
-          "t": "up",
-          "es": "Altar de Niflheim: +30% de cartas y +6% de legendarias en los cofres.",
-          "en": "Niflheim's altar: +30% cards and +6% legendaries in chests."
-        },
-        {
-          "t": "up",
-          "es": "Pueden esperar hasta 5 altares a la vez.",
-          "en": "Up to 5 altars can wait at once."
-        },
-        {
-          "t": "up",
-          "es": "La guardia del Emperium es enorme, dorada y se anuncia al despertar.",
-          "en": "The Emperium's guard is huge, golden and announced when it awakens."
-        },
-        {
-          "t": "up",
-          "es": "La Fuerza da +3% de da\u00f1o cr\u00edtico por punto.",
-          "en": "Strength gives +3% critical damage per point."
-        }
-      ]
     }
-  ],
-  "broadcast": {
-    "id": "1792643117",
-    "es": "Nueva update sacaremos al gunslinger del juego",
-    "en": "Nueva update sacaremos al gunslinger del juego"
-  }
+  ]
 }
