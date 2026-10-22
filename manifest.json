@@ -2,12 +2,47 @@
   "base": "0.1.81",
   "page": "https://nearq.itch.io/ro-survivors",
   "patch": {
-    "version": "0.1.115",
-    "file": "patches/patch_0.1.115.bin",
-    "size": 18540028,
-    "sha256": "b142e0e909430552ca217e5398199d0a962cd56fa4485c9c51901b9a71c1735a"
+    "version": "0.1.116",
+    "file": "patches/patch_0.1.116.bin",
+    "size": 18545580,
+    "sha256": "f407281134e569c8280027c4b72516ab3d31e2d438bb963e19e3426b38abc8a2"
   },
   "notes": [
+    {
+      "version": "0.1.116",
+      "items": [
+        {
+          "t": "new",
+          "es": "Refinador: casilla para proteger el objeto (x5 zeny): si falla no se rompe, solo baja 1 nivel.",
+          "en": "Refiner: a check to protect the item (x5 zeny): if it fails it doesn't break, it only drops 1 level."
+        },
+        {
+          "t": "up",
+          "es": "HD ahora solo da mucha m\u00e1s probabilidad de \u00e9xito; ya no evita que el objeto se rompa.",
+          "en": "HD now only gives a much better chance of success; it no longer keeps the item from breaking."
+        },
+        {
+          "t": "up",
+          "es": "Refinar el equipo permanente es mucho m\u00e1s caro y cada nivel cuesta m\u00e1s que el anterior.",
+          "en": "Refining permanent gear is much more expensive, and each level costs more than the last."
+        },
+        {
+          "t": "up",
+          "es": "Pactos de Gray: Furia desde el inicio; Fuerza, Disciplina y Soledad se desbloquean al vencer Peligro 3, 7 y 11.",
+          "en": "Gray's pacts: Frenzy from the start; Might, Discipline and Solitude unlock by beating Danger 3, 7 and 11."
+        },
+        {
+          "t": "up",
+          "es": "En partidas enormes, el zeny de los monstruos comunes baja poco a poco (nunca menos del 45%); cofres, jefes y MVPs igual.",
+          "en": "On huge runs, common monsters' zeny slowly drops (never below 45%); chests, bosses and MVPs unchanged."
+        },
+        {
+          "t": "fix",
+          "es": "El Chef ya no cocina con el sonido del martillo del refinador.",
+          "en": "The Chef no longer cooks with the refiner's hammer sound."
+        }
+      ]
+    },
     {
       "version": "0.1.115",
       "items": [
@@ -350,31 +385,6 @@
           "t": "fix",
           "es": "Las pasivas muestran nombres claros al subir de nivel.",
           "en": "Passives show clear names on level up."
-        }
-      ]
-    },
-    {
-      "version": "0.1.104",
-      "items": [
-        {
-          "t": "up",
-          "es": "Las cartas que lanzan habilidades con el ataque b\u00e1sico tienen m\u00e1s probabilidad y su da\u00f1o crece con tu nivel.",
-          "en": "Cards that cast skills on basic attacks trigger more often and their damage grows with your level."
-        },
-        {
-          "t": "up",
-          "es": "El veneno de cartas y armas dura m\u00e1s, crece con el da\u00f1o de tu ataque b\u00e1sico y tiene su propia l\u00ednea en el medidor de da\u00f1o.",
-          "en": "Poison from cards and weapons lasts longer, grows with your basic attack damage and has its own line on the damage meter."
-        },
-        {
-          "t": "up",
-          "es": "El tope de velocidad de movimiento sube a 12.",
-          "en": "The movement speed cap goes up to 12."
-        },
-        {
-          "t": "new",
-          "es": "El estudio y la versi\u00f3n del juego tambi\u00e9n se ven en la selecci\u00f3n de personaje.",
-          "en": "The studio and the game version also show on the character select."
         }
       ]
     }
