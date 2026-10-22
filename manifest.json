@@ -2,12 +2,97 @@
   "base": "0.1.81",
   "page": "https://nearq.itch.io/ro-survivors",
   "patch": {
-    "version": "0.1.107",
-    "file": "patches/patch_0.1.107.bin",
-    "size": 18046780,
-    "sha256": "5abb107eddd05d3754e971bf6e1e412d8da084812bf599b67733c4f80c59ac2f"
+    "version": "0.1.108",
+    "file": "patches/patch_0.1.108.bin",
+    "size": 18289052,
+    "sha256": "c8b675a98e3ab88314b9ba32a9df208575e4b676f7aa6283bf3483a67e110e7d"
   },
   "notes": [
+    {
+      "version": "0.1.108",
+      "items": [
+        {
+          "t": "new",
+          "es": "Dos armas: Assassin / Assassin Cross (con dagas) y Kagerou / Oboro llevan una daga en la mano izquierda que golpea con cada ataque b\u00e1sico. Nuevas dagas Kagekiri, Kamaitachi y la legendaria Assassin Dagger.",
+          "en": "Dual wield: Assassin / Assassin Cross (with daggers) and Kagerou / Oboro carry a dagger in the left hand that strikes with every basic attack. New daggers Kagekiri, Kamaitachi and the legendary Assassin Dagger."
+        },
+        {
+          "t": "new",
+          "es": "Pasivas nuevas: Right Hand Mastery y Left Hand Mastery para Kagerou / Oboro y el Assassin; Rich's Coin para el Rebellion.",
+          "en": "New passives: Right Hand Mastery and Left Hand Mastery for Kagerou / Oboro and the Assassin; Rich's Coin for the Rebellion."
+        },
+        {
+          "t": "new",
+          "es": "Mago: Fire Wall reemplaza a Cold Bolt y Stone Curse; un muro de fuego que quema y empuja a la horda.",
+          "en": "Mage: Fire Wall replaces Cold Bolt and Stone Curse; a wall of fire that burns and pushes the horde back."
+        },
+        {
+          "t": "new",
+          "es": "Acolyte: Signum Crucis reemplaza a Angelus; los monstruos cercanos reciben m\u00e1s da\u00f1o (el doble los no-muertos y demonios).",
+          "en": "Acolyte: Signum Crucis replaces Angelus; nearby monsters take more damage (twice as much for undead and demons)."
+        },
+        {
+          "t": "up",
+          "es": "Gunslinger: sin Triple Action, empieza con Tracking.",
+          "en": "Gunslinger: no more Triple Action, it starts with Tracking."
+        },
+        {
+          "t": "new",
+          "es": "Aviso en pantalla cuando sale una actualizaci\u00f3n: reinicia el juego para instalarla.",
+          "en": "In-game notice when an update is out: restart the game to install it."
+        },
+        {
+          "t": "new",
+          "es": "Acumular mejoras de nivel (en la pausa) y abrirlas cuando quieras con el bot\u00f3n dorado o Tab.",
+          "en": "Hold level-ups (in the pause menu) and open them whenever you want with the gold button or Tab."
+        },
+        {
+          "t": "new",
+          "es": "Las legendarias se pueden vender (tambi\u00e9n desde el almac\u00e9n con Ctrl+clic).",
+          "en": "Legendaries can be sold (also from storage with Ctrl+click)."
+        },
+        {
+          "t": "new",
+          "es": "Cartas que se lanzan al recibir un golpe, y nueva mejora de la Kafra: Secreto de las Runas (+1 hueco de pasiva).",
+          "en": "Cards that cast when you are hit, and a new Kafra upgrade: Secret of the Runes (+1 passive slot)."
+        },
+        {
+          "t": "new",
+          "es": "Opciones: borrar todo tu progreso.",
+          "en": "Options: erase all your progress."
+        },
+        {
+          "t": "up",
+          "es": "Cada mapa ofrece 4 peligros sobre su m\u00ednimo; los niveles Infierno se desbloquean de 2 en 2; con m\u00e1s peligro la horda es m\u00e1s numerosa y r\u00e1pida (jefes y MVPs no).",
+          "en": "Each map offers 4 dangers above its minimum; Inferno levels unlock 2 at a time; higher danger brings more and faster monsters (not bosses or MVPs)."
+        },
+        {
+          "t": "up",
+          "es": "El Hipnotista tiene presencia propia: espiral, aura violeta y ojos de luz, y se marca como quest al acercarte.",
+          "en": "The Hypnotist has his own presence: spiral, violet aura and eyes of light, and is marked as a quest when you get close."
+        },
+        {
+          "t": "up",
+          "es": "Legendarias m\u00e1s raras.",
+          "en": "Legendaries are rarer."
+        },
+        {
+          "t": "fix",
+          "es": "Los tintes negros del cliente ya no se ven como manchas negras.",
+          "en": "The client's black dyes no longer look like black blots."
+        },
+        {
+          "t": "fix",
+          "es": "Monedas del Gunslinger m\u00e1s peque\u00f1as y detr\u00e1s del h\u00e9roe; la mascota domada centrada; sin doble signo en los altares.",
+          "en": "Smaller Gunslinger coins behind the hero; the tamed pet centered; no doubled sign on altars."
+        },
+        {
+          "t": "fix",
+          "es": "Las mascotas solo se pueden domar en su propio mapa: los monstruos de otros mapas (Infierno, modo infinito) no sueltan su objeto de doma.",
+          "en": "Pets can only be tamed on their own map: monsters from other maps (Inferno, endless mode) do not drop their taming item."
+        }
+      ]
+    },
     {
       "version": "0.1.107",
       "items": [
@@ -357,26 +442,6 @@
           "en": "Records show the full run and Frenzy is explained more simply."
         }
       ]
-    },
-    {
-      "version": "0.1.96",
-      "items": [
-        {
-          "t": "up",
-          "es": "R\u00e9cords m\u00e1s c\u00f3modos: el panel ya no mueve la pantalla, colores m\u00e1s suaves y un Poring que carga sin trabarse.",
-          "en": "Records are easier to use: the panel no longer shifts the screen, softer colors and a loading Poring that doesn't glitch."
-        },
-        {
-          "t": "up",
-          "es": "La ventana del juego se llama Midgard Survivors y el \u00edcono ya no lleva \u00abRO\u00bb.",
-          "en": "The game window is now called Midgard Survivors and the icon no longer shows \u00abRO\u00bb."
-        }
-      ]
     }
-  ],
-  "broadcast": {
-    "id": "1792637925",
-    "es": "Mensaje en espa\u00f1ol",
-    "en": "Message in English"
-  }
+  ]
 }
