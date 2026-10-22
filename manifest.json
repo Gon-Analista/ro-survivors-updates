@@ -2,12 +2,62 @@
   "base": "0.1.81",
   "page": "https://nearq.itch.io/ro-survivors",
   "patch": {
-    "version": "0.1.108",
-    "file": "patches/patch_0.1.108.bin",
-    "size": 18289052,
-    "sha256": "c8b675a98e3ab88314b9ba32a9df208575e4b676f7aa6283bf3483a67e110e7d"
+    "version": "0.1.109",
+    "file": "patches/patch_0.1.109.bin",
+    "size": 18292940,
+    "sha256": "93a276a4ffc1c29dc7ce9269b5edacd55f07ddf7b95eda6a4c47dcc28ff5d91c"
   },
   "notes": [
+    {
+      "version": "0.1.109",
+      "items": [
+        {
+          "t": "up",
+          "es": "Rich's Coin sale del juego: las monedas del Gunslinger / Rebellion son solo de Coin Flip.",
+          "en": "Rich's Coin is removed: Gunslinger / Rebellion coins come only from Coin Flip."
+        },
+        {
+          "t": "up",
+          "es": "Holy Water (Sabio) sube hasta 10 niveles: hasta 10 destierros por partida.",
+          "en": "Holy Water (Sage) goes up to 10 levels: up to 10 banishes per run."
+        },
+        {
+          "t": "new",
+          "es": "Bot\u00f3n Opciones en la pausa de la partida.",
+          "en": "Options button in the in-run pause menu."
+        },
+        {
+          "t": "up",
+          "es": "El tiempo de las pociones de poder (Berserk Potion...) se muestra arriba.",
+          "en": "Power potion timers (Berserk Potion...) now show at the top."
+        },
+        {
+          "t": "up",
+          "es": "Las monedas del Gunslinger giran en una \u00f3rbita completa alrededor del h\u00e9roe.",
+          "en": "Gunslinger coins orbit all the way around the hero."
+        },
+        {
+          "t": "up",
+          "es": "Ranuras: 6 habilidades como m\u00e1ximo para todas las clases; el cambio de oficio y el renacimiento dan una ranura de pasiva.",
+          "en": "Slots: at most 6 skills for every class; the job change and rebirth give a passive slot."
+        },
+        {
+          "t": "up",
+          "es": "Pacto de Soledad: las habilidades de apoyo ya no ocupan su ranura, y cada ranura libre tambi\u00e9n da da\u00f1o y cr\u00edtico al ataque b\u00e1sico.",
+          "en": "Pact of Solitude: support skills no longer take its slot, and each free slot also gives the basic attack damage and crit."
+        },
+        {
+          "t": "up",
+          "es": "Peligros: cada mapa abre 4 niveles sobre el mejor peligro que venciste ah\u00ed.",
+          "en": "Danger: each map opens 4 levels above the best danger you beat there."
+        },
+        {
+          "t": "up",
+          "es": "Pasa el mouse sobre las habilidades de la pausa para ver qu\u00e9 hacen.",
+          "en": "Hover the skills in the pause menu to see what they do."
+        }
+      ]
+    },
     {
       "version": "0.1.108",
       "items": [
@@ -410,36 +460,6 @@
           "t": "up",
           "es": "La Fuerza da +3% de da\u00f1o cr\u00edtico por punto.",
           "en": "Strength gives +3% critical damage per point."
-        }
-      ]
-    },
-    {
-      "version": "0.1.97",
-      "items": [
-        {
-          "t": "new",
-          "es": "Tormenta desde el peligro 10: cae una cadena de rayos que te persigue, mu\u00e9vete para esquivarlos.",
-          "en": "Storm from danger 10: a chain of lightning bolts chases you, keep moving to dodge them."
-        },
-        {
-          "t": "up",
-          "es": "En Frenes\u00ed, la pelea contra el MVP va a velocidad normal.",
-          "en": "In Frenzy, the MVP fight plays at normal speed."
-        },
-        {
-          "t": "up",
-          "es": "Los monstruos especiales se distinguen mejor: anillo y chispas del color de su tipo.",
-          "en": "Special monsters stand out more: a ring and sparks in their kind's color."
-        },
-        {
-          "t": "up",
-          "es": "Los cofres nunca caen en sitios inalcanzables, se abren a un paso y se ven aunque est\u00e9n detr\u00e1s de un \u00e1rbol, igual que tu personaje.",
-          "en": "Chests never land out of reach, open a step away and show behind trees, just like your character."
-        },
-        {
-          "t": "up",
-          "es": "Los r\u00e9cords muestran la partida completa y el Frenes\u00ed se explica m\u00e1s simple.",
-          "en": "Records show the full run and Frenzy is explained more simply."
         }
       ]
     }
