@@ -373,5 +373,10 @@
         }
       ]
     }
-  ]
+  ],
+  "broadcast": {
+    "id": "1792637925",
+    "es": "Mensaje en espa\u00f1ol",
+    "en": "Message in English"
+  }
 }
