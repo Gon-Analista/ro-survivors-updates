@@ -2,12 +2,22 @@
   "base": "0.1.81",
   "page": "https://nearq.itch.io/ro-survivors",
   "patch": {
-    "version": "0.1.112",
-    "file": "patches/patch_0.1.112.bin",
+    "version": "0.1.113",
+    "file": "patches/patch_0.1.113.bin",
     "size": 18429196,
-    "sha256": "338a2d0baea43caeb35315b83478a434d48d625fcf8e9c5427fde4c230adc3a9"
+    "sha256": "8c7b339b09719cb571f7d6e580a2896fcdbe3ee086f2d33d8910881534cc02a7"
   },
   "notes": [
+    {
+      "version": "0.1.113",
+      "items": [
+        {
+          "t": "up",
+          "es": "El Coraz\u00f3n de Ymir despierta a los 2 minutos de la pelea contra el MVP (antes 3).",
+          "en": "Ymir's Heart wakes 2 minutes into the MVP fight (was 3)."
+        }
+      ]
+    },
     {
       "version": "0.1.112",
       "items": [
@@ -380,41 +390,6 @@
           "t": "up",
           "es": "La velocidad de movimiento tiene un tope.",
           "en": "Movement speed now has a cap."
-        }
-      ]
-    },
-    {
-      "version": "0.1.101",
-      "items": [
-        {
-          "t": "up",
-          "es": "Los disparos y flechas ya no atraviesan: rebotan de monstruo en monstruo, un poco m\u00e1s d\u00e9biles con cada rebote. La AGI da m\u00e1s rebotes al ataque a distancia.",
-          "en": "Shots and arrows no longer pierce: they bounce from monster to monster, a bit weaker each time. AGI gives ranged attacks more bounces."
-        },
-        {
-          "t": "up",
-          "es": "El carro del Merchant rueda detr\u00e1s de ti como un carro de verdad: sigue tu camino, frena despacio y gira las ruedas al rodar.",
-          "en": "The Merchant's cart rolls behind you like a real cart: it follows your path, slows down gently and turns its wheels as it rolls."
-        },
-        {
-          "t": "up",
-          "es": "El aura de renacido es la del RO original: el destello en el suelo y las chispitas lilas que suben.",
-          "en": "The rebirth aura is the original RO one: the flare on the ground and the lilac sparkles rising."
-        },
-        {
-          "t": "new",
-          "es": "La ventana de Equipo muestra el resto de tus estad\u00edsticas, las que no caben en la ventana Estado.",
-          "en": "The Equipment window shows the rest of your stats, the ones that don't fit in the Status window."
-        },
-        {
-          "t": "up",
-          "es": "Mejor rendimiento con muchos monstruos y gemas de EXP en pantalla.",
-          "en": "Better performance with lots of monsters and EXP gems on screen."
-        },
-        {
-          "t": "fix",
-          "es": "El aura ya no tapa los pies del personaje ni se sale del recuadro en la selecci\u00f3n de clase.",
-          "en": "The aura no longer covers the character's feet or spills out of its frame in the class select."
         }
       ]
     }
