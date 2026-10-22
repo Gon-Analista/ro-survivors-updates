@@ -2,12 +2,52 @@
   "base": "0.1.81",
   "page": "https://nearq.itch.io/ro-survivors",
   "patch": {
-    "version": "0.1.113",
-    "file": "patches/patch_0.1.113.bin",
-    "size": 18429196,
-    "sha256": "8c7b339b09719cb571f7d6e580a2896fcdbe3ee086f2d33d8910881534cc02a7"
+    "version": "0.1.114",
+    "file": "patches/patch_0.1.114.bin",
+    "size": 18539516,
+    "sha256": "60fefbba41ff3f171dadf14775a58424deccaeecfa3f38b7e7ecbd2955b42200"
   },
   "notes": [
+    {
+      "version": "0.1.114",
+      "items": [
+        {
+          "t": "new",
+          "es": "Objetos \u00daNICOS: uno por mapa (17), cada uno con una mec\u00e1nica de su MVP; caen sobre todo del MVP y son mucho m\u00e1s raros que las legendarias. La lista de mapas muestra el \u00fanico de cada mapa.",
+          "en": "UNIQUE items: one per map (17), each with a mechanic of its MVP; they drop mostly from the MVP and are much rarer than legendaries. The map list shows each map's unique."
+        },
+        {
+          "t": "new",
+          "es": "7 legendarias nuevas (sin armas) para builds de procs, autocast al recibir golpes, estados, veneno, habilidades, apoyo y elementos, con los sets Anillos de Thanatos y Diabolus.",
+          "en": "7 new legendaries (no weapons) for builds around procs, autocast when hit, statuses, poison, skills, support and elements, with the Rings of Thanatos and Diabolus sets."
+        },
+        {
+          "t": "new",
+          "es": "Paladin: Gospel y Martyr's Reckoning (golpea con tu vida m\u00e1xima). Monk / Champion: Steel Body. Bloquear tambi\u00e9n dispara las cartas que se lanzan al recibir un golpe.",
+          "en": "Paladin: Gospel and Martyr's Reckoning (hits with your max HP). Monk / Champion: Steel Body. Blocking also triggers the cards that cast when you are hit."
+        },
+        {
+          "t": "new",
+          "es": "Medidor de da\u00f1o estilo Details: mu\u00e9velo, cambia la vista con clic derecho y \u00e1brelo (clic o M) para ver el da\u00f1o a cada jefe, el da\u00f1o recibido y el detalle de cada habilidad.",
+          "en": "Details-style damage meter: move it, switch views with right click and open it (click or M) to see the damage to each boss, damage taken and each skill's details."
+        },
+        {
+          "t": "up",
+          "es": "Renacer da +1 legendaria en el equipo inicial; las recompensas del renacimiento se muestran en fichas.",
+          "en": "Rebirth gives +1 legendary in the starting gear; the rebirth rewards are shown as tiles."
+        },
+        {
+          "t": "up",
+          "es": "Hindsight del Sage m\u00e1s seguido, con Earth Spike y Frost Diver, y crece con el nivel como los procs (tambi\u00e9n el Jupitel del Storm Bow y el Huuma Kraken).",
+          "en": "The Sage's Hindsight triggers more often, adds Earth Spike and Frost Diver, and grows with level like procs (also the Storm Bow's Jupitel and the Huuma Kraken)."
+        },
+        {
+          "t": "up",
+          "es": "Combos elementales visibles: \"\u00a1Combo!\" al golpear con Viento a un congelado o con Fuego a uno petrificado, y las habilidades lo explican.",
+          "en": "Visible elemental combos: \"Combo!\" when hitting a frozen monster with Wind or a petrified one with Fire, and skills explain it."
+        }
+      ]
+    },
     {
       "version": "0.1.113",
       "items": [
@@ -355,41 +395,6 @@
           "t": "up",
           "es": "Velocidad de movimiento con tope de 10 y velocidad de proyectiles con tope de x1,8; la DES da +10% de velocidad de proyectiles por punto.",
           "en": "Movement speed caps at 10 and projectile speed at x1.8; DEX gives +10% projectile speed per point."
-        }
-      ]
-    },
-    {
-      "version": "0.1.102",
-      "items": [
-        {
-          "t": "fix",
-          "es": "El halc\u00f3n del Hunter vuela aleteando sobre tu cabeza en vez de quedar tumbado cuando est\u00e1s quieto.",
-          "en": "The Hunter's falcon now flaps above your head instead of lying flat when you stand still."
-        },
-        {
-          "t": "new",
-          "es": "Al cambiar a Bard o Clown puedes elegir sus canciones, como Assassin Cross of Sunset.",
-          "en": "When you become a Bard or Clown you can pick their songs, like Assassin Cross of Sunset."
-        },
-        {
-          "t": "fix",
-          "es": "La ventana de cambio de oficio ya no se desborda con clases de cinco habilidades.",
-          "en": "The job change window no longer overflows for jobs with five skills."
-        },
-        {
-          "t": "up",
-          "es": "El Poring Dorado tiene m\u00e1s vida y suena a monedas con cada golpe.",
-          "en": "The Golden Poring has more HP and jingles with coins on every hit."
-        },
-        {
-          "t": "up",
-          "es": "Los cofres y los objetos del suelo vuelan hacia ti desde 2 casillas.",
-          "en": "Chests and items on the ground fly to you from 2 cells away."
-        },
-        {
-          "t": "up",
-          "es": "La velocidad de movimiento tiene un tope.",
-          "en": "Movement speed now has a cap."
         }
       ]
     }
