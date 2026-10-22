@@ -2,12 +2,22 @@
   "base": "0.1.81",
   "page": "https://nearq.itch.io/ro-survivors",
   "patch": {
-    "version": "0.1.114",
-    "file": "patches/patch_0.1.114.bin",
-    "size": 18539516,
-    "sha256": "60fefbba41ff3f171dadf14775a58424deccaeecfa3f38b7e7ecbd2955b42200"
+    "version": "0.1.115",
+    "file": "patches/patch_0.1.115.bin",
+    "size": 18540028,
+    "sha256": "b142e0e909430552ca217e5398199d0a962cd56fa4485c9c51901b9a71c1735a"
   },
   "notes": [
+    {
+      "version": "0.1.115",
+      "items": [
+        {
+          "t": "up",
+          "es": "Los MVPs tienen m\u00e1s vida en Peligro 1 a 15 (x1.5 a x2); Infierno no cambia.",
+          "en": "MVPs have more HP on Danger 1 to 15 (x1.5 to x2); Inferno is unchanged."
+        }
+      ]
+    },
     {
       "version": "0.1.114",
       "items": [
@@ -365,36 +375,6 @@
           "t": "new",
           "es": "El estudio y la versi\u00f3n del juego tambi\u00e9n se ven en la selecci\u00f3n de personaje.",
           "en": "The studio and the game version also show on the character select."
-        }
-      ]
-    },
-    {
-      "version": "0.1.103",
-      "items": [
-        {
-          "t": "new",
-          "es": "Al empezar la partida y al cambiar de oficio puedes elegir una pasiva en vez de una habilidad: se puede jugar solo con ataques b\u00e1sicos.",
-          "en": "At the start of a run and at the job change you can pick a passive instead of a skill: you can play with basic attacks only."
-        },
-        {
-          "t": "fix",
-          "es": "La ventana de elecci\u00f3n de habilidad ya no se sale de la pantalla en clases con muchas habilidades.",
-          "en": "The skill choice window no longer goes off screen for classes with many skills."
-        },
-        {
-          "t": "new",
-          "es": "Las mejoras de atributo muestran \u00abMAX\u00bb en lo que ya lleg\u00f3 a su tope.",
-          "en": "Attribute upgrades show \u00abMAX\u00bb on effects that already reached their cap."
-        },
-        {
-          "t": "up",
-          "es": "Los rebotes saltan hasta 25 casillas al siguiente monstruo.",
-          "en": "Bounces now jump up to 25 cells to the next monster."
-        },
-        {
-          "t": "up",
-          "es": "Velocidad de movimiento con tope de 10 y velocidad de proyectiles con tope de x1,8; la DES da +10% de velocidad de proyectiles por punto.",
-          "en": "Movement speed caps at 10 and projectile speed at x1.8; DEX gives +10% projectile speed per point."
         }
       ]
     }
