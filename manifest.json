@@ -2,12 +2,27 @@
   "base": "0.1.81",
   "page": "https://nearq.itch.io/ro-survivors",
   "patch": {
-    "version": "0.1.123",
-    "file": "patches/patch_0.1.123.bin",
-    "size": 19498476,
-    "sha256": "105ae0680977f904a223e2114011b0452f4ff3a0a0655424c0de5c58fdf47ef3"
+    "version": "0.1.124",
+    "file": "patches/patch_0.1.124.bin",
+    "size": 19501292,
+    "sha256": "3a4b93fed10f543e9ddae6f4448dc4cb4770fc510a642ffb0c3fbf8e0b3d7171"
   },
   "notes": [
+    {
+      "version": "0.1.124",
+      "items": [
+        {
+          "t": "up",
+          "es": "Sharp Shooting pega al instante en el monstruo con un estallido de aire y desde ah\u00ed atraviesa en l\u00ednea recta. Double Strafe deja un golpe de aire en el monstruo.",
+          "en": "Sharp Shooting lands instantly on the monster with a burst of air and goes on from there in a straight line. Double Strafe leaves a blow of air on the monster."
+        },
+        {
+          "t": "up",
+          "es": "Las flechas de habilidad que vuelan tienen una estela tenue de su color.",
+          "en": "Flying skill arrows have a faint trail of their colour."
+        }
+      ]
+    },
     {
       "version": "0.1.123",
       "items": [
@@ -310,31 +325,6 @@
           "t": "up",
           "es": "El Coraz\u00f3n de Ymir despierta a los 2 minutos de la pelea contra el MVP (antes 3).",
           "en": "Ymir's Heart wakes 2 minutes into the MVP fight (was 3)."
-        }
-      ]
-    },
-    {
-      "version": "0.1.112",
-      "items": [
-        {
-          "t": "new",
-          "es": "Cr\u00edtico letal: con x5 de da\u00f1o cr\u00edtico, algunos cr\u00edticos son letales (x1.5 m\u00e1s, el destello de Sonic Blow, el trueno de Asura y un estallido que golpea alrededor).",
-          "en": "Lethal critical: at x5 critical damage, some criticals are lethal (x1.5 more, Sonic Blow's flash, Asura's thunder and a burst that hits around)."
-        },
-        {
-          "t": "new",
-          "es": "Kafra: Telescope, m\u00e1s alcance del ataque b\u00e1sico (a distancia +0,5 por nivel; cuerpo a cuerpo, un poco m\u00e1s y su golpe amplio llega m\u00e1s lejos).",
-          "en": "Kafra: Telescope, more basic attack reach (ranged +0.5 per level; melee a little more and a wider sweep)."
-        },
-        {
-          "t": "up",
-          "es": "Los MVPs ya no son inmunes al cambiar de fase: puedes seguir da\u00f1\u00e1ndolos.",
-          "en": "MVPs are no longer immune when changing phase: you can keep damaging them."
-        },
-        {
-          "t": "fix",
-          "es": "Los ultra cr\u00edticos ahora s\u00ed muestran sus n\u00fameros m\u00e1s grandes.",
-          "en": "Ultra criticals now really show their bigger numbers."
         }
       ]
     }
