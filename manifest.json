@@ -2,12 +2,22 @@
   "base": "0.1.81",
   "page": "https://nearq.itch.io/ro-survivors",
   "patch": {
-    "version": "0.1.118",
-    "file": "patches/patch_0.1.118.bin",
-    "size": 19371372,
-    "sha256": "3d478ade70f2cc32153de4e3b9416795969100e6d077b442c0804d5dca14a9f5"
+    "version": "0.1.119",
+    "file": "patches/patch_0.1.119.bin",
+    "size": 19372476,
+    "sha256": "bf62656b433ed70949863f075e3b0da83bd7601a35b2dcc0a2f199b6ddc6caf6"
   },
   "notes": [
+    {
+      "version": "0.1.119",
+      "items": [
+        {
+          "t": "up",
+          "es": "M\u00e1s rendimiento con hordas: los jefes ya no encarecen el empuje entre monstruos y los que est\u00e1n fuera de la pantalla se actualizan menos seguido.",
+          "en": "More performance with hordes: bosses no longer make the crowd's pushing costlier and off-screen monsters update less often."
+        }
+      ]
+    },
     {
       "version": "0.1.118",
       "items": [
@@ -400,16 +410,6 @@
           "t": "fix",
           "es": "Las mascotas solo se pueden domar en su propio mapa: los monstruos de otros mapas (Infierno, modo infinito) no sueltan su objeto de doma.",
           "en": "Pets can only be tamed on their own map: monsters from other maps (Inferno, endless mode) do not drop their taming item."
-        }
-      ]
-    },
-    {
-      "version": "0.1.107",
-      "items": [
-        {
-          "t": "fix",
-          "es": "Los checks de Datos quedan alineados a la izquierda y los botones de Privacidad y comentario, centrados.",
-          "en": "The Data checkboxes are left-aligned, and the Privacy and feedback buttons are centered."
         }
       ]
     }
