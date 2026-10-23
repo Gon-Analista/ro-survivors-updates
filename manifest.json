@@ -2,12 +2,22 @@
   "base": "0.1.81",
   "page": "https://nearq.itch.io/ro-survivors",
   "patch": {
-    "version": "0.1.120",
-    "file": "patches/patch_0.1.120.bin",
-    "size": 19379084,
-    "sha256": "400179bfc2ec68d8e00db273888a57fcb226e10587836a15a7f7df32ee9904da"
+    "version": "0.1.121",
+    "file": "patches/patch_0.1.121.bin",
+    "size": 19378780,
+    "sha256": "a48d4c2a0eb502d678cd4627b829ed3c6d725440e27a833b9ed83f1fe5ad91e0"
   },
   "notes": [
+    {
+      "version": "0.1.121",
+      "items": [
+        {
+          "t": "up",
+          "es": "M\u00e1s FPS: se quit\u00f3 el suavizado 3D (no cambiaba nada a la vista) y el motor ya no calcula f\u00edsica que el juego no usa. La opci\u00f3n Suavizado ya no hace falta.",
+          "en": "More FPS: 3D anti-aliasing is gone (it made no visible difference) and the engine no longer computes physics the game doesn't use. The Anti-aliasing option is no longer needed."
+        }
+      ]
+    },
     {
       "version": "0.1.120",
       "items": [
@@ -290,56 +300,6 @@
           "t": "fix",
           "es": "Los buffs sobre la barra de habilidades ya no se salen de ella.",
           "en": "Buffs above the skill bar no longer spill past it."
-        }
-      ]
-    },
-    {
-      "version": "0.1.109",
-      "items": [
-        {
-          "t": "up",
-          "es": "Rich's Coin sale del juego: las monedas del Gunslinger / Rebellion son solo de Coin Flip.",
-          "en": "Rich's Coin is removed: Gunslinger / Rebellion coins come only from Coin Flip."
-        },
-        {
-          "t": "up",
-          "es": "Holy Water (Sabio) sube hasta 10 niveles: hasta 10 destierros por partida.",
-          "en": "Holy Water (Sage) goes up to 10 levels: up to 10 banishes per run."
-        },
-        {
-          "t": "new",
-          "es": "Bot\u00f3n Opciones en la pausa de la partida.",
-          "en": "Options button in the in-run pause menu."
-        },
-        {
-          "t": "up",
-          "es": "El tiempo de las pociones de poder (Berserk Potion...) se muestra arriba.",
-          "en": "Power potion timers (Berserk Potion...) now show at the top."
-        },
-        {
-          "t": "up",
-          "es": "Las monedas del Gunslinger giran en una \u00f3rbita completa alrededor del h\u00e9roe.",
-          "en": "Gunslinger coins orbit all the way around the hero."
-        },
-        {
-          "t": "up",
-          "es": "Ranuras: 6 habilidades como m\u00e1ximo para todas las clases; el cambio de oficio y el renacimiento dan una ranura de pasiva.",
-          "en": "Slots: at most 6 skills for every class; the job change and rebirth give a passive slot."
-        },
-        {
-          "t": "up",
-          "es": "Pacto de Soledad: las habilidades de apoyo ya no ocupan su ranura, y cada ranura libre tambi\u00e9n da da\u00f1o y cr\u00edtico al ataque b\u00e1sico.",
-          "en": "Pact of Solitude: support skills no longer take its slot, and each free slot also gives the basic attack damage and crit."
-        },
-        {
-          "t": "up",
-          "es": "Peligros: cada mapa abre 4 niveles sobre el mejor peligro que venciste ah\u00ed.",
-          "en": "Danger: each map opens 4 levels above the best danger you beat there."
-        },
-        {
-          "t": "up",
-          "es": "Pasa el mouse sobre las habilidades de la pausa para ver qu\u00e9 hacen.",
-          "en": "Hover the skills in the pause menu to see what they do."
         }
       ]
     }
