@@ -2,12 +2,37 @@
   "base": "0.1.81",
   "page": "https://nearq.itch.io/ro-survivors",
   "patch": {
-    "version": "0.1.122",
-    "file": "patches/patch_0.1.122.bin",
-    "size": 19494444,
-    "sha256": "8aa1a6247f537f9a11d25bed695e8d851dfb3821fdce0792d769f4b348301f34"
+    "version": "0.1.123",
+    "file": "patches/patch_0.1.123.bin",
+    "size": 19498476,
+    "sha256": "105ae0680977f904a223e2114011b0452f4ff3a0a0655424c0de5c58fdf47ef3"
   },
   "notes": [
+    {
+      "version": "0.1.123",
+      "items": [
+        {
+          "t": "up",
+          "es": "Archer rehecho: el ataque b\u00e1sico vuelve a sus flechas normales y las skills ya no llenan la pantalla de luces.",
+          "en": "Archer reworked: basic attacks are plain arrows again and skills no longer fill the screen with lights."
+        },
+        {
+          "t": "up",
+          "es": "Double Strafe es instant\u00e1neo, con el destello de rayos del RO original.",
+          "en": "Double Strafe is instant, with the original RO flash of rays."
+        },
+        {
+          "t": "up",
+          "es": "Sharp Shooting es un disparo instant\u00e1neo en l\u00ednea recta que atraviesa a todos (ya no rebota), m\u00e1s ancho con m\u00e1s \u00e1rea, con una r\u00e1faga de viento.",
+          "en": "Sharp Shooting is an instant straight-line shot through everyone (no more bouncing), wider with more area, with a gust of wind."
+        },
+        {
+          "t": "up",
+          "es": "Cada trampa se ve distinta en el suelo: Land Mine magenta, Sandman amarilla, Ankle Snare azul.",
+          "en": "Each trap looks different on the ground: Land Mine magenta, Sandman yellow, Ankle Snare blue."
+        }
+      ]
+    },
     {
       "version": "0.1.122",
       "items": [
@@ -310,16 +335,6 @@
           "t": "fix",
           "es": "Los ultra cr\u00edticos ahora s\u00ed muestran sus n\u00fameros m\u00e1s grandes.",
           "en": "Ultra criticals now really show their bigger numbers."
-        }
-      ]
-    },
-    {
-      "version": "0.1.111",
-      "items": [
-        {
-          "t": "up",
-          "es": "Heat Barrel: recarga de 25 s y cada moneda gastada suma medio segundo (antes 18 s y un segundo): una r\u00e1faga fuerte, no un bonus casi permanente.",
-          "en": "Heat Barrel: 25 s cooldown and each coin spent adds half a second (was 18 s and one second): a strong burst, not an almost permanent bonus."
         }
       ]
     }
