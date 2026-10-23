@@ -2,12 +2,57 @@
   "base": "0.1.81",
   "page": "https://nearq.itch.io/ro-survivors",
   "patch": {
-    "version": "0.1.116",
-    "file": "patches/patch_0.1.116.bin",
-    "size": 18545580,
-    "sha256": "f407281134e569c8280027c4b72516ab3d31e2d438bb963e19e3426b38abc8a2"
+    "version": "0.1.117",
+    "file": "patches/patch_0.1.117.bin",
+    "size": 19365932,
+    "sha256": "4d877ab356e930d0dec068b18e1db744b56a7b71996033e26e039a41d53c1c4d"
   },
   "notes": [
+    {
+      "version": "0.1.117",
+      "items": [
+        {
+          "t": "new",
+          "es": "Las trampas del Hunter se ven en el suelo: Land Mine y Sandman se colocan en el camino de los monstruos y estallan al pisarlas.",
+          "en": "Hunter traps lie on the ground: Land Mine and Sandman are set in the monsters' path and go off when stepped on."
+        },
+        {
+          "t": "up",
+          "es": "Land Mine pega m\u00e1s del doble. Sandman: un monstruo dormido recibe siempre cr\u00edtico (Nv10 pone 3 trampas).",
+          "en": "Land Mine hits more than twice as hard. Sandman: a sleeping monster always takes a critical hit (Lv10 sets 3 traps)."
+        },
+        {
+          "t": "up",
+          "es": "Charge Arrow m\u00e1s fuerte: aturde, empuja lejos y rebota, con su propio sonido. Double Strafe suena en cada disparo.",
+          "en": "Charge Arrow is stronger: it stuns, knocks back far and bounces, with its own sound. Double Strafe sounds on every shot."
+        },
+        {
+          "t": "new",
+          "es": "Fila de buffs sobre la barra de skills: los que renuevas solos sin temporizador, los efectos temporales con sus segundos.",
+          "en": "Buff row over the skill bar: the ones you keep renewing without a timer, temporary effects with their seconds."
+        },
+        {
+          "t": "up",
+          "es": "Altar de Odin: ahora tus procs y autocast salen un 30% m\u00e1s seguido (ya no da cambios ni destierro).",
+          "en": "Altar of Odin: your procs and autocasts now trigger 30% more often (no more rerolls or banish)."
+        },
+        {
+          "t": "up",
+          "es": "El Coraz\u00f3n de Ymir despierta a los 90 s de la pelea del MVP.",
+          "en": "Ymir's Heart wakes 90 s into the MVP fight."
+        },
+        {
+          "t": "fix",
+          "es": "Los altares que ya estaban en pie se pueden tomar mientras espera el portal del MVP.",
+          "en": "Altars already up can be taken while the MVP portal waits."
+        },
+        {
+          "t": "fix",
+          "es": "Letras cortadas o deformes en pantalla completa con escalas no enteras.",
+          "en": "Cut or warped letters in fullscreen at non-integer scales."
+        }
+      ]
+    },
     {
       "version": "0.1.116",
       "items": [
@@ -335,56 +380,6 @@
           "t": "up",
           "es": "El idioma tambi\u00e9n se cambia desde Opciones.",
           "en": "The language can also be changed from Options."
-        }
-      ]
-    },
-    {
-      "version": "0.1.105",
-      "items": [
-        {
-          "t": "new",
-          "es": "El Thief aprende Throw Stone: una piedra que rebota de monstruo en monstruo y puede aturdir.",
-          "en": "The Thief learns Throw Stone: a stone that bounces from monster to monster and can stun."
-        },
-        {
-          "t": "new",
-          "es": "El Hipnotista aparece en la partida: te deja olvidar una habilidad y cambiarla por otra que conserva todos sus niveles.",
-          "en": "The Hypnotist shows up during the run: forget a skill and swap it for another that keeps all its levels."
-        },
-        {
-          "t": "new",
-          "es": "Creaci\u00f3n de personaje renovada: 42 peinados, 20 trajes nuevos, giras al personaje y un bot\u00f3n al azar.",
-          "en": "Renewed character creation: 42 hairstyles, 20 new outfits, turn your character and a random button."
-        },
-        {
-          "t": "new",
-          "es": "Los logros se cobran en el \u00e1lbum y el Rogue elige qu\u00e9 habilidades copiadas usar.",
-          "en": "Achievements are claimed in the album and the Rogue picks which copied skills to use."
-        },
-        {
-          "t": "new",
-          "es": "El tesoro del Poring Dorado es un cofre propio con 5 objetos, m\u00e1s que el del MVP, y suelta una lluvia de zeny.",
-          "en": "The Golden Poring's treasure is its own chest with 5 items, more than an MVP's, plus a shower of zeny."
-        },
-        {
-          "t": "up",
-          "es": "El Ninja tiene menos habilidades pero mejores; Throw Shuriken lanza kunai del elemento que llevas.",
-          "en": "The Ninja has fewer but better skills; Throw Shuriken throws kunai of the element you carry."
-        },
-        {
-          "t": "up",
-          "es": "La ventana de cambio de oficio es sim\u00e9trica y muestra qu\u00e9 hace cada habilidad al pasar el mouse.",
-          "en": "The job change window is symmetric and shows what each skill does on hover."
-        },
-        {
-          "t": "fix",
-          "es": "Holy Water cambia solo la mejora desterrada, no las tres.",
-          "en": "Holy Water now changes only the banished upgrade, not all three."
-        },
-        {
-          "t": "fix",
-          "es": "Las pasivas muestran nombres claros al subir de nivel.",
-          "en": "Passives show clear names on level up."
         }
       ]
     }
