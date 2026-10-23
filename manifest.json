@@ -2,12 +2,62 @@
   "base": "0.1.81",
   "page": "https://nearq.itch.io/ro-survivors",
   "patch": {
-    "version": "0.1.117",
-    "file": "patches/patch_0.1.117.bin",
-    "size": 19365932,
-    "sha256": "4d877ab356e930d0dec068b18e1db744b56a7b71996033e26e039a41d53c1c4d"
+    "version": "0.1.118",
+    "file": "patches/patch_0.1.118.bin",
+    "size": 19371372,
+    "sha256": "3d478ade70f2cc32153de4e3b9416795969100e6d077b442c0804d5dca14a9f5"
   },
   "notes": [
+    {
+      "version": "0.1.118",
+      "items": [
+        {
+          "t": "up",
+          "es": "Mejor rendimiento con hordas grandes: los monstruos y el h\u00e9roe gastan bastante menos por frame.",
+          "en": "Better performance with big hordes: monsters and the hero cost much less per frame."
+        },
+        {
+          "t": "up",
+          "es": "Gemas de EXP y zeny al estilo Vampire Survivors: si se acumulan muchas en el suelo, las cercanas se juntan en una que vale la suma (no se pierde nada).",
+          "en": "EXP gems and zeny like Vampire Survivors: when too many pile up on the ground, nearby ones merge into one worth the sum (nothing is lost)."
+        },
+        {
+          "t": "up",
+          "es": "Sandman: un monstruo dormido aguanta 3 golpes, y cada uno es un cr\u00edtico con +60% de da\u00f1o cr\u00edtico.",
+          "en": "Sandman: a sleeping monster takes 3 hits before waking, each one a critical hit with +60% critical damage."
+        },
+        {
+          "t": "up",
+          "es": "Valkyrie Helm: una Berserk Potion que recojas dura 20 s y suma Ira de Valhalla (+50% de da\u00f1o y de da\u00f1o cr\u00edtico).",
+          "en": "Valkyrie Helm: a Berserk Potion you pick up lasts 20 s and adds Valhalla's Rage (+50% damage and critical damage)."
+        },
+        {
+          "t": "up",
+          "es": "Los buffs, pactos y dioses ahora se muestran debajo de Basic Info.",
+          "en": "Buffs, pacts and gods now show under Basic Info."
+        },
+        {
+          "t": "fix",
+          "es": "Las armas \u00fanicas de otra clase se pueden lootear pero ya no equipar.",
+          "en": "Other classes' unique weapons can be looted but no longer equipped."
+        },
+        {
+          "t": "fix",
+          "es": "El inventario ya no puede pasar de 40 objetos.",
+          "en": "The inventory can no longer go over 40 items."
+        },
+        {
+          "t": "fix",
+          "es": "Con mejoras acumuladas se puede abrir el equipo (Q) y la pausa.",
+          "en": "With saved-up upgrades you can open the equipment (Q) and the pause."
+        },
+        {
+          "t": "fix",
+          "es": "Nombres largos de la ventana de equipo y brillo de legendarias en el cofre ya no se cortan.",
+          "en": "Long names in the equipment window and the legendary glow in chests are no longer cut."
+        }
+      ]
+    },
     {
       "version": "0.1.117",
       "items": [
@@ -360,26 +410,6 @@
           "t": "fix",
           "es": "Los checks de Datos quedan alineados a la izquierda y los botones de Privacidad y comentario, centrados.",
           "en": "The Data checkboxes are left-aligned, and the Privacy and feedback buttons are centered."
-        }
-      ]
-    },
-    {
-      "version": "0.1.106",
-      "items": [
-        {
-          "t": "new",
-          "es": "Opciones nuevas y ordenadas: pantalla completa (tambi\u00e9n con F11 o Alt+Enter), VSync, l\u00edmite de FPS y contador de FPS.",
-          "en": "New, tidier options: fullscreen (also with F11 or Alt+Enter), VSync, FPS limit and an FPS counter."
-        },
-        {
-          "t": "new",
-          "es": "Volumen general, silenciar el juego en segundo plano, apagar la sacudida de pantalla y ocultar los n\u00fameros de da\u00f1o.",
-          "en": "Master volume, mute in the background, turn off screen shake and hide damage numbers."
-        },
-        {
-          "t": "up",
-          "es": "El idioma tambi\u00e9n se cambia desde Opciones.",
-          "en": "The language can also be changed from Options."
         }
       ]
     }
