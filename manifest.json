@@ -2,12 +2,22 @@
   "base": "0.1.81",
   "page": "https://nearq.itch.io/ro-survivors",
   "patch": {
-    "version": "0.1.124",
-    "file": "patches/patch_0.1.124.bin",
-    "size": 19501292,
-    "sha256": "3a4b93fed10f543e9ddae6f4448dc4cb4770fc510a642ffb0c3fbf8e0b3d7171"
+    "version": "0.1.125",
+    "file": "patches/patch_0.1.125.bin",
+    "size": 19501756,
+    "sha256": "23e43258cf011bf7d440ee1de436498c2760646364dd78653f49bc2cb4bd3f17"
   },
   "notes": [
+    {
+      "version": "0.1.125",
+      "items": [
+        {
+          "t": "fix",
+          "es": "Con un hueco de skill libre siempre sale una skill nueva al subir de nivel, y una de la primera clase mientras quede alguna (cambiar de oficio r\u00e1pido ya no esconde las del Archer).",
+          "en": "With a free skill slot a new skill always shows up on level up, and one of the first class while any is left (a quick job change no longer hides the Archer's)."
+        }
+      ]
+    },
     {
       "version": "0.1.124",
       "items": [
@@ -315,16 +325,6 @@
           "t": "up",
           "es": "Combos elementales visibles: \"\u00a1Combo!\" al golpear con Viento a un congelado o con Fuego a uno petrificado, y las habilidades lo explican.",
           "en": "Visible elemental combos: \"Combo!\" when hitting a frozen monster with Wind or a petrified one with Fire, and skills explain it."
-        }
-      ]
-    },
-    {
-      "version": "0.1.113",
-      "items": [
-        {
-          "t": "up",
-          "es": "El Coraz\u00f3n de Ymir despierta a los 2 minutos de la pelea contra el MVP (antes 3).",
-          "en": "Ymir's Heart wakes 2 minutes into the MVP fight (was 3)."
         }
       ]
     }
