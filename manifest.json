@@ -2,12 +2,72 @@
   "base": "0.1.81",
   "page": "https://nearq.itch.io/ro-survivors",
   "patch": {
-    "version": "0.1.125",
-    "file": "patches/patch_0.1.125.bin",
-    "size": 19501756,
-    "sha256": "23e43258cf011bf7d440ee1de436498c2760646364dd78653f49bc2cb4bd3f17"
+    "version": "0.1.126",
+    "file": "patches/patch_0.1.126.bin",
+    "size": 19600764,
+    "sha256": "23c7ecf180f17e31f7eb7efb85c95732a1f6b9708dd5ce68f1b9865e0bf6371d"
   },
   "notes": [
+    {
+      "version": "0.1.126",
+      "items": [
+        {
+          "t": "new",
+          "es": "Equipo: arrastra un objeto del equipo al inventario (o clic derecho) para quit\u00e1rtelo; arrastra un accesorio a la otra casilla para intercambiarlos.",
+          "en": "Equipment: drag an item from the equipment to the inventory (or right click) to take it off; drag an accessory onto the other slot to swap them."
+        },
+        {
+          "t": "fix",
+          "es": "La ventana de equipo ya no cambia de ancho al mirar distintos objetos.",
+          "en": "The equipment window no longer changes width when looking at different items."
+        },
+        {
+          "t": "up",
+          "es": "Las legendarias y \u00fanicas nunca se venden solas con el inventario lleno.",
+          "en": "Legendaries and uniques are never sold on their own when the inventory is full."
+        },
+        {
+          "t": "up",
+          "es": "El cofre del MVP es el gran cofre dorado del Poring Dorado, con columna de luz.",
+          "en": "The MVP's chest is the Golden Poring's great golden chest, with a pillar of light."
+        },
+        {
+          "t": "fix",
+          "es": "Con altares de la Valkyrie el MVP sale de verdad a la hora que marca el contador.",
+          "en": "With Valkyrie altars the MVP really shows up when the countdown says."
+        },
+        {
+          "t": "up",
+          "es": "Sobre el h\u00e9roe se ve por qu\u00e9 un golpe no te hizo da\u00f1o: Miss, Lucky, Guard, \u00c9gida, Absorbido, Inmortal o Inmune.",
+          "en": "Over the hero you see why a hit did no damage: Miss, Lucky, Guard, Aegis, Absorbed, Immortal or Immune."
+        },
+        {
+          "t": "up",
+          "es": "Mejoras acumuladas: Tab o \u00abSeguir jugando\u00bb vuelve al juego sin elegirlas todas.",
+          "en": "Saved-up level-ups: Tab or \u00abKeep playing\u00bb goes back to the game without picking them all."
+        },
+        {
+          "t": "fix",
+          "es": "Barra de skills vac\u00eda y bot\u00f3n de mejoras acumuladas bien colocados.",
+          "en": "Empty skill bar and saved-up level-ups button placed correctly."
+        },
+        {
+          "t": "fix",
+          "es": "Las mejoras de una skill al m\u00e1ximo ya no repiten el +10% de poder.",
+          "en": "Upgrades of a maxed skill no longer repeat the +10% power."
+        },
+        {
+          "t": "fix",
+          "es": "El almac\u00e9n Kafra muestra el refino y la estrella de equipo inicial.",
+          "en": "The Kafra storage shows the refine and the starting-gear star."
+        },
+        {
+          "t": "up",
+          "es": "El equipo permanente dice que no se vende y vuelve al almac\u00e9n.",
+          "en": "Permanent gear says it can't be sold and goes back to storage."
+        }
+      ]
+    },
     {
       "version": "0.1.125",
       "items": [
@@ -285,46 +345,6 @@
           "t": "up",
           "es": "Los MVPs tienen m\u00e1s vida en Peligro 1 a 15 (x1.5 a x2); Infierno no cambia.",
           "en": "MVPs have more HP on Danger 1 to 15 (x1.5 to x2); Inferno is unchanged."
-        }
-      ]
-    },
-    {
-      "version": "0.1.114",
-      "items": [
-        {
-          "t": "new",
-          "es": "Objetos \u00daNICOS: uno por mapa (17), cada uno con una mec\u00e1nica de su MVP; caen sobre todo del MVP y son mucho m\u00e1s raros que las legendarias. La lista de mapas muestra el \u00fanico de cada mapa.",
-          "en": "UNIQUE items: one per map (17), each with a mechanic of its MVP; they drop mostly from the MVP and are much rarer than legendaries. The map list shows each map's unique."
-        },
-        {
-          "t": "new",
-          "es": "7 legendarias nuevas (sin armas) para builds de procs, autocast al recibir golpes, estados, veneno, habilidades, apoyo y elementos, con los sets Anillos de Thanatos y Diabolus.",
-          "en": "7 new legendaries (no weapons) for builds around procs, autocast when hit, statuses, poison, skills, support and elements, with the Rings of Thanatos and Diabolus sets."
-        },
-        {
-          "t": "new",
-          "es": "Paladin: Gospel y Martyr's Reckoning (golpea con tu vida m\u00e1xima). Monk / Champion: Steel Body. Bloquear tambi\u00e9n dispara las cartas que se lanzan al recibir un golpe.",
-          "en": "Paladin: Gospel and Martyr's Reckoning (hits with your max HP). Monk / Champion: Steel Body. Blocking also triggers the cards that cast when you are hit."
-        },
-        {
-          "t": "new",
-          "es": "Medidor de da\u00f1o estilo Details: mu\u00e9velo, cambia la vista con clic derecho y \u00e1brelo (clic o M) para ver el da\u00f1o a cada jefe, el da\u00f1o recibido y el detalle de cada habilidad.",
-          "en": "Details-style damage meter: move it, switch views with right click and open it (click or M) to see the damage to each boss, damage taken and each skill's details."
-        },
-        {
-          "t": "up",
-          "es": "Renacer da +1 legendaria en el equipo inicial; las recompensas del renacimiento se muestran en fichas.",
-          "en": "Rebirth gives +1 legendary in the starting gear; the rebirth rewards are shown as tiles."
-        },
-        {
-          "t": "up",
-          "es": "Hindsight del Sage m\u00e1s seguido, con Earth Spike y Frost Diver, y crece con el nivel como los procs (tambi\u00e9n el Jupitel del Storm Bow y el Huuma Kraken).",
-          "en": "The Sage's Hindsight triggers more often, adds Earth Spike and Frost Diver, and grows with level like procs (also the Storm Bow's Jupitel and the Huuma Kraken)."
-        },
-        {
-          "t": "up",
-          "es": "Combos elementales visibles: \"\u00a1Combo!\" al golpear con Viento a un congelado o con Fuego a uno petrificado, y las habilidades lo explican.",
-          "en": "Visible elemental combos: \"Combo!\" when hitting a frozen monster with Wind or a petrified one with Fire, and skills explain it."
         }
       ]
     }
