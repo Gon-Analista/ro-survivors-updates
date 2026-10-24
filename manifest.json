@@ -1,13 +1,17 @@
 {
-  "base": "0.1.129",
+  "base": "0.1.131",
   "page": "https://nearq.itch.io/midgard-survivors",
-  "patch": {
-    "version": "0.1.130",
-    "file": "patches/patch_0.1.130.bin",
-    "size": 1658540,
-    "sha256": "ccb227e1b935b3bf7cabf4d7ba28447cbabfbbac151181548b5b65a19edcb291"
-  },
   "notes": [
+    {
+      "version": "0.1.131",
+      "items": [
+        {
+          "t": "up",
+          "es": "Nueva versi\u00f3n completa con todo lo de la 0.1.130: mascotas MvP, Plagiarism para todas las clases y el cooperativo de apoyo como en RO.",
+          "en": "New full build with everything from 0.1.130: MVP pets, Plagiarism for every class and RO-style co-op support."
+        }
+      ]
+    },
     {
       "version": "0.1.130",
       "items": [
@@ -355,56 +359,6 @@
           "t": "up",
           "es": "M\u00e1s rendimiento con hordas: los jefes ya no encarecen el empuje entre monstruos y los que est\u00e1n fuera de la pantalla se actualizan menos seguido.",
           "en": "More performance with hordes: bosses no longer make the crowd's pushing costlier and off-screen monsters update less often."
-        }
-      ]
-    },
-    {
-      "version": "0.1.118",
-      "items": [
-        {
-          "t": "up",
-          "es": "Mejor rendimiento con hordas grandes: los monstruos y el h\u00e9roe gastan bastante menos por frame.",
-          "en": "Better performance with big hordes: monsters and the hero cost much less per frame."
-        },
-        {
-          "t": "up",
-          "es": "Gemas de EXP y zeny al estilo Vampire Survivors: si se acumulan muchas en el suelo, las cercanas se juntan en una que vale la suma (no se pierde nada).",
-          "en": "EXP gems and zeny like Vampire Survivors: when too many pile up on the ground, nearby ones merge into one worth the sum (nothing is lost)."
-        },
-        {
-          "t": "up",
-          "es": "Sandman: un monstruo dormido aguanta 3 golpes, y cada uno es un cr\u00edtico con +60% de da\u00f1o cr\u00edtico.",
-          "en": "Sandman: a sleeping monster takes 3 hits before waking, each one a critical hit with +60% critical damage."
-        },
-        {
-          "t": "up",
-          "es": "Valkyrie Helm: una Berserk Potion que recojas dura 20 s y suma Ira de Valhalla (+50% de da\u00f1o y de da\u00f1o cr\u00edtico).",
-          "en": "Valkyrie Helm: a Berserk Potion you pick up lasts 20 s and adds Valhalla's Rage (+50% damage and critical damage)."
-        },
-        {
-          "t": "up",
-          "es": "Los buffs, pactos y dioses ahora se muestran debajo de Basic Info.",
-          "en": "Buffs, pacts and gods now show under Basic Info."
-        },
-        {
-          "t": "fix",
-          "es": "Las armas \u00fanicas de otra clase se pueden lootear pero ya no equipar.",
-          "en": "Other classes' unique weapons can be looted but no longer equipped."
-        },
-        {
-          "t": "fix",
-          "es": "El inventario ya no puede pasar de 40 objetos.",
-          "en": "The inventory can no longer go over 40 items."
-        },
-        {
-          "t": "fix",
-          "es": "Con mejoras acumuladas se puede abrir el equipo (Q) y la pausa.",
-          "en": "With saved-up upgrades you can open the equipment (Q) and the pause."
-        },
-        {
-          "t": "fix",
-          "es": "Nombres largos de la ventana de equipo y brillo de legendarias en el cofre ya no se cortan.",
-          "en": "Long names in the equipment window and the legendary glow in chests are no longer cut."
         }
       ]
     }
