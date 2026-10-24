@@ -1,16 +1,15 @@
 {
-  "base": "0.1.127",
+  "base": "0.1.129",
   "page": "https://nearq.itch.io/midgard-survivors",
-  "patch": {
-    "version": "0.1.128",
-    "file": "patches/patch_0.1.128.bin",
-    "size": 8559116,
-    "sha256": "63e084991a950db3043686da2c01d0aa141740b8e4cb3232fd33bc38f4847a4c"
-  },
   "notes": [
     {
-      "version": "0.1.128",
+      "version": "0.1.129",
       "items": [
+        {
+          "t": "fix",
+          "es": "Las actualizaciones autom\u00e1ticas vuelven a aplicar todos los cambios (la 0.1.128 no se aplicaba del todo).",
+          "en": "Automatic updates apply every change again (0.1.128 didn't fully apply)."
+        },
         {
           "t": "new",
           "es": "\u00a1Evento especial Satan Morroc desde Peligro 5! Cae del cielo con su propia arena, mec\u00e1nicas y cuatro encarnaciones.",
