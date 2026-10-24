@@ -1,7 +1,63 @@
 {
   "base": "0.1.129",
   "page": "https://nearq.itch.io/midgard-survivors",
+  "patch": {
+    "version": "0.1.130",
+    "file": "patches/patch_0.1.130.bin",
+    "size": 1658540,
+    "sha256": "ccb227e1b935b3bf7cabf4d7ba28447cbabfbbac151181548b5b65a19edcb291"
+  },
   "notes": [
+    {
+      "version": "0.1.130",
+      "items": [
+        {
+          "t": "new",
+          "es": "\u00a1Mascotas MvP! Cada MVP vencido puede dejar su huevo (muy raro): adem\u00e1s de su bonus, el MVP lucha a tu lado cada pocos segundos. Tienen su propia pesta\u00f1a en el \u00c1lbum y un logro.",
+          "en": "MVP pets! A defeated MVP may leave its egg (very rare): besides its bonus, the MVP fights at your side every few seconds. They have their own Album tab and an achievement."
+        },
+        {
+          "t": "new",
+          "es": "Plagiarism para todas las clases: elige en el \u00c1lbum una habilidad copiada que pueda salir con cualquier clase (el Rogue sigue con 3).",
+          "en": "Plagiarism for every class: pick in the Album one copied skill any class can draw (Rogues still get 3)."
+        },
+        {
+          "t": "new",
+          "es": "Cooperativo como en RO: Blessing, Increase AGI, Angelus, Magnificat, Aspersio, las canciones del Bardo y m\u00e1s llegan a los aliados cercanos; Heal y Kyrie van al compa\u00f1ero que m\u00e1s lo necesite; Gospel bendice al grupo y un sanador levanta ca\u00eddos mucho m\u00e1s r\u00e1pido.",
+          "en": "Co-op like in RO: Blessing, Increase AGI, Angelus, Magnificat, Aspersio, the Bard's songs and more reach nearby allies; Heal and Kyrie go to the teammate who needs them most; Gospel blesses the party and a healer revives fallen allies much faster."
+        },
+        {
+          "t": "fix",
+          "es": "Cooperativo: las mascotas de cada jugador se ven en todas las pantallas y cada uno puede domar las suyas.",
+          "en": "Co-op: every player's pet shows on every screen and each one can tame their own."
+        },
+        {
+          "t": "fix",
+          "es": "Cooperativo: quien se une a una sala ahora guarda su EXP de clase, mapas, jefes, altares, quests y logros al terminar la partida.",
+          "en": "Co-op: players who join a room now keep their class EXP, maps, bosses, altars, quests and achievements when the run ends."
+        },
+        {
+          "t": "fix",
+          "es": "Cooperativo: los jefes de campo atacan a cualquier jugador, los dones de los altares son para todo el grupo y los poderes para quien los recoge.",
+          "en": "Co-op: field bosses attack any player, altar gifts go to the whole party and power-ups to whoever picks them up."
+        },
+        {
+          "t": "fix",
+          "es": "El juego ya no se queda abierto en segundo plano despu\u00e9s de usar el cooperativo.",
+          "en": "The game no longer stays open in the background after using co-op."
+        },
+        {
+          "t": "fix",
+          "es": "Logros arreglados: \u00abRenace con todas las clases\u00bb ya no cuenta las que no pueden renacer, cuentan las clases jugadas antes, los MVP de uno en uno y los objetos ya guardados; la carta de Marine Sphere ya se puede conseguir.",
+          "en": "Achievements fixed: 'Rebirth every class' no longer counts classes that can't be reborn; classes played earlier, MVPs one by one and items already stored now count; the Marine Sphere card can now be obtained."
+        },
+        {
+          "t": "up",
+          "es": "Al ir a itch.io para descargar una versi\u00f3n nueva, el juego se cierra solo.",
+          "en": "Going to itch.io to download a new version now closes the game."
+        }
+      ]
+    },
     {
       "version": "0.1.129",
       "items": [
@@ -349,51 +405,6 @@
           "t": "fix",
           "es": "Nombres largos de la ventana de equipo y brillo de legendarias en el cofre ya no se cortan.",
           "en": "Long names in the equipment window and the legendary glow in chests are no longer cut."
-        }
-      ]
-    },
-    {
-      "version": "0.1.117",
-      "items": [
-        {
-          "t": "new",
-          "es": "Las trampas del Hunter se ven en el suelo: Land Mine y Sandman se colocan en el camino de los monstruos y estallan al pisarlas.",
-          "en": "Hunter traps lie on the ground: Land Mine and Sandman are set in the monsters' path and go off when stepped on."
-        },
-        {
-          "t": "up",
-          "es": "Land Mine pega m\u00e1s del doble. Sandman: un monstruo dormido recibe siempre cr\u00edtico (Nv10 pone 3 trampas).",
-          "en": "Land Mine hits more than twice as hard. Sandman: a sleeping monster always takes a critical hit (Lv10 sets 3 traps)."
-        },
-        {
-          "t": "up",
-          "es": "Charge Arrow m\u00e1s fuerte: aturde, empuja lejos y rebota, con su propio sonido. Double Strafe suena en cada disparo.",
-          "en": "Charge Arrow is stronger: it stuns, knocks back far and bounces, with its own sound. Double Strafe sounds on every shot."
-        },
-        {
-          "t": "new",
-          "es": "Fila de buffs sobre la barra de skills: los que renuevas solos sin temporizador, los efectos temporales con sus segundos.",
-          "en": "Buff row over the skill bar: the ones you keep renewing without a timer, temporary effects with their seconds."
-        },
-        {
-          "t": "up",
-          "es": "Altar de Odin: ahora tus procs y autocast salen un 30% m\u00e1s seguido (ya no da cambios ni destierro).",
-          "en": "Altar of Odin: your procs and autocasts now trigger 30% more often (no more rerolls or banish)."
-        },
-        {
-          "t": "up",
-          "es": "El Coraz\u00f3n de Ymir despierta a los 90 s de la pelea del MVP.",
-          "en": "Ymir's Heart wakes 90 s into the MVP fight."
-        },
-        {
-          "t": "fix",
-          "es": "Los altares que ya estaban en pie se pueden tomar mientras espera el portal del MVP.",
-          "en": "Altars already up can be taken while the MVP portal waits."
-        },
-        {
-          "t": "fix",
-          "es": "Letras cortadas o deformes en pantalla completa con escalas no enteras.",
-          "en": "Cut or warped letters in fullscreen at non-integer scales."
         }
       ]
     }
