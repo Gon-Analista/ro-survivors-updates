@@ -1,7 +1,58 @@
 {
   "base": "0.1.131",
   "page": "https://nearq.itch.io/midgard-survivors",
+  "patch": {
+    "version": "0.1.132",
+    "file": "patches/patch_0.1.132.bin",
+    "size": 1997644,
+    "sha256": "29e71925a25ba13ba8b672172083d01d8b2dcf72b6708b5025e0c1cc72dbadf7"
+  },
   "notes": [
+    {
+      "version": "0.1.132",
+      "items": [
+        {
+          "t": "new",
+          "es": "MvPs con nuevas mec\u00e1nicas: todos lanzan grietas desde su cuerpo (ponte entre los rayos) y cada uno tiene un ataque nuevo: muros con un hueco, rayos giratorios, el reloj del Owl Baron, sellos que pisar, charcos de fuego, andanadas en carriles, cadenas a un t\u00f3tem y m\u00e1s.",
+          "en": "MVPs with new mechanics: all of them cast rifts from their body (stand between the rays) and each one has a new attack: walls with a gap, spinning beams, Owl Baron's clock, seals to step on, fire puddles, lane barrages, chains to a totem and more."
+        },
+        {
+          "t": "new",
+          "es": "C\u00e1mara giratoria como en RO (clic derecho y arrastrar; doble clic derecho la vuelve a la cl\u00e1sica) y cursores animados del cliente.",
+          "en": "RO-style rotating camera (right-click and drag; double right-click resets it) and the client's animated cursors."
+        },
+        {
+          "t": "new",
+          "es": "Cooperativo: medidor de da\u00f1o \u00abGrupo\u00bb con el da\u00f1o y el DPS de cada jugador por su nombre.",
+          "en": "Co-op: \"Party\" damage meter with every player's damage and DPS by name."
+        },
+        {
+          "t": "up",
+          "es": "Gemas de EXP con destello, vuelo con estela hacia el h\u00e9roe y un \u00abding\u00bb al recogerlas.",
+          "en": "EXP gems sparkle, fly to the hero with a trail and ding when picked up."
+        },
+        {
+          "t": "up",
+          "es": "Heal con luz verde y n\u00fameros grandes como en RO; Assumptio con su halo; ceremonia de cambio de oficio; Increase AGI con efecto y sonido.",
+          "en": "Heal with green light and big numbers like in RO; Assumptio with its halo; job change ceremony; Increase AGI with its effect and sound."
+        },
+        {
+          "t": "up",
+          "es": "Satan Morroc: m\u00e1s vida, se queda menos quieto y su c\u00edrculo ya no lo tapan los cerros. Vida base de los MvP un poco m\u00e1s baja.",
+          "en": "Satan Morroc: more HP, stands still less and hills no longer hide its circle. MVP base HP slightly lower."
+        },
+        {
+          "t": "fix",
+          "es": "Cooperativo: cualquiera ve y puede empezar la quest, y los que no son l\u00edder pueden salir sin perder nada.",
+          "en": "Co-op: anyone sees and can start the quest, and non-leaders can leave without losing anything."
+        },
+        {
+          "t": "fix",
+          "es": "Ankle Snare con la trampa de osos del cliente; la rueda del mouse ya no mueve el zoom sobre una ventana; cofre dorado de frente.",
+          "en": "Ankle Snare uses the client's bear trap; the mouse wheel no longer zooms over a window; golden chest faces front."
+        }
+      ]
+    },
     {
       "version": "0.1.131",
       "items": [
@@ -349,16 +400,6 @@
           "t": "up",
           "es": "Los efectos de las habilidades gastan menos con m\u00e1s de 60 FPS.",
           "en": "Skill effects cost less above 60 FPS."
-        }
-      ]
-    },
-    {
-      "version": "0.1.119",
-      "items": [
-        {
-          "t": "up",
-          "es": "M\u00e1s rendimiento con hordas: los jefes ya no encarecen el empuje entre monstruos y los que est\u00e1n fuera de la pantalla se actualizan menos seguido.",
-          "en": "More performance with hordes: bosses no longer make the crowd's pushing costlier and off-screen monsters update less often."
         }
       ]
     }
