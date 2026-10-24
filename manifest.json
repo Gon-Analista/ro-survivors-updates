@@ -1,7 +1,68 @@
 {
   "base": "0.1.127",
   "page": "https://nearq.itch.io/midgard-survivors",
+  "patch": {
+    "version": "0.1.128",
+    "file": "patches/patch_0.1.128.bin",
+    "size": 8559116,
+    "sha256": "63e084991a950db3043686da2c01d0aa141740b8e4cb3232fd33bc38f4847a4c"
+  },
   "notes": [
+    {
+      "version": "0.1.128",
+      "items": [
+        {
+          "t": "new",
+          "es": "\u00a1Evento especial Satan Morroc desde Peligro 5! Cae del cielo con su propia arena, mec\u00e1nicas y cuatro encarnaciones.",
+          "en": "Special event Satan Morroc from Danger 5! He falls from the sky with his own arena, mechanics and four incarnations."
+        },
+        {
+          "t": "new",
+          "es": "Gunslinger y Rebellion: cada arma de fuego (rifle, escopeta, gatling) tiene su sprite, pose y sonido.",
+          "en": "Gunslinger and Rebellion: each firearm (rifle, shotgun, gatling) has its own sprite, pose and sound."
+        },
+        {
+          "t": "up",
+          "es": "MVPs renovados: m\u00e1s grandes, siempre visibles sobre tus habilidades, con aura y mec\u00e1nicas con los c\u00edrculos m\u00e1gicos de RO.",
+          "en": "Reworked MVPs: bigger, always visible over your skills, with an aura and mechanics using RO's magic circles."
+        },
+        {
+          "t": "up",
+          "es": "MVPs m\u00e1s dif\u00edciles: el doble de vida, el Coraz\u00f3n de Ymir despierta a los 60 s, aciertan m\u00e1s, atraviesan parte de los escudos y sus mec\u00e1nicas pegan m\u00e1s.",
+          "en": "Tougher MVPs: double HP, Ymir's Heart wakes at 60 s, they hit more often, pierce part of shields and their mechanics hurt more."
+        },
+        {
+          "t": "up",
+          "es": "Tu personaje y tu grupo se ven siempre por encima de los efectos de las habilidades.",
+          "en": "Your hero and your party are always drawn over skill effects."
+        },
+        {
+          "t": "fix",
+          "es": "Cooperativo: las mec\u00e1nicas del MVP afectan a todo el grupo y tu amigo ve el combate completo (zonas, avisos, tiempos).",
+          "en": "Co-op: MVP mechanics hit the whole party and your friend sees the full fight (zones, warnings, timers)."
+        },
+        {
+          "t": "fix",
+          "es": "Cooperativo: tu amigo ve su da\u00f1o, recibe objetos y cartas, ve altares, NPCs, tu cambio de oficio y el aviso de pausa.",
+          "en": "Co-op: your friend sees their damage, gets items and cards, sees altars, NPCs, your job change and the pause notice."
+        },
+        {
+          "t": "up",
+          "es": "Cooperativo: sorteo de bot\u00edn \u00e9pico, ventana de grupo estilo RO con la vida en n\u00fameros y aviso claro al levantar a un aliado.",
+          "en": "Co-op: epic loot rolls, an RO-style party window with HP numbers and clear feedback when reviving an ally."
+        },
+        {
+          "t": "up",
+          "es": "Pase de calidad de los objetos \u00fanicos; el Pacto de Disciplina pasa a ser el Pacto de Represalia.",
+          "en": "Quality pass on unique items; the Pact of Discipline becomes the Pact of Retaliation."
+        },
+        {
+          "t": "fix",
+          "es": "Las cartas pasan al equipo nuevo al cambiarlo, y el \u00e1lbum y la ventana de engarzar caben en pantalla.",
+          "en": "Cards move to the new gear when you swap it, and the album and socket window fit on screen."
+        }
+      ]
+    },
     {
       "version": "0.1.127",
       "items": [
@@ -334,41 +395,6 @@
           "t": "fix",
           "es": "Letras cortadas o deformes en pantalla completa con escalas no enteras.",
           "en": "Cut or warped letters in fullscreen at non-integer scales."
-        }
-      ]
-    },
-    {
-      "version": "0.1.116",
-      "items": [
-        {
-          "t": "new",
-          "es": "Refinador: casilla para proteger el objeto (x5 zeny): si falla no se rompe, solo baja 1 nivel.",
-          "en": "Refiner: a check to protect the item (x5 zeny): if it fails it doesn't break, it only drops 1 level."
-        },
-        {
-          "t": "up",
-          "es": "HD ahora solo da mucha m\u00e1s probabilidad de \u00e9xito; ya no evita que el objeto se rompa.",
-          "en": "HD now only gives a much better chance of success; it no longer keeps the item from breaking."
-        },
-        {
-          "t": "up",
-          "es": "Refinar el equipo permanente es mucho m\u00e1s caro y cada nivel cuesta m\u00e1s que el anterior.",
-          "en": "Refining permanent gear is much more expensive, and each level costs more than the last."
-        },
-        {
-          "t": "up",
-          "es": "Pactos de Gray: Furia desde el inicio; Fuerza, Disciplina y Soledad se desbloquean al vencer Peligro 3, 7 y 11.",
-          "en": "Gray's pacts: Frenzy from the start; Might, Discipline and Solitude unlock by beating Danger 3, 7 and 11."
-        },
-        {
-          "t": "up",
-          "es": "En partidas enormes, el zeny de los monstruos comunes baja poco a poco (nunca menos del 45%); cofres, jefes y MVPs igual.",
-          "en": "On huge runs, common monsters' zeny slowly drops (never below 45%); chests, bosses and MVPs unchanged."
-        },
-        {
-          "t": "fix",
-          "es": "El Chef ya no cocina con el sonido del martillo del refinador.",
-          "en": "The Chef no longer cooks with the refiner's hammer sound."
         }
       ]
     }
