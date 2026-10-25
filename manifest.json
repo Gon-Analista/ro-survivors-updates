@@ -2,12 +2,47 @@
   "base": "0.1.131",
   "page": "https://nearq.itch.io/midgard-survivors",
   "patch": {
-    "version": "0.1.136",
-    "file": "patches/patch_0.1.136.bin",
-    "size": 10724012,
-    "sha256": "9da6ee656978e51372951b407ba9bc65889d83fbf7e2d2e651f3db78559bc859"
+    "version": "0.1.137",
+    "file": "patches/patch_0.1.137.bin",
+    "size": 10800316,
+    "sha256": "676bbad42638b312679699f625a74b4329131f97672d9a66da798a1f443bcb43"
   },
   "notes": [
+    {
+      "version": "0.1.137",
+      "items": [
+        {
+          "t": "new",
+          "es": "Rebirth: con tu clase en la cima, la Valkyrie de Prontera te llama para renacer otra vez (hasta Rebirth X). Vuelves a Nivel de clase 1 sin perder atributos, aura ni renacimiento.",
+          "en": "Rebirth: with your class at the top, the Valkyrie in Prontera calls you to be reborn again (up to Rebirth X). You go back to class level 1 keeping your stats, aura and rebirth."
+        },
+        {
+          "t": "new",
+          "es": "Cada Rebirth desbloquea un adorno: destellos, runas, rayos, orbes, estela, aura dorada, pilar, halo, corona y la luz de Valhalla con tu nombre en oro. Mu\u00e9stralos u oc\u00faltalos en su ventana.",
+          "en": "Each Rebirth unlocks a look: sparkles, runes, rays, orbs, afterimage, golden aura, pillar, halo, crown and Valhalla's light with your name in gold. Show or hide them in her window."
+        },
+        {
+          "t": "up",
+          "es": "Habilidades que se activan con F o con clic en su casilla: Heat Barrel, Steel Body, Asura Strike, Back Stab y Shadow Slash (cadenas de teletransportes a la espalda de los monstruos).",
+          "en": "Skills toggled with F or a click on their slot: Heat Barrel, Steel Body, Asura Strike, Back Stab and Shadow Slash (chains of blinks behind monsters)."
+        },
+        {
+          "t": "up",
+          "es": "Los ataques avisados de los MVP ahora se ven al caer: cada uno con su propio golpe de luz en l\u00ednea, cono o c\u00edrculo.",
+          "en": "MVPs' telegraphed attacks now show as they land: each with its own strike of light as a line, cone or circle."
+        },
+        {
+          "t": "up",
+          "es": "Equipo inicial: arrastra piezas del almac\u00e9n a la ranura que quieras, entre accesorios o de vuelta al almac\u00e9n.",
+          "en": "Starting gear: drag pieces from the storage to the slot you want, between accessories or back to the storage."
+        },
+        {
+          "t": "fix",
+          "es": "La ventana del set del Super Novice ya no salta de scroll al elegir una habilidad.",
+          "en": "The Super Novice set window no longer jumps when you pick a skill."
+        }
+      ]
+    },
     {
       "version": "0.1.136",
       "items": [
@@ -400,21 +435,6 @@
           "t": "fix",
           "es": "Con un hueco de skill libre siempre sale una skill nueva al subir de nivel, y una de la primera clase mientras quede alguna (cambiar de oficio r\u00e1pido ya no esconde las del Archer).",
           "en": "With a free skill slot a new skill always shows up on level up, and one of the first class while any is left (a quick job change no longer hides the Archer's)."
-        }
-      ]
-    },
-    {
-      "version": "0.1.124",
-      "items": [
-        {
-          "t": "up",
-          "es": "Sharp Shooting pega al instante en el monstruo con un estallido de aire y desde ah\u00ed atraviesa en l\u00ednea recta. Double Strafe deja un golpe de aire en el monstruo.",
-          "en": "Sharp Shooting lands instantly on the monster with a burst of air and goes on from there in a straight line. Double Strafe leaves a blow of air on the monster."
-        },
-        {
-          "t": "up",
-          "es": "Las flechas de habilidad que vuelan tienen una estela tenue de su color.",
-          "en": "Flying skill arrows have a faint trail of their colour."
         }
       ]
     }
