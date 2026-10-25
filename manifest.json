@@ -2,12 +2,57 @@
   "base": "0.1.131",
   "page": "https://nearq.itch.io/midgard-survivors",
   "patch": {
-    "version": "0.1.140",
-    "file": "patches/patch_0.1.140.bin",
-    "size": 12333900,
-    "sha256": "f01491fec4d23428355f4632f2b31807326585f5bd504a728cc2d9358af90c46"
+    "version": "0.1.141",
+    "file": "patches/patch_0.1.141.bin",
+    "size": 12366988,
+    "sha256": "ce0aa8feb214c3bdff932e166ddae5cdb5ce19ac79db4c1422947704dc4267d5"
   },
   "notes": [
+    {
+      "version": "0.1.141",
+      "items": [
+        {
+          "t": "up",
+          "es": "Quests mejoradas: jaula de luz, sellos con runas y cadenas que se rompen, barra de vida de lo que defiendes, llegadas y despedidas con warp; la Hermana Clara ahora camina.",
+          "en": "Quests improved: a cage of light, seals with runes and chains that snap, a health bar on what you defend, warp arrivals and farewells; Sister Clara now walks."
+        },
+        {
+          "t": "up",
+          "es": "Ventana de Rebirth m\u00e1s compacta, con las recompensas como pase de batalla, estrellas y barra con el estilo del cliente.",
+          "en": "A more compact Rebirth window, with rewards as a battle pass, and stars and bar in the client's style."
+        },
+        {
+          "t": "new",
+          "es": "Signum Crucis: una cruz sobre los monstruos debilitados y nueva evoluci\u00f3n Nv10 que alcanza a los MVP.",
+          "en": "Signum Crucis: a cross over weakened monsters and a new Lv10 evolution that reaches MVPs."
+        },
+        {
+          "t": "up",
+          "es": "Todas las tarjetas de mejora dicen qu\u00e9 sube (Critical Explosion, Heat Barrel, duraciones, Hom\u00fanculo...); lo que ya no mejora no se ofrece.",
+          "en": "Every upgrade card says what grows (Critical Explosion, Heat Barrel, durations, Homunculus...); what can't improve is no longer offered."
+        },
+        {
+          "t": "up",
+          "es": "Satan Morroc: siguen llegando monstruos mientras aparece y pelea, pero no entran en su arena.",
+          "en": "Satan Morroc: monsters keep coming while he arrives and fights, but they don't enter his arena."
+        },
+        {
+          "t": "up",
+          "es": "Occult Impaction con su sonido original y un golpe que recorre la l\u00ednea; Asura con kanji m\u00e1s grandes y texto corto; esferas espirituales m\u00e1s peque\u00f1as; fuegos de Ruwach con tope.",
+          "en": "Occult Impaction with its original sound and a blow running down the line; Asura with bigger kanji and short text; smaller spirit spheres; Ruwach flames capped."
+        },
+        {
+          "t": "up",
+          "es": "Sonido de las monedas m\u00e1s suave (sin xil\u00f3fono).",
+          "en": "Softer coin sound (no more xylophone)."
+        },
+        {
+          "t": "fix",
+          "es": "Bone Helm ya no se lleva en el medidor el da\u00f1o de otras habilidades.",
+          "en": "Bone Helm no longer takes other skills' damage on the meter."
+        }
+      ]
+    },
     {
       "version": "0.1.140",
       "items": [
@@ -370,66 +415,6 @@
           "t": "up",
           "es": "Al ir a itch.io para descargar una versi\u00f3n nueva, el juego se cierra solo.",
           "en": "Going to itch.io to download a new version now closes the game."
-        }
-      ]
-    },
-    {
-      "version": "0.1.129",
-      "items": [
-        {
-          "t": "fix",
-          "es": "Las actualizaciones autom\u00e1ticas vuelven a aplicar todos los cambios (la 0.1.128 no se aplicaba del todo).",
-          "en": "Automatic updates apply every change again (0.1.128 didn't fully apply)."
-        },
-        {
-          "t": "new",
-          "es": "\u00a1Evento especial Satan Morroc desde Peligro 5! Cae del cielo con su propia arena, mec\u00e1nicas y cuatro encarnaciones.",
-          "en": "Special event Satan Morroc from Danger 5! He falls from the sky with his own arena, mechanics and four incarnations."
-        },
-        {
-          "t": "new",
-          "es": "Gunslinger y Rebellion: cada arma de fuego (rifle, escopeta, gatling) tiene su sprite, pose y sonido.",
-          "en": "Gunslinger and Rebellion: each firearm (rifle, shotgun, gatling) has its own sprite, pose and sound."
-        },
-        {
-          "t": "up",
-          "es": "MVPs renovados: m\u00e1s grandes, siempre visibles sobre tus habilidades, con aura y mec\u00e1nicas con los c\u00edrculos m\u00e1gicos de RO.",
-          "en": "Reworked MVPs: bigger, always visible over your skills, with an aura and mechanics using RO's magic circles."
-        },
-        {
-          "t": "up",
-          "es": "MVPs m\u00e1s dif\u00edciles: el doble de vida, el Coraz\u00f3n de Ymir despierta a los 60 s, aciertan m\u00e1s, atraviesan parte de los escudos y sus mec\u00e1nicas pegan m\u00e1s.",
-          "en": "Tougher MVPs: double HP, Ymir's Heart wakes at 60 s, they hit more often, pierce part of shields and their mechanics hurt more."
-        },
-        {
-          "t": "up",
-          "es": "Tu personaje y tu grupo se ven siempre por encima de los efectos de las habilidades.",
-          "en": "Your hero and your party are always drawn over skill effects."
-        },
-        {
-          "t": "fix",
-          "es": "Cooperativo: las mec\u00e1nicas del MVP afectan a todo el grupo y tu amigo ve el combate completo (zonas, avisos, tiempos).",
-          "en": "Co-op: MVP mechanics hit the whole party and your friend sees the full fight (zones, warnings, timers)."
-        },
-        {
-          "t": "fix",
-          "es": "Cooperativo: tu amigo ve su da\u00f1o, recibe objetos y cartas, ve altares, NPCs, tu cambio de oficio y el aviso de pausa.",
-          "en": "Co-op: your friend sees their damage, gets items and cards, sees altars, NPCs, your job change and the pause notice."
-        },
-        {
-          "t": "up",
-          "es": "Cooperativo: sorteo de bot\u00edn \u00e9pico, ventana de grupo estilo RO con la vida en n\u00fameros y aviso claro al levantar a un aliado.",
-          "en": "Co-op: epic loot rolls, an RO-style party window with HP numbers and clear feedback when reviving an ally."
-        },
-        {
-          "t": "up",
-          "es": "Pase de calidad de los objetos \u00fanicos; el Pacto de Disciplina pasa a ser el Pacto de Represalia.",
-          "en": "Quality pass on unique items; the Pact of Discipline becomes the Pact of Retaliation."
-        },
-        {
-          "t": "fix",
-          "es": "Las cartas pasan al equipo nuevo al cambiarlo, y el \u00e1lbum y la ventana de engarzar caben en pantalla.",
-          "en": "Cards move to the new gear when you swap it, and the album and socket window fit on screen."
         }
       ]
     }
