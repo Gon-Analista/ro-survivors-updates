@@ -2,12 +2,47 @@
   "base": "0.1.131",
   "page": "https://nearq.itch.io/midgard-survivors",
   "patch": {
-    "version": "0.1.141",
-    "file": "patches/patch_0.1.141.bin",
-    "size": 12366988,
-    "sha256": "ce0aa8feb214c3bdff932e166ddae5cdb5ce19ac79db4c1422947704dc4267d5"
+    "version": "0.1.142",
+    "file": "patches/patch_0.1.142.bin",
+    "size": 12568316,
+    "sha256": "cc25aa6fc3e0cae8d531b0563471a551f1f763e6d0d691ed23a19920bad6f358"
   },
   "notes": [
+    {
+      "version": "0.1.142",
+      "items": [
+        {
+          "t": "new",
+          "es": "Lex Aeterna para el Priest: marca a los enemigos m\u00e1s fuertes y la pr\u00f3xima habilidad que los golpea hace el doble. Se copia con Plagiarism del Fallen Bishop.",
+          "en": "Lex Aeterna for the Priest: marks the strongest enemies and the next skill that hits them deals double. Copied with Plagiarism from the Fallen Bishop."
+        },
+        {
+          "t": "up",
+          "es": "Cr\u00edticos con una sola explosi\u00f3n: el ultra dorado gira y suelta chispas, el letal carmes\u00ed destella y late.",
+          "en": "Criticals with a single burst: ultra ones spin in gold and throw sparks, lethal ones flash crimson and pulse."
+        },
+        {
+          "t": "up",
+          "es": "Los golpes r\u00e1pidos al mismo monstruo se suman en un solo n\u00famero y los n\u00fameros ya no se amontonan.",
+          "en": "Rapid hits on the same monster add up into one number, and numbers no longer pile up."
+        },
+        {
+          "t": "up",
+          "es": "Ventana de Rebirth: tarjetas claras, el aura entera, sin pies cortados; los Orbes espirituales pasan a ser Llamas de Sight.",
+          "en": "Rebirth window: light cards, the whole aura, no cut feet; Spirit Orbs become Sight Flames."
+        },
+        {
+          "t": "up",
+          "es": "El engarzador nearQ ahora se llama Abstract.",
+          "en": "The socket enchanter nearQ is now called Abstract."
+        },
+        {
+          "t": "fix",
+          "es": "La tarjeta legendaria de atributo ya no se sale de su tama\u00f1o.",
+          "en": "The legendary attribute card no longer overflows."
+        }
+      ]
+    },
     {
       "version": "0.1.141",
       "items": [
@@ -365,56 +400,6 @@
           "t": "up",
           "es": "Nueva versi\u00f3n completa con todo lo de la 0.1.130: mascotas MvP, Plagiarism para todas las clases y el cooperativo de apoyo como en RO.",
           "en": "New full build with everything from 0.1.130: MVP pets, Plagiarism for every class and RO-style co-op support."
-        }
-      ]
-    },
-    {
-      "version": "0.1.130",
-      "items": [
-        {
-          "t": "new",
-          "es": "\u00a1Mascotas MvP! Cada MVP vencido puede dejar su huevo (muy raro): adem\u00e1s de su bonus, el MVP lucha a tu lado cada pocos segundos. Tienen su propia pesta\u00f1a en el \u00c1lbum y un logro.",
-          "en": "MVP pets! A defeated MVP may leave its egg (very rare): besides its bonus, the MVP fights at your side every few seconds. They have their own Album tab and an achievement."
-        },
-        {
-          "t": "new",
-          "es": "Plagiarism para todas las clases: elige en el \u00c1lbum una habilidad copiada que pueda salir con cualquier clase (el Rogue sigue con 3).",
-          "en": "Plagiarism for every class: pick in the Album one copied skill any class can draw (Rogues still get 3)."
-        },
-        {
-          "t": "new",
-          "es": "Cooperativo como en RO: Blessing, Increase AGI, Angelus, Magnificat, Aspersio, las canciones del Bardo y m\u00e1s llegan a los aliados cercanos; Heal y Kyrie van al compa\u00f1ero que m\u00e1s lo necesite; Gospel bendice al grupo y un sanador levanta ca\u00eddos mucho m\u00e1s r\u00e1pido.",
-          "en": "Co-op like in RO: Blessing, Increase AGI, Angelus, Magnificat, Aspersio, the Bard's songs and more reach nearby allies; Heal and Kyrie go to the teammate who needs them most; Gospel blesses the party and a healer revives fallen allies much faster."
-        },
-        {
-          "t": "fix",
-          "es": "Cooperativo: las mascotas de cada jugador se ven en todas las pantallas y cada uno puede domar las suyas.",
-          "en": "Co-op: every player's pet shows on every screen and each one can tame their own."
-        },
-        {
-          "t": "fix",
-          "es": "Cooperativo: quien se une a una sala ahora guarda su EXP de clase, mapas, jefes, altares, quests y logros al terminar la partida.",
-          "en": "Co-op: players who join a room now keep their class EXP, maps, bosses, altars, quests and achievements when the run ends."
-        },
-        {
-          "t": "fix",
-          "es": "Cooperativo: los jefes de campo atacan a cualquier jugador, los dones de los altares son para todo el grupo y los poderes para quien los recoge.",
-          "en": "Co-op: field bosses attack any player, altar gifts go to the whole party and power-ups to whoever picks them up."
-        },
-        {
-          "t": "fix",
-          "es": "El juego ya no se queda abierto en segundo plano despu\u00e9s de usar el cooperativo.",
-          "en": "The game no longer stays open in the background after using co-op."
-        },
-        {
-          "t": "fix",
-          "es": "Logros arreglados: \u00abRenace con todas las clases\u00bb ya no cuenta las que no pueden renacer, cuentan las clases jugadas antes, los MVP de uno en uno y los objetos ya guardados; la carta de Marine Sphere ya se puede conseguir.",
-          "en": "Achievements fixed: 'Rebirth every class' no longer counts classes that can't be reborn; classes played earlier, MVPs one by one and items already stored now count; the Marine Sphere card can now be obtained."
-        },
-        {
-          "t": "up",
-          "es": "Al ir a itch.io para descargar una versi\u00f3n nueva, el juego se cierra solo.",
-          "en": "Going to itch.io to download a new version now closes the game."
         }
       ]
     }
