@@ -2,12 +2,37 @@
   "base": "0.1.131",
   "page": "https://nearq.itch.io/midgard-survivors",
   "patch": {
-    "version": "0.1.137",
-    "file": "patches/patch_0.1.137.bin",
-    "size": 10800316,
-    "sha256": "676bbad42638b312679699f625a74b4329131f97672d9a66da798a1f443bcb43"
+    "version": "0.1.138",
+    "file": "patches/patch_0.1.138.bin",
+    "size": 10802748,
+    "sha256": "14d857462277481f35040419b2cd58cd49b320d80a7cde35d10e6d8608433d29"
   },
   "notes": [
+    {
+      "version": "0.1.138",
+      "items": [
+        {
+          "t": "up",
+          "es": "El Hipnotista pasa los niveles de la habilidad olvidada a la habilidad o pasiva que elijas, nueva o que ya tienes: puedes hacer builds de una sola habilidad.",
+          "en": "The Hypnotist passes the forgotten skill's levels to the skill or passive you choose, new or one you already have: one-skill builds are possible."
+        },
+        {
+          "t": "up",
+          "es": "Raid ahora tambi\u00e9n ciega (sus golpes fallan m\u00e1s); Raid Nv10 ciega incluso a jefes y MVP. Divest Weapon sale del juego.",
+          "en": "Raid now also blinds (their blows miss more); Raid Lv10 even blinds bosses and MVPs. Divest Weapon is removed."
+        },
+        {
+          "t": "up",
+          "es": "Back Stab Nv10: cada salto de la cadena multiplica el da\u00f1o, la probabilidad de cr\u00edtico y el da\u00f1o cr\u00edtico.",
+          "en": "Back Stab Lv10: every blink of the chain multiplies the damage, the critical chance and the critical damage."
+        },
+        {
+          "t": "up",
+          "es": "Rebirth en n\u00fameros romanos, brillando en la esquina de la casilla; la Valkyrie te llama con emoticonos hasta que hablas con ella.",
+          "en": "Rebirth in Roman numerals, shining in the slot's corner; the Valkyrie calls you with emotes until you talk to her."
+        }
+      ]
+    },
     {
       "version": "0.1.137",
       "items": [
@@ -425,16 +450,6 @@
           "t": "up",
           "es": "El equipo permanente dice que no se vende y vuelve al almac\u00e9n.",
           "en": "Permanent gear says it can't be sold and goes back to storage."
-        }
-      ]
-    },
-    {
-      "version": "0.1.125",
-      "items": [
-        {
-          "t": "fix",
-          "es": "Con un hueco de skill libre siempre sale una skill nueva al subir de nivel, y una de la primera clase mientras quede alguna (cambiar de oficio r\u00e1pido ya no esconde las del Archer).",
-          "en": "With a free skill slot a new skill always shows up on level up, and one of the first class while any is left (a quick job change no longer hides the Archer's)."
         }
       ]
     }
