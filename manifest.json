@@ -2,12 +2,37 @@
   "base": "0.1.131",
   "page": "https://nearq.itch.io/midgard-survivors",
   "patch": {
-    "version": "0.1.150",
-    "file": "patches/patch_0.1.150.bin",
-    "size": 14374044,
-    "sha256": "c22292eaf58387718361acbba77bb3fba1ace2ca439223bca6a1168bd90a2ae9"
+    "version": "0.1.151",
+    "file": "patches/patch_0.1.151.bin",
+    "size": 62751004,
+    "sha256": "38e1d9d404dc4013e075889152da192c9e74053edc54aa696449bcca3f65e227"
   },
   "notes": [
+    {
+      "version": "0.1.151",
+      "items": [
+        {
+          "t": "new",
+          "es": "Tres mapas nuevos: Toy Factory en Lutie (MVP Stormy Knight), Thanatos Tower en Hugel (MVP Memory of Thanatos) y Bio Laboratory en Schwarzwald (MVP Lord Knight Seyren), con sus monstruos, cartas, mascotas y una \u00fanica cada uno: Santa's Hat, Book of the Dead y Clone Blade.",
+          "en": "Three new maps: Toy Factory in Lutie (MVP Stormy Knight), Thanatos Tower in Hugel (MVP Memory of Thanatos) and Bio Laboratory in Schwarzwald (MVP Lord Knight Seyren), with their monsters, cards, pets and one unique each: Santa's Hat, Book of the Dead and Clone Blade."
+        },
+        {
+          "t": "new",
+          "es": "Cinco Infiernos m\u00e1s (hasta Infierno 10): los monstruos siguen creciendo en vida, da\u00f1o, cantidad y velocidad, y las recompensas tambi\u00e9n.",
+          "en": "Five more Infiernos (up to Infierno 10): monsters keep growing in life, damage, numbers and speed, and so do the rewards."
+        },
+        {
+          "t": "new",
+          "es": "Nuevos males: Cerco de almas (un anillo de monstruos se cierra sobre ti), Heraldos de Surtr (gigantes en llamas que sueltan un cofre y te curan), Marea infernal (el triple de monstruos unos segundos, con cofre si la aguantas), Meteoros errantes (franjas de meteoros cruzan por donde est\u00e1s) y Ragnar\u00f6k (los ca\u00eddos se alzan como espectros).",
+          "en": "New curses: Ring of Souls (a ring of monsters closes in on you), Surtr's Heralds (burning giants that drop a chest and heal you), Infernal Tide (three times the monsters for a few seconds, with a chest if you outlast it), Wandering Meteors (strips of meteors cross where you stand) and Ragnar\u00f6k (the fallen rise as specters)."
+        },
+        {
+          "t": "new",
+          "es": "Logros nuevos: desbloquear el Infierno 7 y 10, vencer un MVP en Infierno, Infierno 5, 8 y 10, derrotar 10 Heraldos y 500 espectros.",
+          "en": "New achievements: unlock Infierno 7 and 10, beat an MVP in Infierno, Infierno 5, 8 and 10, defeat 10 Heralds and 500 specters."
+        }
+      ]
+    },
     {
       "version": "0.1.150",
       "items": [
@@ -315,41 +340,6 @@
           "t": "up",
           "es": "Rebirth y Valkyrie: luces, rayos y halo nuevos; la ventana muestra a tu h\u00e9roe en 3D y cada recompensa en vivo. El Hipnotista ya no tiene tope de nivel.",
           "en": "Rebirth and Valkyrie: new lights, rays and halo; the window shows your hero in 3D and each reward live. The Hypnotist has no level cap anymore."
-        }
-      ]
-    },
-    {
-      "version": "0.1.139",
-      "items": [
-        {
-          "t": "new",
-          "es": "Legendarias de habilidad, una por clase: Mysteltainn, Mighty Staff, Ballista, Quadrille, Golden Axe, Ginnungagap, Murasame, Crimson Bolt y Survivor's Rod cambian tu habilidad principal.",
-          "en": "Skill legendaries, one per class: Mysteltainn, Mighty Staff, Ballista, Quadrille, Golden Axe, Ginnungagap, Murasame, Crimson Bolt and Survivor's Rod change your main skill."
-        },
-        {
-          "t": "up",
-          "es": "Bash m\u00e1s fuerte y vistoso: arco dorado, destello de rayos y un impacto pesado, con m\u00e1s alcance y aturdimiento. Fire Wall pega m\u00e1s.",
-          "en": "Bash stronger and flashier: a golden arc, light rays and a heavy impact, with more reach and stun. Fire Wall hits harder."
-        },
-        {
-          "t": "up",
-          "es": "Co-op: cada jugador ve las habilidades de todos con su propia opacidad (\u00abTus efectos\u00bb); los ataques enemigos siempre se ven. Nueva opci\u00f3n de 20%.",
-          "en": "Co-op: each player sees everyone's skills at their own opacity (\"Your effects\"); enemy attacks always show. New 20% option."
-        },
-        {
-          "t": "up",
-          "es": "Sonido del zeny: una moneda por nota subiendo la escala, y un cha-ching al juntar mucho.",
-          "en": "Zeny sound: one note per coin climbing the scale, and a cha-ching when you collect a lot."
-        },
-        {
-          "t": "up",
-          "es": "Teclas 1-9 solo en las mejoras de nivel con 4 opciones o menos; las habilidades copiadas con Plagiarism lo dicen en su tarjeta.",
-          "en": "Keys 1-9 only on level-ups with 4 options or fewer; skills copied with Plagiarism say so on their card."
-        },
-        {
-          "t": "up",
-          "es": "Tutorial: controles de c\u00e1mara, rueda, Tab y F. En Valhalla puedes caminar con el clic.",
-          "en": "Tutorial: camera, wheel, Tab and F controls. In Valhalla you can walk by clicking."
         }
       ]
     }
