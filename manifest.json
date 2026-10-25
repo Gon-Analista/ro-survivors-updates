@@ -2,12 +2,27 @@
   "base": "0.1.131",
   "page": "https://nearq.itch.io/midgard-survivors",
   "patch": {
-    "version": "0.1.144",
-    "file": "patches/patch_0.1.144.bin",
-    "size": 12754796,
-    "sha256": "3d368749d680fe2164d3690c153c3b13ddd31e6d5878df42596ea9301b6f22cc"
+    "version": "0.1.145",
+    "file": "patches/patch_0.1.145.bin",
+    "size": 12755436,
+    "sha256": "1dc3fd0a98b57c547e4a41c533f1ee3d707bccfea77ca007e0651212931f1bb6"
   },
   "notes": [
+    {
+      "version": "0.1.145",
+      "items": [
+        {
+          "t": "up",
+          "es": "Ninguna clase empieza con una habilidad obligatoria: la de inicio y la del cambio de oficio siempre se eligen.",
+          "en": "No class starts with a forced skill: the starting one and the job change one are always picked."
+        },
+        {
+          "t": "up",
+          "es": "Crusader y Paladin ya no traen Auto Guard de regalo, ni el Archer renacido Making Arrow: ahora se eligen.",
+          "en": "Crusader and Paladin no longer get Auto Guard for free, nor the reborn Archer Making Arrow: they are picked now."
+        }
+      ]
+    },
     {
       "version": "0.1.144",
       "items": [
@@ -370,31 +385,6 @@
           "t": "fix",
           "es": "El c\u00edrculo de Satan Morroc ya no lo tapa. Gemas de EXP desactivadas por defecto y barra de EXP m\u00e1s visible.",
           "en": "Satan Morroc's circle no longer covers him. EXP gems off by default and a more visible EXP bar."
-        }
-      ]
-    },
-    {
-      "version": "0.1.133",
-      "items": [
-        {
-          "t": "new",
-          "es": "Opci\u00f3n para jugar sin gemas de EXP: la EXP llega sola al matar, como en RO, con una luz que vuela hacia tu h\u00e9roe.",
-          "en": "Option to play without EXP gems: EXP comes straight in on each kill, like in RO, with a light flying to your hero."
-        },
-        {
-          "t": "up",
-          "es": "El Hipnotista aparece m\u00e1s seguido (2:30, 5:30, 8:30 y cada 3 minutos en Infinito) y ahora tambi\u00e9n cambia pasivas.",
-          "en": "The Hypnotist shows up more often (2:30, 5:30, 8:30 and every 3 minutes in Endless) and now also swaps passives."
-        },
-        {
-          "t": "up",
-          "es": "La guada\u00f1a y el l\u00e1ser giratorios y los muros de los MvP ahora tienen sus efectos de verdad.",
-          "en": "The MVPs' spinning scythe and laser and their walls now have proper effects."
-        },
-        {
-          "t": "up",
-          "es": "La barra de EXP brilla suave al ganar EXP en vez de titilar. Dos im\u00e1genes de carga nuevas.",
-          "en": "The EXP bar glows softly when you gain EXP instead of blinking. Two new loading screens."
         }
       ]
     }
