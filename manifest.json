@@ -2,12 +2,32 @@
   "base": "0.1.131",
   "page": "https://nearq.itch.io/midgard-survivors",
   "patch": {
-    "version": "0.1.143",
-    "file": "patches/patch_0.1.143.bin",
-    "size": 12570924,
-    "sha256": "036bf046bca228c5f3a32dd6f5e36f3d1734329ea0db3a9f8cf45337c09a8f84"
+    "version": "0.1.144",
+    "file": "patches/patch_0.1.144.bin",
+    "size": 12754796,
+    "sha256": "3d368749d680fe2164d3690c153c3b13ddd31e6d5878df42596ea9301b6f22cc"
   },
   "notes": [
+    {
+      "version": "0.1.144",
+      "items": [
+        {
+          "t": "up",
+          "es": "Jupitel Thunder como en RO: una bola de rayos golpea varias veces al objetivo, lo empuja y lo aturde, con su sonido y efectos originales.",
+          "en": "Jupitel Thunder as in RO: a ball of lightning strikes the target several times, pushes it back and stuns it, with its original sound and effects."
+        },
+        {
+          "t": "new",
+          "es": "Hunter y Sniper: Blitz Beat es pasiva (el halc\u00f3n ataca solo al disparar) y la nueva activa es Falcon Assault.",
+          "en": "Hunter and Sniper: Blitz Beat is a passive (the falcon attacks on its own when you shoot) and the new active is Falcon Assault."
+        },
+        {
+          "t": "up",
+          "es": "Todo lo que lanzan cartas y equipo crece igual: con tu nivel y la FUE (marcado \u00d7Lv); las \u00fanicas tambi\u00e9n.",
+          "en": "Everything cards and equipment cast grows the same way: with your level and STR (marked \u00d7Lv); uniques too."
+        }
+      ]
+    },
     {
       "version": "0.1.143",
       "items": [
@@ -375,51 +395,6 @@
           "t": "up",
           "es": "La barra de EXP brilla suave al ganar EXP en vez de titilar. Dos im\u00e1genes de carga nuevas.",
           "en": "The EXP bar glows softly when you gain EXP instead of blinking. Two new loading screens."
-        }
-      ]
-    },
-    {
-      "version": "0.1.132",
-      "items": [
-        {
-          "t": "new",
-          "es": "MvPs con nuevas mec\u00e1nicas: todos lanzan grietas desde su cuerpo (ponte entre los rayos) y cada uno tiene un ataque nuevo: muros con un hueco, rayos giratorios, el reloj del Owl Baron, sellos que pisar, charcos de fuego, andanadas en carriles, cadenas a un t\u00f3tem y m\u00e1s.",
-          "en": "MVPs with new mechanics: all of them cast rifts from their body (stand between the rays) and each one has a new attack: walls with a gap, spinning beams, Owl Baron's clock, seals to step on, fire puddles, lane barrages, chains to a totem and more."
-        },
-        {
-          "t": "new",
-          "es": "C\u00e1mara giratoria como en RO (clic derecho y arrastrar; doble clic derecho la vuelve a la cl\u00e1sica) y cursores animados del cliente.",
-          "en": "RO-style rotating camera (right-click and drag; double right-click resets it) and the client's animated cursors."
-        },
-        {
-          "t": "new",
-          "es": "Cooperativo: medidor de da\u00f1o \u00abGrupo\u00bb con el da\u00f1o y el DPS de cada jugador por su nombre.",
-          "en": "Co-op: \"Party\" damage meter with every player's damage and DPS by name."
-        },
-        {
-          "t": "up",
-          "es": "Gemas de EXP con destello, vuelo con estela hacia el h\u00e9roe y un \u00abding\u00bb al recogerlas.",
-          "en": "EXP gems sparkle, fly to the hero with a trail and ding when picked up."
-        },
-        {
-          "t": "up",
-          "es": "Heal con luz verde y n\u00fameros grandes como en RO; Assumptio con su halo; ceremonia de cambio de oficio; Increase AGI con efecto y sonido.",
-          "en": "Heal with green light and big numbers like in RO; Assumptio with its halo; job change ceremony; Increase AGI with its effect and sound."
-        },
-        {
-          "t": "up",
-          "es": "Satan Morroc: m\u00e1s vida, se queda menos quieto y su c\u00edrculo ya no lo tapan los cerros. Vida base de los MvP un poco m\u00e1s baja.",
-          "en": "Satan Morroc: more HP, stands still less and hills no longer hide its circle. MVP base HP slightly lower."
-        },
-        {
-          "t": "fix",
-          "es": "Cooperativo: cualquiera ve y puede empezar la quest, y los que no son l\u00edder pueden salir sin perder nada.",
-          "en": "Co-op: anyone sees and can start the quest, and non-leaders can leave without losing anything."
-        },
-        {
-          "t": "fix",
-          "es": "Ankle Snare con la trampa de osos del cliente; la rueda del mouse ya no mueve el zoom sobre una ventana; cofre dorado de frente.",
-          "en": "Ankle Snare uses the client's bear trap; the mouse wheel no longer zooms over a window; golden chest faces front."
         }
       ]
     }
