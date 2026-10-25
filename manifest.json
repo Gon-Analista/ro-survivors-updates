@@ -2,12 +2,42 @@
   "base": "0.1.131",
   "page": "https://nearq.itch.io/midgard-survivors",
   "patch": {
-    "version": "0.1.133",
-    "file": "patches/patch_0.1.133.bin",
-    "size": 2594012,
-    "sha256": "0daf89ef35b5cc1ce331b75312f328a5bd759f97c0300d9d1745acdfe36f0971"
+    "version": "0.1.134",
+    "file": "patches/patch_0.1.134.bin",
+    "size": 2626812,
+    "sha256": "28381a34a09c30636a72b82b7f98340a2997fcdfeee1e5c21cd984e449b67dcb"
   },
   "notes": [
+    {
+      "version": "0.1.134",
+      "items": [
+        {
+          "t": "up",
+          "es": "Monk y Champion: el combo se aprende y se lanza en orden (Raging Trifecta \u2192 Quadruple \u2192 Thrust \u2192 Chain Crush), con poses de pu\u00f1o en cada golpe, sonidos originales y m\u00e1s efectos; cuenta como ataque b\u00e1sico para cartas y procs.",
+          "en": "Monk and Champion: the combo is learned and cast in order (Raging Trifecta \u2192 Quadruple \u2192 Thrust \u2192 Chain Crush), with punch poses on every blow, original sounds and more effects; it counts as a basic attack for cards and procs."
+        },
+        {
+          "t": "up",
+          "es": "Summon Spirit Sphere ya no viene gratis: es una pasiva que necesitan Asura Strike, Finger Offensive y Steel Body.",
+          "en": "Summon Spirit Sphere is no longer free: it is a passive that Asura Strike, Finger Offensive and Steel Body need."
+        },
+        {
+          "t": "new",
+          "es": "El cofre de Satan Morroc ahora es diab\u00f3lico y suelta mucho m\u00e1s seguido sus legendarias (anillos de Flame Lord y Resonance, Diabolus).",
+          "en": "Satan Morroc's chest is now diabolic and drops his legendaries far more often (Flame Lord and Resonance rings, Diabolus gear)."
+        },
+        {
+          "t": "up",
+          "es": "Los monstruos sueltan zeny directamente: una moneda de oro peque\u00f1a que gira.",
+          "en": "Monsters drop zeny straight away: a small spinning gold coin."
+        },
+        {
+          "t": "fix",
+          "es": "El c\u00edrculo de Satan Morroc ya no lo tapa. Gemas de EXP desactivadas por defecto y barra de EXP m\u00e1s visible.",
+          "en": "Satan Morroc's circle no longer covers him. EXP gems off by default and a more visible EXP bar."
+        }
+      ]
+    },
     {
       "version": "0.1.133",
       "items": [
@@ -400,16 +430,6 @@
           "t": "up",
           "es": "Drops de poder (Berserk Potion, Bubble Gum...) a la mitad.",
           "en": "Power drops (Berserk Potion, Bubble Gum...) halved."
-        }
-      ]
-    },
-    {
-      "version": "0.1.121",
-      "items": [
-        {
-          "t": "up",
-          "es": "M\u00e1s FPS: se quit\u00f3 el suavizado 3D (no cambiaba nada a la vista) y el motor ya no calcula f\u00edsica que el juego no usa. La opci\u00f3n Suavizado ya no hace falta.",
-          "en": "More FPS: 3D anti-aliasing is gone (it made no visible difference) and the engine no longer computes physics the game doesn't use. The Anti-aliasing option is no longer needed."
         }
       ]
     }
