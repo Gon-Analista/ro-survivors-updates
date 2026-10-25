@@ -2,12 +2,37 @@
   "base": "0.1.131",
   "page": "https://nearq.itch.io/midgard-survivors",
   "patch": {
-    "version": "0.1.145",
-    "file": "patches/patch_0.1.145.bin",
-    "size": 12755436,
-    "sha256": "1dc3fd0a98b57c547e4a41c533f1ee3d707bccfea77ca007e0651212931f1bb6"
+    "version": "0.1.146",
+    "file": "patches/patch_0.1.146.bin",
+    "size": 12757660,
+    "sha256": "c77fbbac2ef09c2ab9c9f1b8f0c3c36fb61545bdcf735a7f2be6ea3477856ef9"
   },
   "notes": [
+    {
+      "version": "0.1.146",
+      "items": [
+        {
+          "t": "fix",
+          "es": "Arreglada una ca\u00edda fuerte de FPS con muchos golpes (los n\u00fameros de da\u00f1o nuevos y otras marcas).",
+          "en": "Fixed a big FPS drop with many hits (the new damage numbers and other marks)."
+        },
+        {
+          "t": "new",
+          "es": "Opci\u00f3n de opacidad para los n\u00fameros de da\u00f1o (80% por defecto), cada jugador la suya en co-op.",
+          "en": "Damage numbers opacity option (80% by default), each player's own in co-op."
+        },
+        {
+          "t": "up",
+          "es": "Trampas del Hunter con su aspecto: Land Mine roja, Sandman azul y Ankle Snare como el cepo del cliente, que se cierra al atrapar.",
+          "en": "Hunter traps with their own look: red Land Mine, blue Sandman and Ankle Snare as the client's bear trap, snapping shut on its catch."
+        },
+        {
+          "t": "fix",
+          "es": "Las tarjetas de mejora legendarias ya no dejan el texto fuera; Owl's Eye y Making Arrow explican bien qu\u00e9 mejoran.",
+          "en": "Legendary upgrade cards no longer leave text outside; Owl's Eye and Making Arrow clearly say what they improve."
+        }
+      ]
+    },
     {
       "version": "0.1.145",
       "items": [
@@ -355,36 +380,6 @@
           "t": "fix",
           "es": "El combo del Champion ya no se corta contra hordas. Los c\u00edrculos de los MvP ya no tapan a los personajes.",
           "en": "The Champion's combo no longer stops against hordes. MVP circles no longer cover the characters."
-        }
-      ]
-    },
-    {
-      "version": "0.1.134",
-      "items": [
-        {
-          "t": "up",
-          "es": "Monk y Champion: el combo se aprende y se lanza en orden (Raging Trifecta \u2192 Quadruple \u2192 Thrust \u2192 Chain Crush), con poses de pu\u00f1o en cada golpe, sonidos originales y m\u00e1s efectos; cuenta como ataque b\u00e1sico para cartas y procs.",
-          "en": "Monk and Champion: the combo is learned and cast in order (Raging Trifecta \u2192 Quadruple \u2192 Thrust \u2192 Chain Crush), with punch poses on every blow, original sounds and more effects; it counts as a basic attack for cards and procs."
-        },
-        {
-          "t": "up",
-          "es": "Summon Spirit Sphere ya no viene gratis: es una pasiva que necesitan Asura Strike, Finger Offensive y Steel Body.",
-          "en": "Summon Spirit Sphere is no longer free: it is a passive that Asura Strike, Finger Offensive and Steel Body need."
-        },
-        {
-          "t": "new",
-          "es": "El cofre de Satan Morroc ahora es diab\u00f3lico y suelta mucho m\u00e1s seguido sus legendarias (anillos de Flame Lord y Resonance, Diabolus).",
-          "en": "Satan Morroc's chest is now diabolic and drops his legendaries far more often (Flame Lord and Resonance rings, Diabolus gear)."
-        },
-        {
-          "t": "up",
-          "es": "Los monstruos sueltan zeny directamente: una moneda de oro peque\u00f1a que gira.",
-          "en": "Monsters drop zeny straight away: a small spinning gold coin."
-        },
-        {
-          "t": "fix",
-          "es": "El c\u00edrculo de Satan Morroc ya no lo tapa. Gemas de EXP desactivadas por defecto y barra de EXP m\u00e1s visible.",
-          "en": "Satan Morroc's circle no longer covers him. EXP gems off by default and a more visible EXP bar."
         }
       ]
     }
