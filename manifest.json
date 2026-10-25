@@ -2,12 +2,42 @@
   "base": "0.1.131",
   "page": "https://nearq.itch.io/midgard-survivors",
   "patch": {
-    "version": "0.1.142",
-    "file": "patches/patch_0.1.142.bin",
-    "size": 12568316,
-    "sha256": "cc25aa6fc3e0cae8d531b0563471a551f1f763e6d0d691ed23a19920bad6f358"
+    "version": "0.1.143",
+    "file": "patches/patch_0.1.143.bin",
+    "size": 12570924,
+    "sha256": "036bf046bca228c5f3a32dd6f5e36f3d1734329ea0db3a9f8cf45337c09a8f84"
   },
   "notes": [
+    {
+      "version": "0.1.143",
+      "items": [
+        {
+          "t": "up",
+          "es": "N\u00fameros de da\u00f1o m\u00e1s limpios: menos a la vez, los peque\u00f1os se saltan con mucho jaleo, solo los cr\u00edticos grandes llevan explosi\u00f3n y los golpes grandes como el Asura siempre se ven.",
+          "en": "Cleaner damage numbers: fewer at once, small ones skipped in a crowd, only big criticals get a burst, and big hits like Asura always show."
+        },
+        {
+          "t": "up",
+          "es": "Asura Strike va primero al Poring Dorado, luego a jefes y \u00e9lites, y caminando solo elige lo que tienes delante.",
+          "en": "Asura Strike goes for the Golden Poring first, then bosses and elites, and while walking it only picks what's ahead."
+        },
+        {
+          "t": "up",
+          "es": "Kaiser Knuckle: Occult Impaction a tu nivel (o su Nv10) y m\u00e1s seguido. Todos los autocast usan tu nivel si tienes la habilidad m\u00e1s alta.",
+          "en": "Kaiser Knuckle: Occult Impaction at your level (or its Lv10) and more often. Every autocast uses your level if your skill is higher."
+        },
+        {
+          "t": "up",
+          "es": "AGI y DES dicen cu\u00e1nto ASPD dan.",
+          "en": "AGI and DEX say how much ASPD they give."
+        },
+        {
+          "t": "fix",
+          "es": "Abrir y cerrar las mejoras acumuladas con Tab ya no las cambia gratis; las cartas equipadas del \u00c1lbum ya no se estiran.",
+          "en": "Opening and closing saved-up level-ups with Tab no longer rerolls them for free; equipped cards in the Album no longer stretch."
+        }
+      ]
+    },
     {
       "version": "0.1.142",
       "items": [
@@ -390,16 +420,6 @@
           "t": "fix",
           "es": "Ankle Snare con la trampa de osos del cliente; la rueda del mouse ya no mueve el zoom sobre una ventana; cofre dorado de frente.",
           "en": "Ankle Snare uses the client's bear trap; the mouse wheel no longer zooms over a window; golden chest faces front."
-        }
-      ]
-    },
-    {
-      "version": "0.1.131",
-      "items": [
-        {
-          "t": "up",
-          "es": "Nueva versi\u00f3n completa con todo lo de la 0.1.130: mascotas MvP, Plagiarism para todas las clases y el cooperativo de apoyo como en RO.",
-          "en": "New full build with everything from 0.1.130: MVP pets, Plagiarism for every class and RO-style co-op support."
         }
       ]
     }
