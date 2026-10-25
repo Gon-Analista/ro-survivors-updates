@@ -2,12 +2,57 @@
   "base": "0.1.131",
   "page": "https://nearq.itch.io/midgard-survivors",
   "patch": {
-    "version": "0.1.139",
-    "file": "patches/patch_0.1.139.bin",
-    "size": 10832092,
-    "sha256": "69185dea334203e027983fcbc226a58232e169ae7b179edc9ddbda7e7176b203"
+    "version": "0.1.140",
+    "file": "patches/patch_0.1.140.bin",
+    "size": 12333900,
+    "sha256": "f01491fec4d23428355f4632f2b31807326585f5bd504a728cc2d9358af90c46"
   },
   "notes": [
+    {
+      "version": "0.1.140",
+      "items": [
+        {
+          "t": "up",
+          "es": "N\u00fameros de da\u00f1o como en RO: saltan en arco y caen en cascada hacia un lado, achic\u00e1ndose. \u00abResiste\u00bb y \u00ab\u00a1Eficaz!\u00bb m\u00e1s peque\u00f1os.",
+          "en": "Damage numbers as in RO: they hop in an arc and cascade off to the side, shrinking. \"Resists\" and \"Effective!\" are smaller."
+        },
+        {
+          "t": "up",
+          "es": "Cr\u00edticos con la explosi\u00f3n roja del cliente; el ultra cr\u00edtico suma una explosi\u00f3n dorada y un anillo, y el letal explosiones carmes\u00ed que laten y tiemblan.",
+          "en": "Criticals on the client's red burst; ultra criticals add a golden burst and a ring, lethal ones pulsing crimson bursts that shake."
+        },
+        {
+          "t": "up",
+          "es": "Back Stab: el x2, x3... de la cadena enorme, de blanco a dorado y rojo.",
+          "en": "Back Stab: the chain's x2, x3... huge, going from white to gold to red."
+        },
+        {
+          "t": "fix",
+          "es": "Back Stab / Shadow Slash ya no te hacen inmune durante toda la cadena (con Ginnungagap eras inmortal contra los MVP).",
+          "en": "Back Stab / Shadow Slash no longer make you immune for the whole chain (with Ginnungagap you were immortal against MVPs)."
+        },
+        {
+          "t": "new",
+          "es": "La mascota trae los cofres lejanos: act\u00edvalo con G o en el inventario.",
+          "en": "Your pet fetches far-away chests: turn it on with G or in the inventory."
+        },
+        {
+          "t": "up",
+          "es": "Monje: esferas espirituales como pasiva que se carga golpeando, Critical Explosion y Occult Impaction; Asura Strike las gasta todas.",
+          "en": "Monk: spirit spheres as a passive charged by hitting, Critical Explosion and Occult Impaction; Asura Strike spends them all."
+        },
+        {
+          "t": "up",
+          "es": "Atributos repensados: FUE ataque b\u00e1sico, INT habilidades y \u00e1rea, DES recarga y Apoyo, VIT vida, SUE cr\u00edtico.",
+          "en": "Attributes reworked: STR basic attack, INT skills and area, DEX cooldowns and Support, VIT life, LUK criticals."
+        },
+        {
+          "t": "up",
+          "es": "Rebirth y Valkyrie: luces, rayos y halo nuevos; la ventana muestra a tu h\u00e9roe en 3D y cada recompensa en vivo. El Hipnotista ya no tiene tope de nivel.",
+          "en": "Rebirth and Valkyrie: new lights, rays and halo; the window shows your hero in 3D and each reward live. The Hypnotist has no level cap anymore."
+        }
+      ]
+    },
     {
       "version": "0.1.139",
       "items": [
@@ -385,46 +430,6 @@
           "t": "fix",
           "es": "Las cartas pasan al equipo nuevo al cambiarlo, y el \u00e1lbum y la ventana de engarzar caben en pantalla.",
           "en": "Cards move to the new gear when you swap it, and the album and socket window fit on screen."
-        }
-      ]
-    },
-    {
-      "version": "0.1.127",
-      "items": [
-        {
-          "t": "new",
-          "es": "\u00a1Cooperativo hasta 4 jugadores! Habla con Nyanya en la plaza de Prontera: crea una sala y pasa el c\u00f3digo, o \u00fanete con el c\u00f3digo de un amigo.",
-          "en": "Co-op for up to 4 players! Talk to Nyanya in Prontera's plaza: create a room and share the code, or join with a friend's code."
-        },
-        {
-          "t": "new",
-          "es": "En la sala se ven en Prontera, con chat y lo que hace cada uno; el l\u00edder elige el mapa y la dificultad con su progreso.",
-          "en": "In a room you see each other in Prontera, with chat and what everyone is doing; the leader picks the map and the danger with their progress."
-        },
-        {
-          "t": "new",
-          "es": "En cooperativo: experiencia compartida, el equipo normal se reparte solo y las legendarias y \u00fanicas se sortean con dados; solo el l\u00edder pausa.",
-          "en": "In co-op: shared EXP, normal gear is shared out on its own and legendaries and uniques are rolled with dice; only the leader pauses."
-        },
-        {
-          "t": "new",
-          "es": "Mientras eliges una mejora eres inmortal y los monstruos van por otro; a un compa\u00f1ero ca\u00eddo lo levantas qued\u00e1ndote a su lado.",
-          "en": "While you pick an upgrade you're immortal and monsters go for someone else; stand next to a fallen ally to get them back up."
-        },
-        {
-          "t": "new",
-          "es": "Cada oficio puede usar las otras armas que lleva en RO, con su propio sprite.",
-          "en": "Each job can use the other weapons it holds in RO, with its own sprite."
-        },
-        {
-          "t": "new",
-          "es": "Guarda conjuntos de equipo inicial y de cartas para cambiarlos r\u00e1pido.",
-          "en": "Save sets of starting gear and cards to switch quickly."
-        },
-        {
-          "t": "fix",
-          "es": "Charge Arrow ya no suena como una trompeta.",
-          "en": "Charge Arrow no longer sounds like a trumpet."
         }
       ]
     }
