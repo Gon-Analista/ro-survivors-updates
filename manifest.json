@@ -2,12 +2,57 @@
   "base": "0.1.131",
   "page": "https://nearq.itch.io/midgard-survivors",
   "patch": {
-    "version": "0.1.148",
-    "file": "patches/patch_0.1.148.bin",
-    "size": 12759356,
-    "sha256": "852847f8216c8b763f8fcb57985074a79cffbb23b61ae6302c2e41bb7f39ccd9"
+    "version": "0.1.149",
+    "file": "patches/patch_0.1.149.bin",
+    "size": 13778348,
+    "sha256": "5537fe73dbaa75fe6af7d47e3a2cacecf9da3b9da48d4026b22952d61cafd0fc"
   },
   "notes": [
+    {
+      "version": "0.1.149",
+      "items": [
+        {
+          "t": "new",
+          "es": "Blacksmith y Whitesmith rehechos con la Forja: cada golpe calienta tu arma y la refina durante la partida (+1 cada vez). Hasta +7 es seguro; m\u00e1s all\u00e1 cada nivel puede romperla, y al romperse estalla a tu alrededor y vuelve a +7. El Whitesmith llega a +20 y rompe menos. Cada nivel de refinado hace m\u00e1s fuertes tus habilidades.",
+          "en": "Blacksmith and Whitesmith reworked around the Forge: every hit heats your weapon and refines it during the run (+1 each time). Up to +7 is safe; past it each level may break it, and when it breaks it bursts around you and drops back to +7. The Whitesmith reaches +20 and breaks less. Each refine level makes your skills stronger."
+        },
+        {
+          "t": "new",
+          "es": "Nuevas habilidades del herrero: Axe Tornado (torbellino de hacha que atrae a los monstruos; Nv10 dura 3 s), Cart Cannon (ca\u00f1onazo al m\u00e1s fuerte; Nv10 tres balas que dejan el suelo ardiendo) y Meltdown en el Whitesmith (tus golpes hacen que reciban m\u00e1s da\u00f1o). Weaponry Research da m\u00e1s da\u00f1o b\u00e1sico por cada nivel de refinado.",
+          "en": "New smith skills: Axe Tornado (an axe whirlwind that draws monsters in; Lv10 lasts 3 s), Cart Cannon (a cannon shot at the strongest; Lv10 three balls that leave the ground burning) and Meltdown for the Whitesmith (your hits make them take more damage). Weaponry Research gives more basic damage per refine level."
+        },
+        {
+          "t": "up",
+          "es": "Refinar con minerales durante la partida como herrero ya no baja el nivel al fallar: el siguiente intento es m\u00e1s probable.",
+          "en": "Refining with ores during a run as a smith no longer drops a level on failure: the next attempt is likelier instead."
+        },
+        {
+          "t": "new",
+          "es": "Alchemist rehecho: Acid Terror deja un charco de \u00e1cido que hace recibir m\u00e1s da\u00f1o, Chemical Protection para el grupo, Bioethics, y cada Hom\u00fanculo con su papel y su aura (Lif apoyo, Amistr cuerpo a cuerpo, Filir b\u00e1sicos, Vanilmirth suelo). El Creator lleva dos Hom\u00fanculos y la legendaria Embryo uno m\u00e1s.",
+          "en": "Alchemist reworked: Acid Terror leaves an acid puddle that makes monsters take more damage, Chemical Protection for the party, Bioethics, and each Homunculus has its own role and aura (Lif support, Amistr melee, Filir basic attacks, Vanilmirth ground). The Creator brings two Homunculi and the legendary Embryo one more."
+        },
+        {
+          "t": "new",
+          "es": "Call Homunculus Nv10 (con Bioethics): tus Hom\u00fanculos mutan a su forma S, te acompa\u00f1a uno m\u00e1s y cada uno lanza su habilidad especial.",
+          "en": "Call Homunculus Lv10 (with Bioethics): your Homunculi mutate to their S form, one more follows you and each one casts its special skill."
+        },
+        {
+          "t": "up",
+          "es": "Mammonite Nv10 crece con el zeny que tienes guardado y suelta una lluvia de monedas; Cart Revolution Nv10 pega m\u00e1s cuanto m\u00e1s r\u00e1pido te mueves.",
+          "en": "Mammonite Lv10 grows with the zeny you have saved and drops a shower of coins; Cart Revolution Lv10 hits harder the faster you move."
+        },
+        {
+          "t": "new",
+          "es": "Knight redise\u00f1ado como jinete que pega en movimiento: Charge Attack, Spear Boomerang, Spiral Pierce como taladro en el Lord Knight y la pasiva Aura Blade.",
+          "en": "Knight redesigned as a rider who hits on the move: Charge Attack, Spear Boomerang, Spiral Pierce as a drill for the Lord Knight and the Aura Blade passive."
+        },
+        {
+          "t": "fix",
+          "es": "Quitada la estrellita que parpadeaba junto a \u00abRebirth I\u00bb en la selecci\u00f3n de personaje.",
+          "en": "Removed the little star blinking next to \"Rebirth I\" on character select."
+        }
+      ]
+    },
     {
       "version": "0.1.148",
       "items": [
@@ -305,41 +350,6 @@
           "t": "up",
           "es": "Rebirth en n\u00fameros romanos, brillando en la esquina de la casilla; la Valkyrie te llama con emoticonos hasta que hablas con ella.",
           "en": "Rebirth in Roman numerals, shining in the slot's corner; the Valkyrie calls you with emotes until you talk to her."
-        }
-      ]
-    },
-    {
-      "version": "0.1.137",
-      "items": [
-        {
-          "t": "new",
-          "es": "Rebirth: con tu clase en la cima, la Valkyrie de Prontera te llama para renacer otra vez (hasta Rebirth X). Vuelves a Nivel de clase 1 sin perder atributos, aura ni renacimiento.",
-          "en": "Rebirth: with your class at the top, the Valkyrie in Prontera calls you to be reborn again (up to Rebirth X). You go back to class level 1 keeping your stats, aura and rebirth."
-        },
-        {
-          "t": "new",
-          "es": "Cada Rebirth desbloquea un adorno: destellos, runas, rayos, orbes, estela, aura dorada, pilar, halo, corona y la luz de Valhalla con tu nombre en oro. Mu\u00e9stralos u oc\u00faltalos en su ventana.",
-          "en": "Each Rebirth unlocks a look: sparkles, runes, rays, orbs, afterimage, golden aura, pillar, halo, crown and Valhalla's light with your name in gold. Show or hide them in her window."
-        },
-        {
-          "t": "up",
-          "es": "Habilidades que se activan con F o con clic en su casilla: Heat Barrel, Steel Body, Asura Strike, Back Stab y Shadow Slash (cadenas de teletransportes a la espalda de los monstruos).",
-          "en": "Skills toggled with F or a click on their slot: Heat Barrel, Steel Body, Asura Strike, Back Stab and Shadow Slash (chains of blinks behind monsters)."
-        },
-        {
-          "t": "up",
-          "es": "Los ataques avisados de los MVP ahora se ven al caer: cada uno con su propio golpe de luz en l\u00ednea, cono o c\u00edrculo.",
-          "en": "MVPs' telegraphed attacks now show as they land: each with its own strike of light as a line, cone or circle."
-        },
-        {
-          "t": "up",
-          "es": "Equipo inicial: arrastra piezas del almac\u00e9n a la ranura que quieras, entre accesorios o de vuelta al almac\u00e9n.",
-          "en": "Starting gear: drag pieces from the storage to the slot you want, between accessories or back to the storage."
-        },
-        {
-          "t": "fix",
-          "es": "La ventana del set del Super Novice ya no salta de scroll al elegir una habilidad.",
-          "en": "The Super Novice set window no longer jumps when you pick a skill."
         }
       ]
     }
