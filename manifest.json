@@ -2,12 +2,42 @@
   "base": "0.1.131",
   "page": "https://nearq.itch.io/midgard-survivors",
   "patch": {
-    "version": "0.1.134",
-    "file": "patches/patch_0.1.134.bin",
-    "size": 2626812,
-    "sha256": "28381a34a09c30636a72b82b7f98340a2997fcdfeee1e5c21cd984e449b67dcb"
+    "version": "0.1.135",
+    "file": "patches/patch_0.1.135.bin",
+    "size": 10692684,
+    "sha256": "56b7b08f8e4f5813ae1fd9da057cae5b4589387a925380e7ad20000fac08761d"
   },
   "notes": [
+    {
+      "version": "0.1.135",
+      "items": [
+        {
+          "t": "new",
+          "es": "\u00a1Clase nueva: Super Novice! Arma tu propio set con las habilidades y pasivas de todas las clases base (6 y 6), guarda tus sets y elige entre 27 tintes de ropa.",
+          "en": "New class: Super Novice! Build your own set from every base class's skills and passives (6 and 6), save your sets and pick from 27 outfit dyes."
+        },
+        {
+          "t": "new",
+          "es": "\u00a1Clase nueva: Taekwon Kid / Taekwon Girl! Patadas y posturas, y su paso a Star Gladiator o Soul Linker.",
+          "en": "New class: Taekwon Kid / Taekwon Girl! Kicks and stances, moving on to Star Gladiator or Soul Linker."
+        },
+        {
+          "t": "up",
+          "es": "La EXP llega al matar: el alma del monstruo vuela hacia ti y la barra de EXP brilla con chispas. Bubble Gum da 30 s de doble zeny y cartas.",
+          "en": "EXP comes in on each kill: the monster's soul flies to you and the EXP bar sparkles. Bubble Gum gives 30 s of double zeny and cards."
+        },
+        {
+          "t": "up",
+          "es": "Satan Morroc da 5 niveles. Sonido de monedas al recoger zeny, m\u00e1s lleno cuanto m\u00e1s recibes.",
+          "en": "Satan Morroc grants 5 levels. Coins clink when you pick up zeny, fuller the more you get."
+        },
+        {
+          "t": "fix",
+          "es": "El combo del Champion ya no se corta contra hordas. Los c\u00edrculos de los MvP ya no tapan a los personajes.",
+          "en": "The Champion's combo no longer stops against hordes. MVP circles no longer cover the characters."
+        }
+      ]
+    },
     {
       "version": "0.1.134",
       "items": [
@@ -375,61 +405,6 @@
           "t": "up",
           "es": "Cada trampa se ve distinta en el suelo: Land Mine magenta, Sandman amarilla, Ankle Snare azul.",
           "en": "Each trap looks different on the ground: Land Mine magenta, Sandman yellow, Ankle Snare blue."
-        }
-      ]
-    },
-    {
-      "version": "0.1.122",
-      "items": [
-        {
-          "t": "new",
-          "es": "Hunter: Ankle Snare, la trampa de osos del RO: inmoviliza a los monstruos y los desangra; Nv10 arrastra a los de alrededor y atrapa jefes y MVPs.",
-          "en": "Hunter: Ankle Snare, RO's bear trap: it holds monsters in place and makes them bleed; Lv10 drags those around in and catches bosses and MVPs."
-        },
-        {
-          "t": "up",
-          "es": "Beast Bane ahora es Trap Research: los que pisan tus trampas quedan atrapados 4 s con m\u00e1s da\u00f1o recibido y tu halc\u00f3n ataca solo el doble.",
-          "en": "Beast Bane is now Trap Research: monsters stepping on your traps are caught for 4 s taking more damage, and your falcon dives on its own twice as often."
-        },
-        {
-          "t": "up",
-          "es": "Arrow Shower ya no aparece para el Archer.",
-          "en": "Arrow Shower is no longer offered to the Archer."
-        },
-        {
-          "t": "new",
-          "es": "Flechas de habilidad con su color, brillo y estela; Double Strafe con el destello del cliente y Sharp Shooting con su anillo de llamas y una lanza de luz.",
-          "en": "Skill arrows have their own colour, glow and trail; Double Strafe gets the client's flash and Sharp Shooting its ring of flames and a lance of light."
-        },
-        {
-          "t": "new",
-          "es": "Sniper con el halc\u00f3n blanco del cliente.",
-          "en": "The Sniper gets the client's white falcon."
-        },
-        {
-          "t": "new",
-          "es": "Galope de Sleipnir: al abrirse el portal del MVP corres mucho m\u00e1s r\u00e1pido y atraes m\u00e1s bot\u00edn hasta cruzarlo.",
-          "en": "Sleipnir's Gallop: when the MVP portal opens you run much faster and pull more loot until you go through."
-        },
-        {
-          "t": "up",
-          "es": "Heat Barrel ya no gasta monedas: escala con tus monedas m\u00e1ximas y quieto el ca\u00f1\u00f3n se calienta hasta 2.5 veces el bonus.",
-          "en": "Heat Barrel no longer spends coins: it scales with your max coins and standing still heats the barrel up to 2.5 times the bonus."
-        },
-        {
-          "t": "new",
-          "es": "Inventario: mant\u00e9n Shift sobre un objeto para compararlo con el equipado. Los buffs muestran al pasar el mouse lo que te dan ahora mismo.",
-          "en": "Inventory: hold Shift over an item to compare it with the equipped one. Buffs show on hover what they give right now."
-        },
-        {
-          "t": "up",
-          "es": "Poring Dorado m\u00e1s cerca y quieto hasta que le pegas. Los mapas muestran en sombra el NPC de su quest y lo que da.",
-          "en": "The Golden Poring shows up closer and waits until hit. Maps show their quest's NPC and rewards in shadow."
-        },
-        {
-          "t": "up",
-          "es": "Drops de poder (Berserk Potion, Bubble Gum...) a la mitad.",
-          "en": "Power drops (Berserk Potion, Bubble Gum...) halved."
         }
       ]
     }
