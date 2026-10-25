@@ -2,12 +2,22 @@
   "base": "0.1.131",
   "page": "https://nearq.itch.io/midgard-survivors",
   "patch": {
-    "version": "0.1.147",
-    "file": "patches/patch_0.1.147.bin",
-    "size": 12759484,
-    "sha256": "42b5d5cfcc9bdfa390c3bbebd600b2f6634dac58ff5b2d805d36d09ff51e2fdc"
+    "version": "0.1.148",
+    "file": "patches/patch_0.1.148.bin",
+    "size": 12759356,
+    "sha256": "852847f8216c8b763f8fcb57985074a79cffbb23b61ae6302c2e41bb7f39ccd9"
   },
   "notes": [
+    {
+      "version": "0.1.148",
+      "items": [
+        {
+          "t": "up",
+          "es": "El cr\u00edtico normal ya no lleva la explosi\u00f3n de fondo: queda para el ultra cr\u00edtico y el letal.",
+          "en": "Plain criticals no longer have the burst behind them: it is kept for ultra and lethal criticals."
+        }
+      ]
+    },
     {
       "version": "0.1.147",
       "items": [
@@ -330,41 +340,6 @@
           "t": "fix",
           "es": "La ventana del set del Super Novice ya no salta de scroll al elegir una habilidad.",
           "en": "The Super Novice set window no longer jumps when you pick a skill."
-        }
-      ]
-    },
-    {
-      "version": "0.1.136",
-      "items": [
-        {
-          "t": "new",
-          "es": "El Super Novice puede usar las habilidades del Taekwon; cada habilidad dice a qu\u00e9 evoluciona y con qu\u00e9 pasiva.",
-          "en": "The Super Novice can use the Taekwon's skills; each skill tells what it evolves into and with which passive."
-        },
-        {
-          "t": "up",
-          "es": "Carro del mercader con f\u00edsica: se balancea, sigue el suelo y ya no atraviesa muros ni cerros.",
-          "en": "Merchant cart with physics: it sways, follows the ground and no longer goes through walls or hills."
-        },
-        {
-          "t": "up",
-          "es": "Flying Side Kick sigue la direcci\u00f3n en la que caminas y se apaga / enciende con F. Se quitan Roundhouse Kick y Leap.",
-          "en": "Flying Side Kick follows the direction you walk and switches off / on with F. Roundhouse Kick and Leap are removed."
-        },
-        {
-          "t": "up",
-          "es": "Mouse sobre el icono de una mejora: qu\u00e9 hace. Sin teclas 1-9 ni n\u00fameros en las tarjetas; la elecci\u00f3n inicial cabe en pantalla.",
-          "en": "Mouse over an upgrade's icon: what it does. No 1-9 keys or numbers on the cards; the opening choice fits the screen."
-        },
-        {
-          "t": "up",
-          "es": "Tracking Nv10 rebota sobre un MVP cuando est\u00e1 solo. Job Lv cuenta las mejoras elegidas.",
-          "en": "Tracking Lv10 ricochets onto a lone MVP. Job Lv counts the upgrades picked."
-        },
-        {
-          "t": "fix",
-          "es": "Los textos nuevos de los parches ya salen traducidos. La pausa ya no lista el equipo y las cartas.",
-          "en": "New texts from patches now show translated. The pause no longer lists gear and cards."
         }
       ]
     }
