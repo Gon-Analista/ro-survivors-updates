@@ -2,12 +2,42 @@
   "base": "0.1.131",
   "page": "https://nearq.itch.io/midgard-survivors",
   "patch": {
-    "version": "0.1.151",
-    "file": "patches/patch_0.1.151.bin",
-    "size": 62751004,
-    "sha256": "38e1d9d404dc4013e075889152da192c9e74053edc54aa696449bcca3f65e227"
+    "version": "0.1.152",
+    "file": "patches/patch_0.1.152.bin",
+    "size": 62757596,
+    "sha256": "3b236fd5090091387e07a0a3ad67d6465e53bee1544a4cbfa590ae9215b0b53a"
   },
   "notes": [
+    {
+      "version": "0.1.152",
+      "items": [
+        {
+          "t": "up",
+          "es": "Holy Water llega a 15 destierros, pero ya no deja desterrar la \u00faltima habilidad ni la \u00faltima pasiva que te pueden salir.",
+          "en": "Holy Water goes up to 15 banishes, but it no longer lets you banish the last skill or the last passive you can still get."
+        },
+        {
+          "t": "up",
+          "es": "La vida en la ventana de informaci\u00f3n tambi\u00e9n se muestra con K y M (166K / 166K).",
+          "en": "Life in the info window also shows with K and M (166K / 166K)."
+        },
+        {
+          "t": "up",
+          "es": "La sacudida de pantalla viene apagada (se puede activar en Opciones); Asura Strike siempre sacude.",
+          "en": "Screen shake comes off by default (it can be turned on in Options); Asura Strike always shakes."
+        },
+        {
+          "t": "fix",
+          "es": "Las marcas sobre los monstruos (Signum Crucis, Lex Aeterna, elementos, kunai) desaparecen al morir, sin esperar al cuerpo.",
+          "en": "Marks over monsters (Signum Crucis, Lex Aeterna, elements, kunai) vanish when they die, without waiting for the body."
+        },
+        {
+          "t": "fix",
+          "es": "Meteor Storm, Storm Gust y otros hechizos de \u00e1rea ya no crecen hasta tapar la pantalla con destellos cuando tienes mucha \u00e1rea.",
+          "en": "Meteor Storm, Storm Gust and other area spells no longer grow into screen-filling flashes when you have a lot of area."
+        }
+      ]
+    },
     {
       "version": "0.1.151",
       "items": [
@@ -295,51 +325,6 @@
           "t": "fix",
           "es": "Bone Helm ya no se lleva en el medidor el da\u00f1o de otras habilidades.",
           "en": "Bone Helm no longer takes other skills' damage on the meter."
-        }
-      ]
-    },
-    {
-      "version": "0.1.140",
-      "items": [
-        {
-          "t": "up",
-          "es": "N\u00fameros de da\u00f1o como en RO: saltan en arco y caen en cascada hacia un lado, achic\u00e1ndose. \u00abResiste\u00bb y \u00ab\u00a1Eficaz!\u00bb m\u00e1s peque\u00f1os.",
-          "en": "Damage numbers as in RO: they hop in an arc and cascade off to the side, shrinking. \"Resists\" and \"Effective!\" are smaller."
-        },
-        {
-          "t": "up",
-          "es": "Cr\u00edticos con la explosi\u00f3n roja del cliente; el ultra cr\u00edtico suma una explosi\u00f3n dorada y un anillo, y el letal explosiones carmes\u00ed que laten y tiemblan.",
-          "en": "Criticals on the client's red burst; ultra criticals add a golden burst and a ring, lethal ones pulsing crimson bursts that shake."
-        },
-        {
-          "t": "up",
-          "es": "Back Stab: el x2, x3... de la cadena enorme, de blanco a dorado y rojo.",
-          "en": "Back Stab: the chain's x2, x3... huge, going from white to gold to red."
-        },
-        {
-          "t": "fix",
-          "es": "Back Stab / Shadow Slash ya no te hacen inmune durante toda la cadena (con Ginnungagap eras inmortal contra los MVP).",
-          "en": "Back Stab / Shadow Slash no longer make you immune for the whole chain (with Ginnungagap you were immortal against MVPs)."
-        },
-        {
-          "t": "new",
-          "es": "La mascota trae los cofres lejanos: act\u00edvalo con G o en el inventario.",
-          "en": "Your pet fetches far-away chests: turn it on with G or in the inventory."
-        },
-        {
-          "t": "up",
-          "es": "Monje: esferas espirituales como pasiva que se carga golpeando, Critical Explosion y Occult Impaction; Asura Strike las gasta todas.",
-          "en": "Monk: spirit spheres as a passive charged by hitting, Critical Explosion and Occult Impaction; Asura Strike spends them all."
-        },
-        {
-          "t": "up",
-          "es": "Atributos repensados: FUE ataque b\u00e1sico, INT habilidades y \u00e1rea, DES recarga y Apoyo, VIT vida, SUE cr\u00edtico.",
-          "en": "Attributes reworked: STR basic attack, INT skills and area, DEX cooldowns and Support, VIT life, LUK criticals."
-        },
-        {
-          "t": "up",
-          "es": "Rebirth y Valkyrie: luces, rayos y halo nuevos; la ventana muestra a tu h\u00e9roe en 3D y cada recompensa en vivo. El Hipnotista ya no tiene tope de nivel.",
-          "en": "Rebirth and Valkyrie: new lights, rays and halo; the window shows your hero in 3D and each reward live. The Hypnotist has no level cap anymore."
         }
       ]
     }
