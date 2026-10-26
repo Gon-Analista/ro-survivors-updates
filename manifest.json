@@ -1,7 +1,28 @@
 {
   "base": "0.1.156",
   "page": "https://nearq.itch.io/midgard-survivors",
+  "patch": {
+    "version": "0.1.157",
+    "file": "patches/patch_0.1.157.bin",
+    "size": 362956,
+    "sha256": "239855d0334a199eb419ab11ede016bd1ca1e8a459fd78e5243144ef4a5495e9"
+  },
   "notes": [
+    {
+      "version": "0.1.157",
+      "items": [
+        {
+          "t": "fix",
+          "es": "El mu\u00f1eco de pr\u00e1ctica ya no se mueve con empujones ni atracciones.",
+          "en": "The training dummy no longer moves from knockbacks or pulls."
+        },
+        {
+          "t": "up",
+          "es": "Los n\u00fameros de da\u00f1o sobre un mismo objetivo ya no se amontonan: cada golpe nuevo sube a los anteriores formando una columna.",
+          "en": "Damage numbers on one target no longer pile up: each new hit pushes the earlier ones up into a column."
+        }
+      ]
+    },
     {
       "version": "0.1.156",
       "items": [
@@ -249,21 +270,6 @@
           "t": "fix",
           "es": "Las tarjetas de mejora legendarias ya no dejan el texto fuera; Owl's Eye y Making Arrow explican bien qu\u00e9 mejoran.",
           "en": "Legendary upgrade cards no longer leave text outside; Owl's Eye and Making Arrow clearly say what they improve."
-        }
-      ]
-    },
-    {
-      "version": "0.1.145",
-      "items": [
-        {
-          "t": "up",
-          "es": "Ninguna clase empieza con una habilidad obligatoria: la de inicio y la del cambio de oficio siempre se eligen.",
-          "en": "No class starts with a forced skill: the starting one and the job change one are always picked."
-        },
-        {
-          "t": "up",
-          "es": "Crusader y Paladin ya no traen Auto Guard de regalo, ni el Archer renacido Making Arrow: ahora se eligen.",
-          "en": "Crusader and Paladin no longer get Auto Guard for free, nor the reborn Archer Making Arrow: they are picked now."
         }
       ]
     }
