@@ -2,12 +2,47 @@
   "base": "0.1.131",
   "page": "https://nearq.itch.io/midgard-survivors",
   "patch": {
-    "version": "0.1.152",
-    "file": "patches/patch_0.1.152.bin",
-    "size": 62757596,
-    "sha256": "3b236fd5090091387e07a0a3ad67d6465e53bee1544a4cbfa590ae9215b0b53a"
+    "version": "0.1.153",
+    "file": "patches/patch_0.1.153.bin",
+    "size": 62823228,
+    "sha256": "995cd7e74041f2393c9f8d69caa657d6b24b016c510558a4b61d9b7bce82a950"
   },
   "notes": [
+    {
+      "version": "0.1.153",
+      "items": [
+        {
+          "t": "new",
+          "es": "Nuevo NPC en Prontera: nearQ, el teletransportador. Te lleva a su campo de entrenamiento (con tu grupo si quieres): invoca un mu\u00f1eco o un grupo de 20, cambia tu equipo, s\u00fabete de nivel para elegir mejoras y mide tu da\u00f1o por segundo con el medidor.",
+          "en": "New NPC in Prontera: nearQ, the teleporter. He takes you to his training ground (with your party if you like): summon one dummy or a group of 20, change your gear, level up to pick upgrades and measure your damage per second with the meter."
+        },
+        {
+          "t": "new",
+          "es": "En el campo de entrenamiento, Hollgrehenn te presta cualquier objeto que hayas visto alguna vez, de morado en adelante (legendarios y \u00fanicos incluidos), con buscador y filtros por tipo y rareza.",
+          "en": "On the training ground, Hollgrehenn lends you any item you've ever seen, from purple up (legendaries and uniques included), with a search box and filters by type and rarity."
+        },
+        {
+          "t": "fix",
+          "es": "Quitado el destello rojo de pantalla completa de los cr\u00edticos letales, que parpadeaba sin parar en hordas grandes.",
+          "en": "Removed the full-screen red flash of lethal criticals, which blinked nonstop in big hordes."
+        },
+        {
+          "t": "fix",
+          "es": "Asura Strike en la pelea contra Satan Morroc ya no elige a los monstruos que esperan fuera de su arena.",
+          "en": "Asura Strike in the Satan Morroc fight no longer picks the monsters waiting outside his arena."
+        },
+        {
+          "t": "up",
+          "es": "Asura Strike Nv10 escala mucho m\u00e1s con tu vida m\u00e1xima (+250% con 2500, +1000% con 40000).",
+          "en": "Asura Strike Lv10 scales much more with your max HP (+250% at 2500, +1000% at 40000)."
+        },
+        {
+          "t": "up",
+          "es": "Odin's Blessing ahora potencia todos tus buffs, no solo los de apoyo.",
+          "en": "Odin's Blessing now strengthens all your buffs, not only the support ones."
+        }
+      ]
+    },
     {
       "version": "0.1.152",
       "items": [
@@ -280,51 +315,6 @@
           "t": "fix",
           "es": "La tarjeta legendaria de atributo ya no se sale de su tama\u00f1o.",
           "en": "The legendary attribute card no longer overflows."
-        }
-      ]
-    },
-    {
-      "version": "0.1.141",
-      "items": [
-        {
-          "t": "up",
-          "es": "Quests mejoradas: jaula de luz, sellos con runas y cadenas que se rompen, barra de vida de lo que defiendes, llegadas y despedidas con warp; la Hermana Clara ahora camina.",
-          "en": "Quests improved: a cage of light, seals with runes and chains that snap, a health bar on what you defend, warp arrivals and farewells; Sister Clara now walks."
-        },
-        {
-          "t": "up",
-          "es": "Ventana de Rebirth m\u00e1s compacta, con las recompensas como pase de batalla, estrellas y barra con el estilo del cliente.",
-          "en": "A more compact Rebirth window, with rewards as a battle pass, and stars and bar in the client's style."
-        },
-        {
-          "t": "new",
-          "es": "Signum Crucis: una cruz sobre los monstruos debilitados y nueva evoluci\u00f3n Nv10 que alcanza a los MVP.",
-          "en": "Signum Crucis: a cross over weakened monsters and a new Lv10 evolution that reaches MVPs."
-        },
-        {
-          "t": "up",
-          "es": "Todas las tarjetas de mejora dicen qu\u00e9 sube (Critical Explosion, Heat Barrel, duraciones, Hom\u00fanculo...); lo que ya no mejora no se ofrece.",
-          "en": "Every upgrade card says what grows (Critical Explosion, Heat Barrel, durations, Homunculus...); what can't improve is no longer offered."
-        },
-        {
-          "t": "up",
-          "es": "Satan Morroc: siguen llegando monstruos mientras aparece y pelea, pero no entran en su arena.",
-          "en": "Satan Morroc: monsters keep coming while he arrives and fights, but they don't enter his arena."
-        },
-        {
-          "t": "up",
-          "es": "Occult Impaction con su sonido original y un golpe que recorre la l\u00ednea; Asura con kanji m\u00e1s grandes y texto corto; esferas espirituales m\u00e1s peque\u00f1as; fuegos de Ruwach con tope.",
-          "en": "Occult Impaction with its original sound and a blow running down the line; Asura with bigger kanji and short text; smaller spirit spheres; Ruwach flames capped."
-        },
-        {
-          "t": "up",
-          "es": "Sonido de las monedas m\u00e1s suave (sin xil\u00f3fono).",
-          "en": "Softer coin sound (no more xylophone)."
-        },
-        {
-          "t": "fix",
-          "es": "Bone Helm ya no se lleva en el medidor el da\u00f1o de otras habilidades.",
-          "en": "Bone Helm no longer takes other skills' damage on the meter."
         }
       ]
     }
