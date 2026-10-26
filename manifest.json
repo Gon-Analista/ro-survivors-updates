@@ -2,12 +2,27 @@
   "base": "0.1.131",
   "page": "https://nearq.itch.io/midgard-survivors",
   "patch": {
-    "version": "0.1.153",
-    "file": "patches/patch_0.1.153.bin",
-    "size": 62823228,
-    "sha256": "995cd7e74041f2393c9f8d69caa657d6b24b016c510558a4b61d9b7bce82a950"
+    "version": "0.1.154",
+    "file": "patches/patch_0.1.154.bin",
+    "size": 62844524,
+    "sha256": "e953a6e840ff560dcf8afe95057122403eee2573c3bdda5f4454fa7ec2ee2e9f"
   },
   "notes": [
+    {
+      "version": "0.1.154",
+      "items": [
+        {
+          "t": "up",
+          "es": "Parche de rendimiento: muchos m\u00e1s FPS con hordas grandes y muchos efectos (en una prueba exigente, de unos 28 a unos 45-50 FPS).",
+          "en": "Performance patch: many more FPS with big hordes and lots of effects (in a demanding test, from about 28 to about 45-50 FPS)."
+        },
+        {
+          "t": "up",
+          "es": "Los efectos de habilidades, los n\u00fameros de da\u00f1o, los \u00e1rboles y edificios de los mapas, la interfaz y el cursor cuestan bastante menos; los monstruos buscan su camino sin tirones.",
+          "en": "Skill effects, damage numbers, map trees and buildings, the interface and the cursor cost much less; monsters find their way without stutters."
+        }
+      ]
+    },
     {
       "version": "0.1.153",
       "items": [
@@ -280,41 +295,6 @@
           "t": "fix",
           "es": "Abrir y cerrar las mejoras acumuladas con Tab ya no las cambia gratis; las cartas equipadas del \u00c1lbum ya no se estiran.",
           "en": "Opening and closing saved-up level-ups with Tab no longer rerolls them for free; equipped cards in the Album no longer stretch."
-        }
-      ]
-    },
-    {
-      "version": "0.1.142",
-      "items": [
-        {
-          "t": "new",
-          "es": "Lex Aeterna para el Priest: marca a los enemigos m\u00e1s fuertes y la pr\u00f3xima habilidad que los golpea hace el doble. Se copia con Plagiarism del Fallen Bishop.",
-          "en": "Lex Aeterna for the Priest: marks the strongest enemies and the next skill that hits them deals double. Copied with Plagiarism from the Fallen Bishop."
-        },
-        {
-          "t": "up",
-          "es": "Cr\u00edticos con una sola explosi\u00f3n: el ultra dorado gira y suelta chispas, el letal carmes\u00ed destella y late.",
-          "en": "Criticals with a single burst: ultra ones spin in gold and throw sparks, lethal ones flash crimson and pulse."
-        },
-        {
-          "t": "up",
-          "es": "Los golpes r\u00e1pidos al mismo monstruo se suman en un solo n\u00famero y los n\u00fameros ya no se amontonan.",
-          "en": "Rapid hits on the same monster add up into one number, and numbers no longer pile up."
-        },
-        {
-          "t": "up",
-          "es": "Ventana de Rebirth: tarjetas claras, el aura entera, sin pies cortados; los Orbes espirituales pasan a ser Llamas de Sight.",
-          "en": "Rebirth window: light cards, the whole aura, no cut feet; Spirit Orbs become Sight Flames."
-        },
-        {
-          "t": "up",
-          "es": "El engarzador nearQ ahora se llama Abstract.",
-          "en": "The socket enchanter nearQ is now called Abstract."
-        },
-        {
-          "t": "fix",
-          "es": "La tarjeta legendaria de atributo ya no se sale de su tama\u00f1o.",
-          "en": "The legendary attribute card no longer overflows."
         }
       ]
     }
