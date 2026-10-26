@@ -2,16 +2,26 @@
   "base": "0.1.131",
   "page": "https://nearq.itch.io/midgard-survivors",
   "patch": {
-    "version": "0.1.155",
-    "file": "patches/patch_0.1.155.bin",
-    "size": 170724748,
-    "sha256": "ad95e4db163b7c828b7f24881ab9ca78750200c92568939fa2f3b23c08bfb660",
+    "version": "0.1.156",
+    "file": "patches/patch_0.1.156.bin",
+    "size": 170734700,
+    "sha256": "418bbd6ed1e68e7db585afd045dfb68508039cbc2edf574e602872475e3db123",
     "parts": [
-      "patches/patch_0.1.155.bin.000",
-      "patches/patch_0.1.155.bin.001"
+      "patches/patch_0.1.156.bin.000",
+      "patches/patch_0.1.156.bin.001"
     ]
   },
   "notes": [
+    {
+      "version": "0.1.156",
+      "items": [
+        {
+          "t": "new",
+          "es": "Nueva versi\u00f3n completa: a partir de ahora las actualizaciones vuelven a ser chicas, y las pr\u00f3ximas versiones completas ya no pedir\u00e1n descargar el juego otra vez si ya est\u00e1s al d\u00eda.",
+          "en": "New full version: from now on updates are small again, and future full versions won't ask you to download the game again if you are up to date."
+        }
+      ]
+    },
     {
       "version": "0.1.155",
       "items": [
@@ -264,26 +274,6 @@
           "t": "up",
           "es": "Crusader y Paladin ya no traen Auto Guard de regalo, ni el Archer renacido Making Arrow: ahora se eligen.",
           "en": "Crusader and Paladin no longer get Auto Guard for free, nor the reborn Archer Making Arrow: they are picked now."
-        }
-      ]
-    },
-    {
-      "version": "0.1.144",
-      "items": [
-        {
-          "t": "up",
-          "es": "Jupitel Thunder como en RO: una bola de rayos golpea varias veces al objetivo, lo empuja y lo aturde, con su sonido y efectos originales.",
-          "en": "Jupitel Thunder as in RO: a ball of lightning strikes the target several times, pushes it back and stuns it, with its original sound and effects."
-        },
-        {
-          "t": "new",
-          "es": "Hunter y Sniper: Blitz Beat es pasiva (el halc\u00f3n ataca solo al disparar) y la nueva activa es Falcon Assault.",
-          "en": "Hunter and Sniper: Blitz Beat is a passive (the falcon attacks on its own when you shoot) and the new active is Falcon Assault."
-        },
-        {
-          "t": "up",
-          "es": "Todo lo que lanzan cartas y equipo crece igual: con tu nivel y la FUE (marcado \u00d7Lv); las \u00fanicas tambi\u00e9n.",
-          "en": "Everything cards and equipment cast grows the same way: with your level and STR (marked \u00d7Lv); uniques too."
         }
       ]
     }
