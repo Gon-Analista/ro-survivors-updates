@@ -1,16 +1,6 @@
 {
-  "base": "0.1.131",
+  "base": "0.1.156",
   "page": "https://nearq.itch.io/midgard-survivors",
-  "patch": {
-    "version": "0.1.156",
-    "file": "patches/patch_0.1.156.bin",
-    "size": 170734700,
-    "sha256": "418bbd6ed1e68e7db585afd045dfb68508039cbc2edf574e602872475e3db123",
-    "parts": [
-      "patches/patch_0.1.156.bin.000",
-      "patches/patch_0.1.156.bin.001"
-    ]
-  },
   "notes": [
     {
       "version": "0.1.156",
