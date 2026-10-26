@@ -2,12 +2,31 @@
   "base": "0.1.131",
   "page": "https://nearq.itch.io/midgard-survivors",
   "patch": {
-    "version": "0.1.154",
-    "file": "patches/patch_0.1.154.bin",
-    "size": 62844524,
-    "sha256": "e953a6e840ff560dcf8afe95057122403eee2573c3bdda5f4454fa7ec2ee2e9f"
+    "version": "0.1.155",
+    "file": "patches/patch_0.1.155.bin",
+    "size": 170724748,
+    "sha256": "ad95e4db163b7c828b7f24881ab9ca78750200c92568939fa2f3b23c08bfb660",
+    "parts": [
+      "patches/patch_0.1.155.bin.000",
+      "patches/patch_0.1.155.bin.001"
+    ]
   },
   "notes": [
+    {
+      "version": "0.1.155",
+      "items": [
+        {
+          "t": "up",
+          "es": "M\u00e1s rendimiento: los n\u00fameros de da\u00f1o, los anillos y destellos de las habilidades se dibujan todos juntos, y las monedas y esferas ya no recalculan todo el equipo.",
+          "en": "More performance: damage numbers and skill rings and flashes are drawn all together, and coins and spheres no longer recompute all the gear."
+        },
+        {
+          "t": "up",
+          "es": "Texturas de los mapas con mipmaps: menos parpadeo en el suelo y los \u00e1rboles lejanos (esta actualizaci\u00f3n es m\u00e1s pesada de lo normal).",
+          "en": "Map textures with mipmaps: less shimmering on distant ground and trees (this update is bigger than usual)."
+        }
+      ]
+    },
     {
       "version": "0.1.154",
       "items": [
@@ -265,36 +284,6 @@
           "t": "up",
           "es": "Todo lo que lanzan cartas y equipo crece igual: con tu nivel y la FUE (marcado \u00d7Lv); las \u00fanicas tambi\u00e9n.",
           "en": "Everything cards and equipment cast grows the same way: with your level and STR (marked \u00d7Lv); uniques too."
-        }
-      ]
-    },
-    {
-      "version": "0.1.143",
-      "items": [
-        {
-          "t": "up",
-          "es": "N\u00fameros de da\u00f1o m\u00e1s limpios: menos a la vez, los peque\u00f1os se saltan con mucho jaleo, solo los cr\u00edticos grandes llevan explosi\u00f3n y los golpes grandes como el Asura siempre se ven.",
-          "en": "Cleaner damage numbers: fewer at once, small ones skipped in a crowd, only big criticals get a burst, and big hits like Asura always show."
-        },
-        {
-          "t": "up",
-          "es": "Asura Strike va primero al Poring Dorado, luego a jefes y \u00e9lites, y caminando solo elige lo que tienes delante.",
-          "en": "Asura Strike goes for the Golden Poring first, then bosses and elites, and while walking it only picks what's ahead."
-        },
-        {
-          "t": "up",
-          "es": "Kaiser Knuckle: Occult Impaction a tu nivel (o su Nv10) y m\u00e1s seguido. Todos los autocast usan tu nivel si tienes la habilidad m\u00e1s alta.",
-          "en": "Kaiser Knuckle: Occult Impaction at your level (or its Lv10) and more often. Every autocast uses your level if your skill is higher."
-        },
-        {
-          "t": "up",
-          "es": "AGI y DES dicen cu\u00e1nto ASPD dan.",
-          "en": "AGI and DEX say how much ASPD they give."
-        },
-        {
-          "t": "fix",
-          "es": "Abrir y cerrar las mejoras acumuladas con Tab ya no las cambia gratis; las cartas equipadas del \u00c1lbum ya no se estiran.",
-          "en": "Opening and closing saved-up level-ups with Tab no longer rerolls them for free; equipped cards in the Album no longer stretch."
         }
       ]
     }
