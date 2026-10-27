@@ -2,12 +2,47 @@
   "base": "0.1.156",
   "page": "https://nearq.itch.io/midgard-survivors",
   "patch": {
-    "version": "0.1.163",
-    "file": "patches/patch_0.1.163.bin",
-    "size": 9753292,
-    "sha256": "984c97393fc4462ce910e22c7b3eacbc3d3397bdf8601c2b98e59a577c47a4e2"
+    "version": "0.1.164",
+    "file": "patches/patch_0.1.164.bin",
+    "size": 9927548,
+    "sha256": "91f9745e522f526c5d61c89907df30435fca8eb2ebc61fd467c544b3382e342e"
   },
   "notes": [
+    {
+      "version": "0.1.164",
+      "items": [
+        {
+          "t": "new",
+          "es": "Nuevo estado: Sangrado. Cada corte acumula da\u00f1o en el monstruo y, al llenarse, revienta en una explosi\u00f3n de sangre que salpica a los de alrededor. Lo tienen Sonic Blow, Spiral Pierce, Brandish Spear, Back Stab Nv10 y Ankle Snare.",
+          "en": "New status: Bleeding. Every cut builds up damage on the monster and, once full, it bursts in a splash of blood that hits the ones around. Sonic Blow, Spiral Pierce, Brandish Spear, Back Stab Lv10 and Ankle Snare cause it."
+        },
+        {
+          "t": "new",
+          "es": "Nuevo estado: Quemadura. Corta y fuerte; si el monstruo muere ardiendo, el fuego salta a los m\u00e1s cercanos. Lo tienen Fire Wall, Meteor Storm, Magnum Break, Sightrasher y Fire Bolt Nv10.",
+          "en": "New status: Burn. Short and strong; if the monster dies burning, the fire jumps to the nearest ones. Fire Wall, Meteor Storm, Magnum Break, Sightrasher and Fire Bolt Lv10 cause it."
+        },
+        {
+          "t": "new",
+          "es": "Nuevas legendarias: Ifrit's Ear (quemaduras m\u00e1s largas que estallan al saltar) y Vampire's Familiar (el sangrado revienta antes, m\u00e1s fuerte y en cadena).",
+          "en": "New legendaries: Ifrit's Ear (longer burns that blast when they jump) and Vampire's Familiar (bleeding bursts sooner, harder and in a chain)."
+        },
+        {
+          "t": "up",
+          "es": "Eddga Card ahora quema con el ataque b\u00e1sico y Beelzebub Card hace sangrar.",
+          "en": "Eddga Card now burns with the basic attack and Beelzebub Card makes it bleed."
+        },
+        {
+          "t": "up",
+          "es": "Envenom Nv10 hace estallar el veneno que ya tiene el objetivo (3 tics de golpe) sin quitarle las cargas.",
+          "en": "Envenom Lv10 bursts the poison already on the target (3 ticks at once) without removing its stacks."
+        },
+        {
+          "t": "up",
+          "es": "Las marcas de rebote son un poco m\u00e1s chicas y dicen \u00abrebotes\u00bb.",
+          "en": "Bounce marks are a bit smaller and say \u00abbounces\u00bb."
+        }
+      ]
+    },
     {
       "version": "0.1.163",
       "items": [
@@ -260,36 +295,6 @@
           "t": "up",
           "es": "Odin's Blessing ahora potencia todos tus buffs, no solo los de apoyo.",
           "en": "Odin's Blessing now strengthens all your buffs, not only the support ones."
-        }
-      ]
-    },
-    {
-      "version": "0.1.152",
-      "items": [
-        {
-          "t": "up",
-          "es": "Holy Water llega a 15 destierros, pero ya no deja desterrar la \u00faltima habilidad ni la \u00faltima pasiva que te pueden salir.",
-          "en": "Holy Water goes up to 15 banishes, but it no longer lets you banish the last skill or the last passive you can still get."
-        },
-        {
-          "t": "up",
-          "es": "La vida en la ventana de informaci\u00f3n tambi\u00e9n se muestra con K y M (166K / 166K).",
-          "en": "Life in the info window also shows with K and M (166K / 166K)."
-        },
-        {
-          "t": "up",
-          "es": "La sacudida de pantalla viene apagada (se puede activar en Opciones); Asura Strike siempre sacude.",
-          "en": "Screen shake comes off by default (it can be turned on in Options); Asura Strike always shakes."
-        },
-        {
-          "t": "fix",
-          "es": "Las marcas sobre los monstruos (Signum Crucis, Lex Aeterna, elementos, kunai) desaparecen al morir, sin esperar al cuerpo.",
-          "en": "Marks over monsters (Signum Crucis, Lex Aeterna, elements, kunai) vanish when they die, without waiting for the body."
-        },
-        {
-          "t": "fix",
-          "es": "Meteor Storm, Storm Gust y otros hechizos de \u00e1rea ya no crecen hasta tapar la pantalla con destellos cuando tienes mucha \u00e1rea.",
-          "en": "Meteor Storm, Storm Gust and other area spells no longer grow into screen-filling flashes when you have a lot of area."
         }
       ]
     }
