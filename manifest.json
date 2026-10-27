@@ -2,12 +2,22 @@
   "base": "0.1.156",
   "page": "https://nearq.itch.io/midgard-survivors",
   "patch": {
-    "version": "0.1.161",
-    "file": "patches/patch_0.1.161.bin",
-    "size": 9736588,
-    "sha256": "8bf039766c1fd767e1e0d32cda06d2012ec9aaa1883745c4e8aad21e31b45a39"
+    "version": "0.1.162",
+    "file": "patches/patch_0.1.162.bin",
+    "size": 9753788,
+    "sha256": "859e756715b2911471dec8d22b45da51c6382765d652360581a5176075ca7947"
   },
   "notes": [
+    {
+      "version": "0.1.162",
+      "items": [
+        {
+          "t": "fix",
+          "es": "Selecci\u00f3n de personaje: el precio de las clases bloqueadas ya no toca la pesta\u00f1a \u00abSelect\u00bb.",
+          "en": "Character select: the price of locked classes no longer touches the \u00abSelect\u00bb tab."
+        }
+      ]
+    },
     {
       "version": "0.1.161",
       "items": [
@@ -295,31 +305,6 @@
           "t": "new",
           "es": "Logros nuevos: desbloquear el Infierno 7 y 10, vencer un MVP en Infierno, Infierno 5, 8 y 10, derrotar 10 Heraldos y 500 espectros.",
           "en": "New achievements: unlock Infierno 7 and 10, beat an MVP in Infierno, Infierno 5, 8 and 10, defeat 10 Heralds and 500 specters."
-        }
-      ]
-    },
-    {
-      "version": "0.1.150",
-      "items": [
-        {
-          "t": "new",
-          "es": "Wizard y High Wizard con Combos elementales: los hechizos de fuego, agua y viento marcan al monstruo y otro elemento lo detona: Vapor (fuego + agua) estalla en \u00e1rea, Electrocuci\u00f3n (agua + viento) salta en cadena y Tormenta \u00edgnea (fuego + viento) esparce el fuego. Aunque el golpe lo mate, la reacci\u00f3n estalla sobre los de alrededor.",
-          "en": "Wizard and High Wizard get Elemental Combos: fire, water and wind spells mark the monster and another element sets it off: Steam (fire + water) bursts in an area, Electrocution (water + wind) chains and Firestorm (fire + wind) spreads the fire. Even if the hit kills it, the reaction bursts on the ones around."
-        },
-        {
-          "t": "new",
-          "es": "Nuevas del Wizard: Quagmire (pantano que frena, debilita y moja para los combos) y Sightrasher (anillo de fuego). El High Wizard suma Gravitation Field, que arrastra a la horda a un punto. Soul Drain ahora tambi\u00e9n potencia los combos.",
-          "en": "New Wizard skills: Quagmire (a swamp that slows, weakens and wets for combos) and Sightrasher (a ring of fire). The High Wizard adds Gravitation Field, which drags the horde to one spot. Soul Drain now also strengthens combos."
-        },
-        {
-          "t": "new",
-          "es": "Kagerou / Oboro rehechos: lo que lanzas queda clavado en los monstruos y Kunai Explosion lo detona; cada ninjutsu te da un sello de su elemento y Kaihou los libera juntos (con los tres elementos, Sello triple). Vuelven Freezing Spear y Lightning Crash m\u00e1s fuertes, y la pasiva Meikyou Shisui.",
-          "en": "Kagerou / Oboro reworked: what you throw stays stuck in monsters and Kunai Explosion sets it off; each ninjutsu gives you a charm of its element and Kaihou releases them together (with all three elements, Triple charm). Freezing Spear and Lightning Crash return stronger, plus the Meikyou Shisui passive."
-        },
-        {
-          "t": "new",
-          "es": "Kagerou y Oboro ya no son iguales: el Kagerou tiene Kunai Splash y la Oboro Moonlight Fantasy, kunai lunares que giran a su alrededor.",
-          "en": "Kagerou and Oboro are no longer the same: the Kagerou has Kunai Splash and the Oboro Moonlight Fantasy, moon kunai spinning around her."
         }
       ]
     }
