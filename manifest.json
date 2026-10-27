@@ -2,12 +2,22 @@
   "base": "0.1.156",
   "page": "https://nearq.itch.io/midgard-survivors",
   "patch": {
-    "version": "0.1.162",
-    "file": "patches/patch_0.1.162.bin",
-    "size": 9753788,
-    "sha256": "859e756715b2911471dec8d22b45da51c6382765d652360581a5176075ca7947"
+    "version": "0.1.163",
+    "file": "patches/patch_0.1.163.bin",
+    "size": 9753292,
+    "sha256": "984c97393fc4462ce910e22c7b3eacbc3d3397bdf8601c2b98e59a577c47a4e2"
   },
   "notes": [
+    {
+      "version": "0.1.163",
+      "items": [
+        {
+          "t": "up",
+          "es": "Las marcas xN de los rebotes ya casi no crecen con el multiplicador: quedan chicas y discretas.",
+          "en": "Bounce xN marks barely grow with the multiplier now: they stay small and subtle."
+        }
+      ]
+    },
     {
       "version": "0.1.162",
       "items": [
@@ -280,31 +290,6 @@
           "t": "fix",
           "es": "Meteor Storm, Storm Gust y otros hechizos de \u00e1rea ya no crecen hasta tapar la pantalla con destellos cuando tienes mucha \u00e1rea.",
           "en": "Meteor Storm, Storm Gust and other area spells no longer grow into screen-filling flashes when you have a lot of area."
-        }
-      ]
-    },
-    {
-      "version": "0.1.151",
-      "items": [
-        {
-          "t": "new",
-          "es": "Tres mapas nuevos: Toy Factory en Lutie (MVP Stormy Knight), Thanatos Tower en Hugel (MVP Memory of Thanatos) y Bio Laboratory en Schwarzwald (MVP Lord Knight Seyren), con sus monstruos, cartas, mascotas y una \u00fanica cada uno: Santa's Hat, Book of the Dead y Clone Blade.",
-          "en": "Three new maps: Toy Factory in Lutie (MVP Stormy Knight), Thanatos Tower in Hugel (MVP Memory of Thanatos) and Bio Laboratory in Schwarzwald (MVP Lord Knight Seyren), with their monsters, cards, pets and one unique each: Santa's Hat, Book of the Dead and Clone Blade."
-        },
-        {
-          "t": "new",
-          "es": "Cinco Infiernos m\u00e1s (hasta Infierno 10): los monstruos siguen creciendo en vida, da\u00f1o, cantidad y velocidad, y las recompensas tambi\u00e9n.",
-          "en": "Five more Infiernos (up to Infierno 10): monsters keep growing in life, damage, numbers and speed, and so do the rewards."
-        },
-        {
-          "t": "new",
-          "es": "Nuevos males: Cerco de almas (un anillo de monstruos se cierra sobre ti), Heraldos de Surtr (gigantes en llamas que sueltan un cofre y te curan), Marea infernal (el triple de monstruos unos segundos, con cofre si la aguantas), Meteoros errantes (franjas de meteoros cruzan por donde est\u00e1s) y Ragnar\u00f6k (los ca\u00eddos se alzan como espectros).",
-          "en": "New curses: Ring of Souls (a ring of monsters closes in on you), Surtr's Heralds (burning giants that drop a chest and heal you), Infernal Tide (three times the monsters for a few seconds, with a chest if you outlast it), Wandering Meteors (strips of meteors cross where you stand) and Ragnar\u00f6k (the fallen rise as specters)."
-        },
-        {
-          "t": "new",
-          "es": "Logros nuevos: desbloquear el Infierno 7 y 10, vencer un MVP en Infierno, Infierno 5, 8 y 10, derrotar 10 Heraldos y 500 espectros.",
-          "en": "New achievements: unlock Infierno 7 and 10, beat an MVP in Infierno, Infierno 5, 8 and 10, defeat 10 Heralds and 500 specters."
         }
       ]
     }
