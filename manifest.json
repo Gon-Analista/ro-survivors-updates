@@ -2,12 +2,22 @@
   "base": "0.1.156",
   "page": "https://nearq.itch.io/midgard-survivors",
   "patch": {
-    "version": "0.1.164",
-    "file": "patches/patch_0.1.164.bin",
-    "size": 9927548,
-    "sha256": "91f9745e522f526c5d61c89907df30435fca8eb2ebc61fd467c544b3382e342e"
+    "version": "0.1.165",
+    "file": "patches/patch_0.1.165.bin",
+    "size": 9927564,
+    "sha256": "f53b458a6ab7d53b186263535d99e2b3fca76917c068f74bb0954129bc95eaa3"
   },
   "notes": [
+    {
+      "version": "0.1.165",
+      "items": [
+        {
+          "t": "fix",
+          "es": "Las clases sin renacimiento (Doram, Gunslinger, Ninja, Taekwon, Super Novice) ya pueden llevar 2 legendarias en el equipo inicial.",
+          "en": "Classes without rebirth (Doram, Gunslinger, Ninja, Taekwon, Super Novice) can now carry 2 legendaries in their starting gear."
+        }
+      ]
+    },
     {
       "version": "0.1.164",
       "items": [
@@ -260,41 +270,6 @@
           "t": "up",
           "es": "Los efectos de habilidades, los n\u00fameros de da\u00f1o, los \u00e1rboles y edificios de los mapas, la interfaz y el cursor cuestan bastante menos; los monstruos buscan su camino sin tirones.",
           "en": "Skill effects, damage numbers, map trees and buildings, the interface and the cursor cost much less; monsters find their way without stutters."
-        }
-      ]
-    },
-    {
-      "version": "0.1.153",
-      "items": [
-        {
-          "t": "new",
-          "es": "Nuevo NPC en Prontera: nearQ, el teletransportador. Te lleva a su campo de entrenamiento (con tu grupo si quieres): invoca un mu\u00f1eco o un grupo de 20, cambia tu equipo, s\u00fabete de nivel para elegir mejoras y mide tu da\u00f1o por segundo con el medidor.",
-          "en": "New NPC in Prontera: nearQ, the teleporter. He takes you to his training ground (with your party if you like): summon one dummy or a group of 20, change your gear, level up to pick upgrades and measure your damage per second with the meter."
-        },
-        {
-          "t": "new",
-          "es": "En el campo de entrenamiento, Hollgrehenn te presta cualquier objeto que hayas visto alguna vez, de morado en adelante (legendarios y \u00fanicos incluidos), con buscador y filtros por tipo y rareza.",
-          "en": "On the training ground, Hollgrehenn lends you any item you've ever seen, from purple up (legendaries and uniques included), with a search box and filters by type and rarity."
-        },
-        {
-          "t": "fix",
-          "es": "Quitado el destello rojo de pantalla completa de los cr\u00edticos letales, que parpadeaba sin parar en hordas grandes.",
-          "en": "Removed the full-screen red flash of lethal criticals, which blinked nonstop in big hordes."
-        },
-        {
-          "t": "fix",
-          "es": "Asura Strike en la pelea contra Satan Morroc ya no elige a los monstruos que esperan fuera de su arena.",
-          "en": "Asura Strike in the Satan Morroc fight no longer picks the monsters waiting outside his arena."
-        },
-        {
-          "t": "up",
-          "es": "Asura Strike Nv10 escala mucho m\u00e1s con tu vida m\u00e1xima (+250% con 2500, +1000% con 40000).",
-          "en": "Asura Strike Lv10 scales much more with your max HP (+250% at 2500, +1000% at 40000)."
-        },
-        {
-          "t": "up",
-          "es": "Odin's Blessing ahora potencia todos tus buffs, no solo los de apoyo.",
-          "en": "Odin's Blessing now strengthens all your buffs, not only the support ones."
         }
       ]
     }
