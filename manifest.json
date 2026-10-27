@@ -2,12 +2,62 @@
   "base": "0.1.156",
   "page": "https://nearq.itch.io/midgard-survivors",
   "patch": {
-    "version": "0.1.158",
-    "file": "patches/patch_0.1.158.bin",
-    "size": 1482940,
-    "sha256": "89003c8cb25f21e297e09f3ee5a79f4972a3653ca9c02bbcfc6348175d8dc635"
+    "version": "0.1.159",
+    "file": "patches/patch_0.1.159.bin",
+    "size": 1819740,
+    "sha256": "46373c21701e74b80f5863cf1b15316b15d26efa3d616de1732e8fc97132dfa9"
   },
   "notes": [
+    {
+      "version": "0.1.159",
+      "items": [
+        {
+          "t": "new",
+          "es": "Nueva legendaria del Monk/Champion: Hurricane Fury. 3 segundos despu\u00e9s de tu Asura Strike, un Asura fantasma cae en el mismo lugar con la mitad del da\u00f1o.",
+          "en": "New Monk/Champion legendary: Hurricane Fury. 3 seconds after your Asura Strike, a ghost Asura strikes the same spot with half the damage."
+        },
+        {
+          "t": "up",
+          "es": "Veneno m\u00e1s fuerte: crece m\u00e1s por carga, hace el doble de da\u00f1o propio y quita m\u00e1s vida m\u00e1xima. Ahora ves las cargas sobre cada monstruo envenenado.",
+          "en": "Stronger poison: grows more per stack, deals twice its own damage and takes more max HP. You now see the stacks over each poisoned monster."
+        },
+        {
+          "t": "up",
+          "es": "Autocast de cartas y equipo: +25% de da\u00f1o.",
+          "en": "Card and gear autocasts: +25% damage."
+        },
+        {
+          "t": "up",
+          "es": "Rebirth Lv: subir cada nivel cuesta la mitad de EXP.",
+          "en": "Rebirth Lv: each level costs half the EXP."
+        },
+        {
+          "t": "up",
+          "es": "El Agua bendita puede desterrar todas tus habilidades y pasivas.",
+          "en": "Holy Water can banish all your skills and passives."
+        },
+        {
+          "t": "up",
+          "es": "Token of Siegfried: la inmortalidad dura 5 segundos (antes 10).",
+          "en": "Token of Siegfried: immortality lasts 5 seconds (was 10)."
+        },
+        {
+          "t": "fix",
+          "es": "Asura Strike ya no congela el juego al matar cientos de monstruos de golpe.",
+          "en": "Asura Strike no longer freezes the game when it kills hundreds of monsters at once."
+        },
+        {
+          "t": "fix",
+          "es": "Critical Explosion ahora aparece en la fila de buffs.",
+          "en": "Critical Explosion now shows in the buff row."
+        },
+        {
+          "t": "fix",
+          "es": "En ingl\u00e9s, los efectos al recibir golpes dicen \"When you are hit\".",
+          "en": "Effects when you are hit now say \"When you are hit\" (was \"When hit\")."
+        }
+      ]
+    },
     {
       "version": "0.1.158",
       "items": [
@@ -270,21 +320,6 @@
           "t": "up",
           "es": "El cr\u00edtico normal ya no lleva la explosi\u00f3n de fondo: queda para el ultra cr\u00edtico y el letal.",
           "en": "Plain criticals no longer have the burst behind them: it is kept for ultra and lethal criticals."
-        }
-      ]
-    },
-    {
-      "version": "0.1.147",
-      "items": [
-        {
-          "t": "up",
-          "es": "N\u00fameros de da\u00f1o un poco m\u00e1s peque\u00f1os, con K y M desde 10.000 (10.3K, 2.45M), y desaparecen un poco antes.",
-          "en": "Slightly smaller damage numbers, with K and M from 10,000 (10.3K, 2.45M), fading a bit sooner."
-        },
-        {
-          "t": "fix",
-          "es": "La opci\u00f3n de opacidad de los n\u00fameros de da\u00f1o ahora funciona.",
-          "en": "The damage numbers opacity option now works."
         }
       ]
     }
