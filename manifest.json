@@ -2,12 +2,57 @@
   "base": "0.1.156",
   "page": "https://nearq.itch.io/midgard-survivors",
   "patch": {
-    "version": "0.1.159",
-    "file": "patches/patch_0.1.159.bin",
-    "size": 1819740,
-    "sha256": "46373c21701e74b80f5863cf1b15316b15d26efa3d616de1732e8fc97132dfa9"
+    "version": "0.1.160",
+    "file": "patches/patch_0.1.160.bin",
+    "size": 9736812,
+    "sha256": "baa6cb13d1f319384ae64c7477d70af318cde07cdc49fa82f0a648c28b676e5a"
   },
   "notes": [
+    {
+      "version": "0.1.160",
+      "items": [
+        {
+          "t": "new",
+          "es": "Nueva clase: Doram (Summoner \u2192 Spirit Handler). Pelea con sus animales (Pickies, Tarous, Arclouses, Lunatics), la hierba gatera y el at\u00fan y las gambas que curan y potencian al grupo.",
+          "en": "New class: Doram (Summoner \u2192 Spirit Handler). Fights with its animals (Pickies, Tarous, Arclouses, Lunatics), catnip, and tuna and shrimp that heal and empower the party."
+        },
+        {
+          "t": "up",
+          "es": "Bardo / Dancer: sus canciones se turnan, cada una con su propia aura, y afectan al grupo dentro de ella. La m\u00fasica ya no se reinicia.",
+          "en": "Bard / Dancer: their songs take turns, each with its own aura, and affect the party inside it. The music no longer restarts."
+        },
+        {
+          "t": "new",
+          "es": "Super Novice: bot\u00f3n \u00abAl azar\u00bb para armar un set de 6 activas y 6 pasivas.",
+          "en": "Super Novice: a \u00abRandom\u00bb button to build a set of 6 actives and 6 passives."
+        },
+        {
+          "t": "up",
+          "es": "Preparaci\u00f3n: muestra tus cartas del \u00e1lbum y tiene accesos para cambiar el equipo inicial y las cartas.",
+          "en": "Preparation: shows your album cards and has shortcuts to change your starting gear and cards."
+        },
+        {
+          "t": "new",
+          "es": "Opciones \u2192 Juego: n\u00fameros de da\u00f1o Todos / Reducidos / Ninguno.",
+          "en": "Options \u2192 Game: damage numbers All / Reduced / None."
+        },
+        {
+          "t": "up",
+          "es": "Mucho m\u00e1s rendimiento con builds de rebotes (flechas y balas que rebotan).",
+          "en": "Much better performance with bounce builds (bouncing arrows and bullets)."
+        },
+        {
+          "t": "up",
+          "es": "Se rehicieron 33 cartas que casi no serv\u00edan, y los atributos dan algo menos por punto.",
+          "en": "33 nearly useless cards were reworked, and stats give a bit less per point."
+        },
+        {
+          "t": "up",
+          "es": "Vulture's Eye da menos cr\u00edtico.",
+          "en": "Vulture's Eye gives less critical chance."
+        }
+      ]
+    },
     {
       "version": "0.1.159",
       "items": [
@@ -310,16 +355,6 @@
           "t": "fix",
           "es": "Quitada la estrellita que parpadeaba junto a \u00abRebirth I\u00bb en la selecci\u00f3n de personaje.",
           "en": "Removed the little star blinking next to \"Rebirth I\" on character select."
-        }
-      ]
-    },
-    {
-      "version": "0.1.148",
-      "items": [
-        {
-          "t": "up",
-          "es": "El cr\u00edtico normal ya no lleva la explosi\u00f3n de fondo: queda para el ultra cr\u00edtico y el letal.",
-          "en": "Plain criticals no longer have the burst behind them: it is kept for ultra and lethal criticals."
         }
       ]
     }
