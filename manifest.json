@@ -2,12 +2,22 @@
   "base": "0.1.156",
   "page": "https://nearq.itch.io/midgard-survivors",
   "patch": {
-    "version": "0.1.160",
-    "file": "patches/patch_0.1.160.bin",
-    "size": 9736812,
-    "sha256": "baa6cb13d1f319384ae64c7477d70af318cde07cdc49fa82f0a648c28b676e5a"
+    "version": "0.1.161",
+    "file": "patches/patch_0.1.161.bin",
+    "size": 9736588,
+    "sha256": "8bf039766c1fd767e1e0d32cda06d2012ec9aaa1883745c4e8aad21e31b45a39"
   },
   "notes": [
+    {
+      "version": "0.1.161",
+      "items": [
+        {
+          "t": "up",
+          "es": "Las marcas xN de los rebotes del ataque b\u00e1sico son mucho m\u00e1s sutiles.",
+          "en": "The xN marks of basic attack bounces are much more subtle."
+        }
+      ]
+    },
     {
       "version": "0.1.160",
       "items": [
@@ -310,51 +320,6 @@
           "t": "new",
           "es": "Kagerou y Oboro ya no son iguales: el Kagerou tiene Kunai Splash y la Oboro Moonlight Fantasy, kunai lunares que giran a su alrededor.",
           "en": "Kagerou and Oboro are no longer the same: the Kagerou has Kunai Splash and the Oboro Moonlight Fantasy, moon kunai spinning around her."
-        }
-      ]
-    },
-    {
-      "version": "0.1.149",
-      "items": [
-        {
-          "t": "new",
-          "es": "Blacksmith y Whitesmith rehechos con la Forja: cada golpe calienta tu arma y la refina durante la partida (+1 cada vez). Hasta +7 es seguro; m\u00e1s all\u00e1 cada nivel puede romperla, y al romperse estalla a tu alrededor y vuelve a +7. El Whitesmith llega a +20 y rompe menos. Cada nivel de refinado hace m\u00e1s fuertes tus habilidades.",
-          "en": "Blacksmith and Whitesmith reworked around the Forge: every hit heats your weapon and refines it during the run (+1 each time). Up to +7 is safe; past it each level may break it, and when it breaks it bursts around you and drops back to +7. The Whitesmith reaches +20 and breaks less. Each refine level makes your skills stronger."
-        },
-        {
-          "t": "new",
-          "es": "Nuevas habilidades del herrero: Axe Tornado (torbellino de hacha que atrae a los monstruos; Nv10 dura 3 s), Cart Cannon (ca\u00f1onazo al m\u00e1s fuerte; Nv10 tres balas que dejan el suelo ardiendo) y Meltdown en el Whitesmith (tus golpes hacen que reciban m\u00e1s da\u00f1o). Weaponry Research da m\u00e1s da\u00f1o b\u00e1sico por cada nivel de refinado.",
-          "en": "New smith skills: Axe Tornado (an axe whirlwind that draws monsters in; Lv10 lasts 3 s), Cart Cannon (a cannon shot at the strongest; Lv10 three balls that leave the ground burning) and Meltdown for the Whitesmith (your hits make them take more damage). Weaponry Research gives more basic damage per refine level."
-        },
-        {
-          "t": "up",
-          "es": "Refinar con minerales durante la partida como herrero ya no baja el nivel al fallar: el siguiente intento es m\u00e1s probable.",
-          "en": "Refining with ores during a run as a smith no longer drops a level on failure: the next attempt is likelier instead."
-        },
-        {
-          "t": "new",
-          "es": "Alchemist rehecho: Acid Terror deja un charco de \u00e1cido que hace recibir m\u00e1s da\u00f1o, Chemical Protection para el grupo, Bioethics, y cada Hom\u00fanculo con su papel y su aura (Lif apoyo, Amistr cuerpo a cuerpo, Filir b\u00e1sicos, Vanilmirth suelo). El Creator lleva dos Hom\u00fanculos y la legendaria Embryo uno m\u00e1s.",
-          "en": "Alchemist reworked: Acid Terror leaves an acid puddle that makes monsters take more damage, Chemical Protection for the party, Bioethics, and each Homunculus has its own role and aura (Lif support, Amistr melee, Filir basic attacks, Vanilmirth ground). The Creator brings two Homunculi and the legendary Embryo one more."
-        },
-        {
-          "t": "new",
-          "es": "Call Homunculus Nv10 (con Bioethics): tus Hom\u00fanculos mutan a su forma S, te acompa\u00f1a uno m\u00e1s y cada uno lanza su habilidad especial.",
-          "en": "Call Homunculus Lv10 (with Bioethics): your Homunculi mutate to their S form, one more follows you and each one casts its special skill."
-        },
-        {
-          "t": "up",
-          "es": "Mammonite Nv10 crece con el zeny que tienes guardado y suelta una lluvia de monedas; Cart Revolution Nv10 pega m\u00e1s cuanto m\u00e1s r\u00e1pido te mueves.",
-          "en": "Mammonite Lv10 grows with the zeny you have saved and drops a shower of coins; Cart Revolution Lv10 hits harder the faster you move."
-        },
-        {
-          "t": "new",
-          "es": "Knight redise\u00f1ado como jinete que pega en movimiento: Charge Attack, Spear Boomerang, Spiral Pierce como taladro en el Lord Knight y la pasiva Aura Blade.",
-          "en": "Knight redesigned as a rider who hits on the move: Charge Attack, Spear Boomerang, Spiral Pierce as a drill for the Lord Knight and the Aura Blade passive."
-        },
-        {
-          "t": "fix",
-          "es": "Quitada la estrellita que parpadeaba junto a \u00abRebirth I\u00bb en la selecci\u00f3n de personaje.",
-          "en": "Removed the little star blinking next to \"Rebirth I\" on character select."
         }
       ]
     }
