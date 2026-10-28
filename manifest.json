@@ -1,6 +1,12 @@
 {
   "base": "0.1.169",
   "page": "https://nearq.itch.io/midgard-survivors",
+  "patch": {
+    "version": "0.1.170",
+    "file": "patches/patch_0.1.170.bin",
+    "size": 4844,
+    "sha256": "16e619a3028c5889407b8a789d284581d81b87e63e67c5e57f884e0e836b86ed"
+  },
   "legacy": {
     "0.1.156": {
       "version": "0.1.169",
@@ -10,6 +16,16 @@
     }
   },
   "notes": [
+    {
+      "version": "0.1.170",
+      "items": [
+        {
+          "t": "fix",
+          "es": "El aviso de actualizaci\u00f3n ya no aparece si el juego est\u00e1 al d\u00eda.",
+          "en": "The update notice no longer shows when the game is up to date."
+        }
+      ]
+    },
     {
       "version": "0.1.169",
       "items": [
@@ -267,46 +283,6 @@
           "t": "fix",
           "es": "En ingl\u00e9s, los efectos al recibir golpes dicen \"When you are hit\".",
           "en": "Effects when you are hit now say \"When you are hit\" (was \"When hit\")."
-        }
-      ]
-    },
-    {
-      "version": "0.1.158",
-      "items": [
-        {
-          "t": "up",
-          "es": "Cartas y equipo de autocast: lanzan la habilidad a Nv1 pero escalan m\u00e1s con tu nivel. Los de ataque b\u00e1sico crecen como tu ataque b\u00e1sico y pueden ser cr\u00edticos; los de recibir golpes, con tu FUE y tu vida m\u00e1xima (el Pacto de Represalia lo duplica).",
-          "en": "Autocast cards and gear: they cast the skill at Lv1 but scale more with your level. Basic-attack ones grow like your basic attack and can crit; when-hit ones with your STR and max HP (the Pact of Retaliation doubles it)."
-        },
-        {
-          "t": "up",
-          "es": "Veneno: se acumula hasta 40 cargas, crece de forma exponencial con ellas y quita un % de la vida m\u00e1xima del objetivo (ideal contra MvPs). Nunca es cr\u00edtico.",
-          "en": "Poison: stacks up to 40 times, grows exponentially with stacks and takes a % of the target's max HP (great against MVPs). It never crits."
-        },
-        {
-          "t": "up",
-          "es": "Diabolus Manteau: en vez de contagiar, el veneno acumula el doble, llega a 60 cargas y hace un 50% m\u00e1s de da\u00f1o.",
-          "en": "Diabolus Manteau: instead of spreading, poison stacks twice as fast, reaches 60 stacks and deals 50% more damage."
-        },
-        {
-          "t": "new",
-          "es": "Ventana de estado (C): ahora muestra la probabilidad y el multiplicador de da\u00f1o de cada autocast de tus cartas y equipo, y tu veneno.",
-          "en": "Status window (C): now shows the chance and damage multiplier of every autocast from your cards and gear, and your poison."
-        },
-        {
-          "t": "up",
-          "es": "Rebalance de atributos: FUE, INT, DES y SUE dan algo menos por punto; Vulture's Eye ahora tambi\u00e9n da da\u00f1o cr\u00edtico.",
-          "en": "Stat rebalance: STR, INT, DEX and LUK give a bit less per point; Vulture's Eye now also gives critical damage."
-        },
-        {
-          "t": "fix",
-          "es": "Las flechas del ataque b\u00e1sico del arquero ya no fallan: siguen a su objetivo.",
-          "en": "Archer basic-attack arrows no longer miss: they home in on their target."
-        },
-        {
-          "t": "fix",
-          "es": "Armer\u00eda: el texto de \"Ver tambi\u00e9n lo que no puedo usar\" ya no desaparece al pasar el mouse.",
-          "en": "Armory: the \"Also show what I can't use\" text no longer vanishes on hover."
         }
       ]
     }
