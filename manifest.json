@@ -2,10 +2,10 @@
   "base": "0.1.169",
   "page": "https://nearq.itch.io/midgard-survivors",
   "patch": {
-    "version": "0.1.170",
-    "file": "patches/patch_0.1.170.bin",
-    "size": 4844,
-    "sha256": "16e619a3028c5889407b8a789d284581d81b87e63e67c5e57f884e0e836b86ed"
+    "version": "0.1.171",
+    "file": "patches/patch_0.1.171.bin",
+    "size": 15901852,
+    "sha256": "f3e9643be602bd7ceb4bac6cee152cc1bee0b88085bc3ecdb6a2079c294900fa"
   },
   "legacy": {
     "0.1.156": {
@@ -16,6 +16,41 @@
     }
   },
   "notes": [
+    {
+      "version": "0.1.171",
+      "items": [
+        {
+          "t": "new",
+          "es": "Karma: demonios corruptos te atacan y dejan un Cofre Corrupto. \u00c1brelo (\u221225% de vida, karma oscuro, mejor bot\u00edn que un jefe) o purif\u00edcalo (karma de luz y +1 nivel).",
+          "en": "Karma: corrupt demons hunt you and leave a Corrupt Chest. Open it (\u221225% HP, dark karma, better loot than a boss) or purify it (light karma and +1 level)."
+        },
+        {
+          "t": "new",
+          "es": "Altares de Baldur y de Hel: el de Baldur da vida y da\u00f1o si no te golpean mientras rezas (karma de luz); el de Hel cambia vida por da\u00f1o (karma oscuro).",
+          "en": "Altars of Baldur and Hel: Baldur's grants HP and damage if you aren't hit while praying (light karma); Hel's trades HP for damage (dark karma)."
+        },
+        {
+          "t": "new",
+          "es": "Tras vencer al MVP se abre la Salida y, seg\u00fan tu karma, el portal a Valhalla (Valkyrie Reginleif) o a Niflheim (Randgris Ca\u00edda). Cada Valkyria vencida suma otra bendici\u00f3n para el resto de la partida; la primera ruta que tomas es la tuya.",
+          "en": "After the MVP the Exit opens and, by your karma, a portal to Valhalla (Valkyrie Reginleif) or Niflheim (Fallen Randgris). Each Valkyrie beaten stacks another blessing for the rest of the run; the first path you take is yours."
+        },
+        {
+          "t": "new",
+          "es": "Rutas con recompensas propias: Bendici\u00f3n de Valhalla (+1 vida, +15% EXP, regeneraci\u00f3n) o Pacto de Hel (+50% da\u00f1o a cambio de vida), sus \u00fanicas, cartas y mascotas.",
+          "en": "Paths with their own rewards: Blessing of Valhalla (+1 life, +15% EXP, regeneration) or Pact of Hel (+50% damage for HP), their uniques, cards and pets."
+        },
+        {
+          "t": "new",
+          "es": "Sets legendarios de 4 piezas: los 14 sets tienen 2 piezas nuevas. Cualquier 2 piezas dan su bono; las 4, uno mucho mayor. Arma 3 sets de 2 o uno de 4 y uno de 2.",
+          "en": "4-piece legendary sets: all 14 sets gained 2 new pieces. Any 2 pieces grant their bonus; all 4, a much bigger one. Build 3 sets of 2, or one of 4 and one of 2."
+        },
+        {
+          "t": "new",
+          "es": "Endless Tower en el mapa del mundo: se desbloquea venciendo un MVP en Peligro 15, y su cartel muestra un resumen con ranking mensual.",
+          "en": "Endless Tower on the world map: it unlocks by beating an MVP on Danger 15, and its sign shows a summary with a monthly ranking."
+        }
+      ]
+    },
     {
       "version": "0.1.170",
       "items": [
@@ -233,56 +268,6 @@
           "t": "up",
           "es": "Vulture's Eye da menos cr\u00edtico.",
           "en": "Vulture's Eye gives less critical chance."
-        }
-      ]
-    },
-    {
-      "version": "0.1.159",
-      "items": [
-        {
-          "t": "new",
-          "es": "Nueva legendaria del Monk/Champion: Hurricane Fury. 3 segundos despu\u00e9s de tu Asura Strike, un Asura fantasma cae en el mismo lugar con la mitad del da\u00f1o.",
-          "en": "New Monk/Champion legendary: Hurricane Fury. 3 seconds after your Asura Strike, a ghost Asura strikes the same spot with half the damage."
-        },
-        {
-          "t": "up",
-          "es": "Veneno m\u00e1s fuerte: crece m\u00e1s por carga, hace el doble de da\u00f1o propio y quita m\u00e1s vida m\u00e1xima. Ahora ves las cargas sobre cada monstruo envenenado.",
-          "en": "Stronger poison: grows more per stack, deals twice its own damage and takes more max HP. You now see the stacks over each poisoned monster."
-        },
-        {
-          "t": "up",
-          "es": "Autocast de cartas y equipo: +25% de da\u00f1o.",
-          "en": "Card and gear autocasts: +25% damage."
-        },
-        {
-          "t": "up",
-          "es": "Rebirth Lv: subir cada nivel cuesta la mitad de EXP.",
-          "en": "Rebirth Lv: each level costs half the EXP."
-        },
-        {
-          "t": "up",
-          "es": "El Agua bendita puede desterrar todas tus habilidades y pasivas.",
-          "en": "Holy Water can banish all your skills and passives."
-        },
-        {
-          "t": "up",
-          "es": "Token of Siegfried: la inmortalidad dura 5 segundos (antes 10).",
-          "en": "Token of Siegfried: immortality lasts 5 seconds (was 10)."
-        },
-        {
-          "t": "fix",
-          "es": "Asura Strike ya no congela el juego al matar cientos de monstruos de golpe.",
-          "en": "Asura Strike no longer freezes the game when it kills hundreds of monsters at once."
-        },
-        {
-          "t": "fix",
-          "es": "Critical Explosion ahora aparece en la fila de buffs.",
-          "en": "Critical Explosion now shows in the buff row."
-        },
-        {
-          "t": "fix",
-          "es": "En ingl\u00e9s, los efectos al recibir golpes dicen \"When you are hit\".",
-          "en": "Effects when you are hit now say \"When you are hit\" (was \"When hit\")."
         }
       ]
     }
