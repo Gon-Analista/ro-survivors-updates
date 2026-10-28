@@ -2,12 +2,27 @@
   "base": "0.1.156",
   "page": "https://nearq.itch.io/midgard-survivors",
   "patch": {
-    "version": "0.1.168",
-    "file": "patches/patch_0.1.168.bin",
-    "size": 65764156,
-    "sha256": "7611ca03eb8d2dcafedc33ccf54f8d77d04f2962c9fe8f2ce5c379b2a6adc05f"
+    "version": "0.1.169",
+    "file": "patches/patch_0.1.169.bin",
+    "size": 65871708,
+    "sha256": "149972c469ad4a7042316eb0af53e563c99348c5420b3c0740b7238274d26f62"
   },
   "notes": [
+    {
+      "version": "0.1.169",
+      "items": [
+        {
+          "t": "up",
+          "es": "Nueva ventana de Lucile en la Endless Tower: el arte de la cima de la torre, tu r\u00e9cord y sus regalos a la vista.",
+          "en": "Lucile's new Endless Tower window: art of the tower's summit, your record and her gifts at a glance."
+        },
+        {
+          "t": "up",
+          "es": "Las ilustraciones de los NPCs quedan m\u00e1s armoniosas: m\u00e1s contenidas, centradas y con la ventana a su altura.",
+          "en": "NPC portraits look more balanced: smaller, centred and with the window at their height."
+        }
+      ]
+    },
     {
       "version": "0.1.168",
       "items": [
@@ -290,21 +305,6 @@
           "t": "fix",
           "es": "Armer\u00eda: el texto de \"Ver tambi\u00e9n lo que no puedo usar\" ya no desaparece al pasar el mouse.",
           "en": "Armory: the \"Also show what I can't use\" text no longer vanishes on hover."
-        }
-      ]
-    },
-    {
-      "version": "0.1.157",
-      "items": [
-        {
-          "t": "fix",
-          "es": "El mu\u00f1eco de pr\u00e1ctica ya no se mueve con empujones ni atracciones.",
-          "en": "The training dummy no longer moves from knockbacks or pulls."
-        },
-        {
-          "t": "up",
-          "es": "Los n\u00fameros de da\u00f1o sobre un mismo objetivo ya no se amontonan: cada golpe nuevo sube a los anteriores formando una columna.",
-          "en": "Damage numbers on one target no longer pile up: each new hit pushes the earlier ones up into a column."
         }
       ]
     }
