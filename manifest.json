@@ -2,12 +2,22 @@
   "base": "0.1.156",
   "page": "https://nearq.itch.io/midgard-survivors",
   "patch": {
-    "version": "0.1.166",
-    "file": "patches/patch_0.1.166.bin",
-    "size": 65825500,
-    "sha256": "6e608150d178464eea368211dcd1884dbb337635f014dfb74cded57f9dcfec2e"
+    "version": "0.1.167",
+    "file": "patches/patch_0.1.167.bin",
+    "size": 65760908,
+    "sha256": "07dc51011151fa2d4bbce6f2d6af8ecbf5fb182c0b9e64d7bc683f6650cd692e"
   },
   "notes": [
+    {
+      "version": "0.1.167",
+      "items": [
+        {
+          "t": "up",
+          "es": "El Engarzador de Prontera ahora es Oscar, con su ilustraci\u00f3n completa.",
+          "en": "Prontera's Socket Enchanter is now Oscar, with his full illustration."
+        }
+      ]
+    },
     {
       "version": "0.1.166",
       "items": [
@@ -285,21 +295,6 @@
           "t": "new",
           "es": "Nueva versi\u00f3n completa: a partir de ahora las actualizaciones vuelven a ser chicas, y las pr\u00f3ximas versiones completas ya no pedir\u00e1n descargar el juego otra vez si ya est\u00e1s al d\u00eda.",
           "en": "New full version: from now on updates are small again, and future full versions won't ask you to download the game again if you are up to date."
-        }
-      ]
-    },
-    {
-      "version": "0.1.155",
-      "items": [
-        {
-          "t": "up",
-          "es": "M\u00e1s rendimiento: los n\u00fameros de da\u00f1o, los anillos y destellos de las habilidades se dibujan todos juntos, y las monedas y esferas ya no recalculan todo el equipo.",
-          "en": "More performance: damage numbers and skill rings and flashes are drawn all together, and coins and spheres no longer recompute all the gear."
-        },
-        {
-          "t": "up",
-          "es": "Texturas de los mapas con mipmaps: menos parpadeo en el suelo y los \u00e1rboles lejanos (esta actualizaci\u00f3n es m\u00e1s pesada de lo normal).",
-          "en": "Map textures with mipmaps: less shimmering on distant ground and trees (this update is bigger than usual)."
         }
       ]
     }
