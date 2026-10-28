@@ -2,12 +2,32 @@
   "base": "0.1.156",
   "page": "https://nearq.itch.io/midgard-survivors",
   "patch": {
-    "version": "0.1.167",
-    "file": "patches/patch_0.1.167.bin",
-    "size": 65760908,
-    "sha256": "07dc51011151fa2d4bbce6f2d6af8ecbf5fb182c0b9e64d7bc683f6650cd692e"
+    "version": "0.1.168",
+    "file": "patches/patch_0.1.168.bin",
+    "size": 65764156,
+    "sha256": "7611ca03eb8d2dcafedc33ccf54f8d77d04f2962c9fe8f2ce5c379b2a6adc05f"
   },
   "notes": [
+    {
+      "version": "0.1.168",
+      "items": [
+        {
+          "t": "fix",
+          "es": "El cartel de la Endless Tower en el mapa del mundo ya no se queda cargando.",
+          "en": "The Endless Tower sign on the world map no longer gets stuck loading."
+        },
+        {
+          "t": "up",
+          "es": "Las ilustraciones de los NPCs ya no tapan su ventana: la ventana va a la izquierda y el dibujo a la derecha.",
+          "en": "NPC portraits no longer cover their window: the window goes left and the art right."
+        },
+        {
+          "t": "up",
+          "es": "Gray y Klauss quedan sim\u00e9tricos frente al portal de Prontera.",
+          "en": "Gray and Klauss now stand symmetrically in front of Prontera's portal."
+        }
+      ]
+    },
     {
       "version": "0.1.167",
       "items": [
@@ -285,16 +305,6 @@
           "t": "up",
           "es": "Los n\u00fameros de da\u00f1o sobre un mismo objetivo ya no se amontonan: cada golpe nuevo sube a los anteriores formando una columna.",
           "en": "Damage numbers on one target no longer pile up: each new hit pushes the earlier ones up into a column."
-        }
-      ]
-    },
-    {
-      "version": "0.1.156",
-      "items": [
-        {
-          "t": "new",
-          "es": "Nueva versi\u00f3n completa: a partir de ahora las actualizaciones vuelven a ser chicas, y las pr\u00f3ximas versiones completas ya no pedir\u00e1n descargar el juego otra vez si ya est\u00e1s al d\u00eda.",
-          "en": "New full version: from now on updates are small again, and future full versions won't ask you to download the game again if you are up to date."
         }
       ]
     }
