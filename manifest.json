@@ -2,10 +2,10 @@
   "base": "0.1.169",
   "page": "https://nearq.itch.io/midgard-survivors",
   "patch": {
-    "version": "0.1.175",
-    "file": "patches/patch_0.1.175.bin",
-    "size": 16019020,
-    "sha256": "0f718412e2a1b201968c244aa23c27b2c07370c5acfc8fbec07ca73eb4f06fa0"
+    "version": "0.1.176",
+    "file": "patches/patch_0.1.176.bin",
+    "size": 16672524,
+    "sha256": "9c553cb73f49cfe66f0cc661dade5c6ee67ab075c9a9d901f7062415fd5b512f"
   },
   "legacy": {
     "0.1.156": {
@@ -16,6 +16,86 @@
     }
   },
   "notes": [
+    {
+      "version": "0.1.176",
+      "items": [
+        {
+          "t": "new",
+          "es": "Endless Tower: al superar un piso se abre un portal arriba y el Viento de la torre te lleva r\u00e1pido hasta \u00e9l.",
+          "en": "Endless Tower: clearing a floor opens a portal up ahead and the Tower Wind rushes you to it."
+        },
+        {
+          "t": "new",
+          "es": "Endless Tower: zona de descanso cada 10 pisos, donde Lucile te entrega su regalo.",
+          "en": "Endless Tower: a rest area every 10 floors, where Lucile hands you her gift."
+        },
+        {
+          "t": "new",
+          "es": "Transmutaci\u00f3n con Nakurusa: Oridecon/Elunium en Enriched y Enriched en HD (ya no se compran).",
+          "en": "Transmutation with Nakurusa: Oridecon/Elunium into Enriched and Enriched into HD (no longer sold)."
+        },
+        {
+          "t": "new",
+          "es": "Nuevas mec\u00e1nicas de MVP: Remolino que te arrastra y Marca que deja un charco permanente.",
+          "en": "New MVP mechanics: a Vortex that drags you in and a Mark that leaves a permanent pool."
+        },
+        {
+          "t": "new",
+          "es": "La pantalla final muestra qu\u00e9 te derrot\u00f3: el monstruo y su ataque.",
+          "en": "The end screen shows what defeated you: the monster and its attack."
+        },
+        {
+          "t": "new",
+          "es": "Las armas explosivas estallan al golpear, con efecto y sonido del cliente.",
+          "en": "Explosive weapons burst on hit, with the client's effect and sound."
+        },
+        {
+          "t": "up",
+          "es": "DES ya no da velocidad de ataque: da duraci\u00f3n de habilidades y m\u00e1s efecto de Apoyo.",
+          "en": "DEX no longer gives attack speed: it gives skill duration and more Support effect."
+        },
+        {
+          "t": "up",
+          "es": "Satan Morroc: su Juicio Infernal te arrastra, tiene algo menos de vida en peligros altos y los monstruos fuera de su arena no se pueden apuntar.",
+          "en": "Satan Morroc: his Infernal Judgement drags you in, he has a bit less HP at high danger and monsters outside his arena can't be targeted."
+        },
+        {
+          "t": "up",
+          "es": "Almac\u00e9n Kafra: hasta nivel 8 de mejora y filtros por parte de equipo.",
+          "en": "Kafra Storage: up to upgrade level 8 and filters by gear slot."
+        },
+        {
+          "t": "up",
+          "es": "Yggdrasil Leaf: efecto de Resurrection al revivir y un segundo nivel de compra.",
+          "en": "Yggdrasil Leaf: a Resurrection effect when reviving and a second purchase level."
+        },
+        {
+          "t": "up",
+          "es": "Ventana del Cofre Corrupto, barra de karma (con explicaci\u00f3n al pasar el mouse) y selector de peligro con nuevo estilo.",
+          "en": "New style for the Corrupt Chest window, the karma bar (with an explanation on hover) and the danger selector."
+        },
+        {
+          "t": "up",
+          "es": "De noche tu personaje lleva una luz propia; sin p\u00e9talos de cerezo en el clima.",
+          "en": "At night your character carries their own light; no more cherry petals in the weather."
+        },
+        {
+          "t": "fix",
+          "es": "Ya se puede arrastrar del inventario al equipo.",
+          "en": "You can drag from the inventory to the equipment again."
+        },
+        {
+          "t": "fix",
+          "es": "La ventana de equipo muestra los accesorios de cara.",
+          "en": "The equipment window shows face accessories."
+        },
+        {
+          "t": "fix",
+          "es": "El cartel de las pociones ya no tapa la vida del jefe; la lista de builds y el cartel de la torre ya no se cortan.",
+          "en": "The potion banner no longer covers the boss's HP; the builds list and the tower pin no longer get cut off."
+        }
+      ]
+    },
     {
       "version": "0.1.175",
       "items": [
@@ -248,41 +328,6 @@
           "t": "fix",
           "es": "Las clases sin renacimiento (Doram, Gunslinger, Ninja, Taekwon, Super Novice) ya pueden llevar 2 legendarias en el equipo inicial.",
           "en": "Classes without rebirth (Doram, Gunslinger, Ninja, Taekwon, Super Novice) can now carry 2 legendaries in their starting gear."
-        }
-      ]
-    },
-    {
-      "version": "0.1.164",
-      "items": [
-        {
-          "t": "new",
-          "es": "Nuevo estado: Sangrado. Cada corte acumula da\u00f1o en el monstruo y, al llenarse, revienta en una explosi\u00f3n de sangre que salpica a los de alrededor. Lo tienen Sonic Blow, Spiral Pierce, Brandish Spear, Back Stab Nv10 y Ankle Snare.",
-          "en": "New status: Bleeding. Every cut builds up damage on the monster and, once full, it bursts in a splash of blood that hits the ones around. Sonic Blow, Spiral Pierce, Brandish Spear, Back Stab Lv10 and Ankle Snare cause it."
-        },
-        {
-          "t": "new",
-          "es": "Nuevo estado: Quemadura. Corta y fuerte; si el monstruo muere ardiendo, el fuego salta a los m\u00e1s cercanos. Lo tienen Fire Wall, Meteor Storm, Magnum Break, Sightrasher y Fire Bolt Nv10.",
-          "en": "New status: Burn. Short and strong; if the monster dies burning, the fire jumps to the nearest ones. Fire Wall, Meteor Storm, Magnum Break, Sightrasher and Fire Bolt Lv10 cause it."
-        },
-        {
-          "t": "new",
-          "es": "Nuevas legendarias: Ifrit's Ear (quemaduras m\u00e1s largas que estallan al saltar) y Vampire's Familiar (el sangrado revienta antes, m\u00e1s fuerte y en cadena).",
-          "en": "New legendaries: Ifrit's Ear (longer burns that blast when they jump) and Vampire's Familiar (bleeding bursts sooner, harder and in a chain)."
-        },
-        {
-          "t": "up",
-          "es": "Eddga Card ahora quema con el ataque b\u00e1sico y Beelzebub Card hace sangrar.",
-          "en": "Eddga Card now burns with the basic attack and Beelzebub Card makes it bleed."
-        },
-        {
-          "t": "up",
-          "es": "Envenom Nv10 hace estallar el veneno que ya tiene el objetivo (3 tics de golpe) sin quitarle las cargas.",
-          "en": "Envenom Lv10 bursts the poison already on the target (3 ticks at once) without removing its stacks."
-        },
-        {
-          "t": "up",
-          "es": "Las marcas de rebote son un poco m\u00e1s chicas y dicen \u00abrebotes\u00bb.",
-          "en": "Bounce marks are a bit smaller and say \u00abbounces\u00bb."
         }
       ]
     }
