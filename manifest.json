@@ -2,10 +2,10 @@
   "base": "0.1.169",
   "page": "https://nearq.itch.io/midgard-survivors",
   "patch": {
-    "version": "0.1.173",
-    "file": "patches/patch_0.1.173.bin",
-    "size": 15959804,
-    "sha256": "e2246275f7cc27b9ef93bdc047316eda956da6a10ee5ab3c0cbdf469a436c1ed"
+    "version": "0.1.174",
+    "file": "patches/patch_0.1.174.bin",
+    "size": 15968620,
+    "sha256": "9ed019938512d387da2d6f64c009adb516b3a0a30647ae4210075bbd4ff770fc"
   },
   "legacy": {
     "0.1.156": {
@@ -16,6 +16,46 @@
     }
   },
   "notes": [
+    {
+      "version": "0.1.174",
+      "items": [
+        {
+          "t": "new",
+          "es": "Todos los NPCs con ilustraci\u00f3n te hablan en un globo sobre su arte, con su nombre y el texto apareciendo letra a letra.",
+          "en": "Every NPC with an illustration talks to you in a speech bubble over their art, with their name and text typing in."
+        },
+        {
+          "t": "new",
+          "es": "Lucile se presenta la primera vez que le hablas.",
+          "en": "Lucile introduces herself the first time you talk to her."
+        },
+        {
+          "t": "up",
+          "es": "nearQ: su ventana ahora es una lista de destinos.",
+          "en": "nearQ: his window is now a list of destinations."
+        },
+        {
+          "t": "up",
+          "es": "Selector de peligro m\u00e1s bonito; sus flechas ya no se mueven al cambiar de nivel.",
+          "en": "Nicer danger selector; its arrows no longer move when you change the level."
+        },
+        {
+          "t": "up",
+          "es": "La ilustraci\u00f3n del refinador ya no queda detr\u00e1s de su ventana.",
+          "en": "The refiner's illustration no longer sits behind his window."
+        },
+        {
+          "t": "fix",
+          "es": "El MVP del mapa ya no repite la l\u00ednea de la \u00fanica.",
+          "en": "The map's MVP no longer repeats the unique line."
+        },
+        {
+          "t": "up",
+          "es": "Meteor Storm de las cartas: pega la mitad y Bloody Knight lo lanza la mitad de seguido (2.5%).",
+          "en": "Card Meteor Storm: hits half as hard, and Bloody Knight casts it half as often (2.5%)."
+        }
+      ]
+    },
     {
       "version": "0.1.173",
       "items": [
@@ -238,16 +278,6 @@
           "t": "up",
           "es": "Las marcas xN de los rebotes ya casi no crecen con el multiplicador: quedan chicas y discretas.",
           "en": "Bounce xN marks barely grow with the multiplier now: they stay small and subtle."
-        }
-      ]
-    },
-    {
-      "version": "0.1.162",
-      "items": [
-        {
-          "t": "fix",
-          "es": "Selecci\u00f3n de personaje: el precio de las clases bloqueadas ya no toca la pesta\u00f1a \u00abSelect\u00bb.",
-          "en": "Character select: the price of locked classes no longer touches the \u00abSelect\u00bb tab."
         }
       ]
     }
