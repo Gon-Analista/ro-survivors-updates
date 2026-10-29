@@ -2,10 +2,10 @@
   "base": "0.1.169",
   "page": "https://nearq.itch.io/midgard-survivors",
   "patch": {
-    "version": "0.1.174",
-    "file": "patches/patch_0.1.174.bin",
-    "size": 15968620,
-    "sha256": "9ed019938512d387da2d6f64c009adb516b3a0a30647ae4210075bbd4ff770fc"
+    "version": "0.1.175",
+    "file": "patches/patch_0.1.175.bin",
+    "size": 16019020,
+    "sha256": "0f718412e2a1b201968c244aa23c27b2c07370c5acfc8fbec07ca73eb4f06fa0"
   },
   "legacy": {
     "0.1.156": {
@@ -16,6 +16,21 @@
     }
   },
   "notes": [
+    {
+      "version": "0.1.175",
+      "items": [
+        {
+          "t": "new",
+          "es": "Clima y d\u00eda/noche en los mapas abiertos: lluvia, tormentas, niebla, nieve, p\u00e9talos, hojas y noches con murci\u00e9lagos. Solo visual.",
+          "en": "Weather and day/night on open maps: rain, storms, fog, snow, petals, leaves and nights with bats. Visual only."
+        },
+        {
+          "t": "new",
+          "es": "Opci\u00f3n para apagar el clima (Opciones \u2192 Pantalla).",
+          "en": "Option to turn the weather off (Options \u2192 Display)."
+        }
+      ]
+    },
     {
       "version": "0.1.174",
       "items": [
@@ -268,16 +283,6 @@
           "t": "up",
           "es": "Las marcas de rebote son un poco m\u00e1s chicas y dicen \u00abrebotes\u00bb.",
           "en": "Bounce marks are a bit smaller and say \u00abbounces\u00bb."
-        }
-      ]
-    },
-    {
-      "version": "0.1.163",
-      "items": [
-        {
-          "t": "up",
-          "es": "Las marcas xN de los rebotes ya casi no crecen con el multiplicador: quedan chicas y discretas.",
-          "en": "Bounce xN marks barely grow with the multiplier now: they stay small and subtle."
         }
       ]
     }
