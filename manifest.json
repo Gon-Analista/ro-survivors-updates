@@ -2,10 +2,10 @@
   "base": "0.1.169",
   "page": "https://nearq.itch.io/midgard-survivors",
   "patch": {
-    "version": "0.1.182",
-    "file": "patches/patch_0.1.182.bin",
-    "size": 36839724,
-    "sha256": "b97b68d419a5cacdbfffdff9349179a8e2a648035d502a4aeef368adfadab865"
+    "version": "0.1.183",
+    "file": "patches/patch_0.1.183.bin",
+    "size": 36915148,
+    "sha256": "afd3cd0f9e5b3ae275e3ccf97ac3f8036b2d7e720590619b24465307c21e2312"
   },
   "legacy": {
     "0.1.156": {
@@ -16,6 +16,46 @@
     }
   },
   "notes": [
+    {
+      "version": "0.1.183",
+      "items": [
+        {
+          "t": "new",
+          "es": "Endless Tower en grupo: el l\u00edder llama a la party, cada uno elige y gasta su build, y hay un ranking aparte de grupo.",
+          "en": "Endless Tower as a party: the leader calls everyone, each player picks and spends their build, with its own party ranking."
+        },
+        {
+          "t": "new",
+          "es": "Klauss sube de nivel su cocina (1M y 3M de zeny): hasta 3 platos a la vez, en una ventana nueva.",
+          "en": "Klauss can upgrade his kitchen (1M and 3M zeny): up to 3 dishes at once, in a new window."
+        },
+        {
+          "t": "new",
+          "es": "6 platos nuevos para cada tipo de build y quests en los 12 mapas que no ten\u00edan (platos, mascotas y cartas).",
+          "en": "6 new dishes for each kind of build, and quests on the 12 maps that had none (dishes, pets and cards)."
+        },
+        {
+          "t": "up",
+          "es": "Los platos de siempre ahora dan bonos para su build (el Immortal Stew queda igual).",
+          "en": "The old dishes now give bonuses for their build (Immortal Stew stays the same)."
+        },
+        {
+          "t": "up",
+          "es": "Satan Morroc tiene menos vida: unas 1,5 veces la de un MVP.",
+          "en": "Satan Morroc has less HP: about 1.5 times an MVP's."
+        },
+        {
+          "t": "up",
+          "es": "HUD de la party y ventana de Lydia redise\u00f1ados.",
+          "en": "Party HUD and Lydia's window redesigned."
+        },
+        {
+          "t": "fix",
+          "es": "Los textos del bot\u00edn legendario del grupo y los globos de di\u00e1logo ya no se cortan.",
+          "en": "Party legendary loot texts and speech bubbles no longer get cut off."
+        }
+      ]
+    },
     {
       "version": "0.1.182",
       "items": [
@@ -323,41 +363,6 @@
           "t": "fix",
           "es": "Las ventanas de los NPCs con ilustraci\u00f3n vuelven a quedar centradas en la pantalla.",
           "en": "NPC windows with an illustration are centred on the screen again."
-        }
-      ]
-    },
-    {
-      "version": "0.1.171",
-      "items": [
-        {
-          "t": "new",
-          "es": "Karma: demonios corruptos te atacan y dejan un Cofre Corrupto. \u00c1brelo (\u221225% de vida, karma oscuro, mejor bot\u00edn que un jefe) o purif\u00edcalo (karma de luz y +1 nivel).",
-          "en": "Karma: corrupt demons hunt you and leave a Corrupt Chest. Open it (\u221225% HP, dark karma, better loot than a boss) or purify it (light karma and +1 level)."
-        },
-        {
-          "t": "new",
-          "es": "Altares de Baldur y de Hel: el de Baldur da vida y da\u00f1o si no te golpean mientras rezas (karma de luz); el de Hel cambia vida por da\u00f1o (karma oscuro).",
-          "en": "Altars of Baldur and Hel: Baldur's grants HP and damage if you aren't hit while praying (light karma); Hel's trades HP for damage (dark karma)."
-        },
-        {
-          "t": "new",
-          "es": "Tras vencer al MVP se abre la Salida y, seg\u00fan tu karma, el portal a Valhalla (Valkyrie Reginleif) o a Niflheim (Randgris Ca\u00edda). Cada Valkyria vencida suma otra bendici\u00f3n para el resto de la partida; la primera ruta que tomas es la tuya.",
-          "en": "After the MVP the Exit opens and, by your karma, a portal to Valhalla (Valkyrie Reginleif) or Niflheim (Fallen Randgris). Each Valkyrie beaten stacks another blessing for the rest of the run; the first path you take is yours."
-        },
-        {
-          "t": "new",
-          "es": "Rutas con recompensas propias: Bendici\u00f3n de Valhalla (+1 vida, +15% EXP, regeneraci\u00f3n) o Pacto de Hel (+50% da\u00f1o a cambio de vida), sus \u00fanicas, cartas y mascotas.",
-          "en": "Paths with their own rewards: Blessing of Valhalla (+1 life, +15% EXP, regeneration) or Pact of Hel (+50% damage for HP), their uniques, cards and pets."
-        },
-        {
-          "t": "new",
-          "es": "Sets legendarios de 4 piezas: los 14 sets tienen 2 piezas nuevas. Cualquier 2 piezas dan su bono; las 4, uno mucho mayor. Arma 3 sets de 2 o uno de 4 y uno de 2.",
-          "en": "4-piece legendary sets: all 14 sets gained 2 new pieces. Any 2 pieces grant their bonus; all 4, a much bigger one. Build 3 sets of 2, or one of 4 and one of 2."
-        },
-        {
-          "t": "new",
-          "es": "Endless Tower en el mapa del mundo: se desbloquea venciendo un MVP en Peligro 15, y su cartel muestra un resumen con ranking mensual.",
-          "en": "Endless Tower on the world map: it unlocks by beating an MVP on Danger 15, and its sign shows a summary with a monthly ranking."
         }
       ]
     }
