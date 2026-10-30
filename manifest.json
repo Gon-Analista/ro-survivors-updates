@@ -2,10 +2,10 @@
   "base": "0.1.169",
   "page": "https://nearq.itch.io/midgard-survivors",
   "patch": {
-    "version": "0.1.180",
-    "file": "patches/patch_0.1.180.bin",
+    "version": "0.1.181",
+    "file": "patches/patch_0.1.181.bin",
     "size": 36839484,
-    "sha256": "d72702b1b378f540cdb95a482f7b001fab6bb79b7b50194cc48955840ad72231"
+    "sha256": "f20ca72273c57fd903b99cc507d34072522fceaa0750a2c770742d1c70a87ef6"
   },
   "legacy": {
     "0.1.156": {
@@ -16,6 +16,16 @@
     }
   },
   "notes": [
+    {
+      "version": "0.1.181",
+      "items": [
+        {
+          "t": "fix",
+          "es": "Cooperativo: el Frenes\u00ed es el del l\u00edder para todo el grupo (nadie se mueve a otra velocidad).",
+          "en": "Co-op: Frenzy follows the leader for the whole party (nobody moves at a different speed)."
+        }
+      ]
+    },
     {
       "version": "0.1.180",
       "items": [
@@ -343,21 +353,6 @@
           "t": "fix",
           "es": "El aviso de actualizaci\u00f3n ya no aparece si el juego est\u00e1 al d\u00eda.",
           "en": "The update notice no longer shows when the game is up to date."
-        }
-      ]
-    },
-    {
-      "version": "0.1.169",
-      "items": [
-        {
-          "t": "up",
-          "es": "Nueva ventana de Lucile en la Endless Tower: el arte de la cima de la torre, tu r\u00e9cord y sus regalos a la vista.",
-          "en": "Lucile's new Endless Tower window: art of the tower's summit, your record and her gifts at a glance."
-        },
-        {
-          "t": "up",
-          "es": "Las ilustraciones de los NPCs quedan m\u00e1s armoniosas: m\u00e1s contenidas, centradas y con la ventana a su altura.",
-          "en": "NPC portraits look more balanced: smaller, centred and with the window at their height."
         }
       ]
     }
