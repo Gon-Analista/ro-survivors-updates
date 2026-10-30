@@ -2,10 +2,10 @@
   "base": "0.1.169",
   "page": "https://nearq.itch.io/midgard-survivors",
   "patch": {
-    "version": "0.1.176",
-    "file": "patches/patch_0.1.176.bin",
-    "size": 16672524,
-    "sha256": "9c553cb73f49cfe66f0cc661dade5c6ee67ab075c9a9d901f7062415fd5b512f"
+    "version": "0.1.177",
+    "file": "patches/patch_0.1.177.bin",
+    "size": 34974732,
+    "sha256": "5196e8abe4b30e2b3e5086d173f6ede5d3d844cc22acd9317aa0af1b4dd91889"
   },
   "legacy": {
     "0.1.156": {
@@ -16,6 +16,41 @@
     }
   },
   "notes": [
+    {
+      "version": "0.1.177",
+      "items": [
+        {
+          "t": "new",
+          "es": "Valkyrias renovadas: arenas nuevas y m\u00e1s grandes con m\u00fasica \u00e9pica, habilidades propias y un escudo que, al romperlo, las deja aturdidas y vulnerables.",
+          "en": "Revamped Valkyries: new, bigger arenas with epic music, their own skills and a shield that, once broken, leaves them stunned and vulnerable."
+        },
+        {
+          "t": "up",
+          "es": "Las Valkyrias son algo m\u00e1s fuertes; su \u00fanica ya no es segura, pero sale m\u00e1s que las de los mapas.",
+          "en": "The Valkyries are a bit stronger; their unique is no longer guaranteed, but drops more often than map uniques."
+        },
+        {
+          "t": "up",
+          "es": "El Coraz\u00f3n de Ymir despierta antes en las peleas de MVP, Valkyrias y Satan Morroc.",
+          "en": "Ymir's Heart wakes sooner in MVP, Valkyrie and Satan Morroc fights."
+        },
+        {
+          "t": "up",
+          "es": "Satan Morroc queda aturdido y vulnerable m\u00e1s tiempo.",
+          "en": "Satan Morroc stays stunned and vulnerable longer."
+        },
+        {
+          "t": "up",
+          "es": "Nuevo men\u00fa de la Kafra y etiquetas m\u00e1s limpias.",
+          "en": "New Kafra menu and cleaner tags."
+        },
+        {
+          "t": "fix",
+          "es": "Los accesorios de cara muestran todos sus efectos.",
+          "en": "Face accessories show all their effects."
+        }
+      ]
+    },
     {
       "version": "0.1.176",
       "items": [
@@ -320,21 +355,6 @@
           "en": "Poison, burn and bleeding show over the monsters with the client's icons."
         }
       ]
-    },
-    {
-      "version": "0.1.165",
-      "items": [
-        {
-          "t": "fix",
-          "es": "Las clases sin renacimiento (Doram, Gunslinger, Ninja, Taekwon, Super Novice) ya pueden llevar 2 legendarias en el equipo inicial.",
-          "en": "Classes without rebirth (Doram, Gunslinger, Ninja, Taekwon, Super Novice) can now carry 2 legendaries in their starting gear."
-        }
-      ]
     }
-  ],
-  "broadcast": {
-    "id": "1793319217",
-    "es": "Chupala gray",
-    "en": "Chupala gray"
-  }
+  ]
 }
