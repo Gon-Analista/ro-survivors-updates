@@ -2,10 +2,10 @@
   "base": "0.1.169",
   "page": "https://nearq.itch.io/midgard-survivors",
   "patch": {
-    "version": "0.1.181",
-    "file": "patches/patch_0.1.181.bin",
-    "size": 36839484,
-    "sha256": "f20ca72273c57fd903b99cc507d34072522fceaa0750a2c770742d1c70a87ef6"
+    "version": "0.1.182",
+    "file": "patches/patch_0.1.182.bin",
+    "size": 36839724,
+    "sha256": "b97b68d419a5cacdbfffdff9349179a8e2a648035d502a4aeef368adfadab865"
   },
   "legacy": {
     "0.1.156": {
@@ -16,6 +16,21 @@
     }
   },
   "notes": [
+    {
+      "version": "0.1.182",
+      "items": [
+        {
+          "t": "fix",
+          "es": "Torre Infinita: agarrar un Emperium ya no cierra el juego.",
+          "en": "Endless Tower: picking up an Emperium no longer crashes the game."
+        },
+        {
+          "t": "fix",
+          "es": "La pieza superior de la cara acepta en el Almac\u00e9n Kafra las mismas Cartas Eternas que el headgear.",
+          "en": "Upper face gear now takes the same Eternal Cards as headgear in Kafra Storage."
+        }
+      ]
+    },
     {
       "version": "0.1.181",
       "items": [
@@ -343,16 +358,6 @@
           "t": "new",
           "es": "Endless Tower en el mapa del mundo: se desbloquea venciendo un MVP en Peligro 15, y su cartel muestra un resumen con ranking mensual.",
           "en": "Endless Tower on the world map: it unlocks by beating an MVP on Danger 15, and its sign shows a summary with a monthly ranking."
-        }
-      ]
-    },
-    {
-      "version": "0.1.170",
-      "items": [
-        {
-          "t": "fix",
-          "es": "El aviso de actualizaci\u00f3n ya no aparece si el juego est\u00e1 al d\u00eda.",
-          "en": "The update notice no longer shows when the game is up to date."
         }
       ]
     }
