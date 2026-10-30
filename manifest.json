@@ -2,10 +2,10 @@
   "base": "0.1.169",
   "page": "https://nearq.itch.io/midgard-survivors",
   "patch": {
-    "version": "0.1.183",
-    "file": "patches/patch_0.1.183.bin",
-    "size": 36915148,
-    "sha256": "afd3cd0f9e5b3ae275e3ccf97ac3f8036b2d7e720590619b24465307c21e2312"
+    "version": "0.1.184",
+    "file": "patches/patch_0.1.184.bin",
+    "size": 36922588,
+    "sha256": "987ed725d2b3e602e5d2c2be1134d3fafefa523c5f5309e023fa77a4fa8132e3"
   },
   "legacy": {
     "0.1.156": {
@@ -16,6 +16,36 @@
     }
   },
   "notes": [
+    {
+      "version": "0.1.184",
+      "items": [
+        {
+          "t": "new",
+          "es": "Twin Spice Skewers reemplaza al Bomber Steak: +10% de doble lanzamiento de habilidades.",
+          "en": "Twin Spice Skewers replaces Bomber Steak: +10% skill double cast."
+        },
+        {
+          "t": "up",
+          "es": "Platos m\u00e1s parejos: los que serv\u00edan a todos bajan un poco y los de builds concretas suben.",
+          "en": "More even dishes: the ones good for everyone go down a bit, the build-specific ones go up."
+        },
+        {
+          "t": "up",
+          "es": "Muchas cartas flojas mejoradas: doble lanzamiento, veneno, sangrado, quemadura, invocaciones, bufos, reflejo y velocidad de proyectiles.",
+          "en": "Many weak cards improved: double cast, poison, bleeding, burning, summons, buffs, reflect and projectile speed."
+        },
+        {
+          "t": "fix",
+          "es": "Los efectos autom\u00e1ticos (procs con su % y da\u00f1o) vuelven a verse: Equipo (Q / C) \u2192 \u00abVer efectos y detalles\u00bb.",
+          "en": "Automatic effects (procs with their % and damage) are visible again: Equipment (Q / C) \u2192 \u00abSee effects and details\u00bb."
+        },
+        {
+          "t": "fix",
+          "es": "El equipo inicial muestra el set como activo cuando lo llevas completo.",
+          "en": "The starting gear shows a set as active when you wear all of it."
+        }
+      ]
+    },
     {
       "version": "0.1.183",
       "items": [
@@ -353,16 +383,6 @@
           "t": "fix",
           "es": "Plagiarism: las habilidades copiadas ya no se activan solas; las eliges t\u00fa en el \u00c1lbum.",
           "en": "Plagiarism: copied skills no longer switch on by themselves; you pick them in the Album."
-        }
-      ]
-    },
-    {
-      "version": "0.1.172",
-      "items": [
-        {
-          "t": "fix",
-          "es": "Las ventanas de los NPCs con ilustraci\u00f3n vuelven a quedar centradas en la pantalla.",
-          "en": "NPC windows with an illustration are centred on the screen again."
         }
       ]
     }
