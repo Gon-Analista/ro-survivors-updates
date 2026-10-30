@@ -1,6 +1,12 @@
 {
   "base": "0.1.184",
   "page": "https://nearq.itch.io/midgard-survivors",
+  "patch": {
+    "version": "0.1.185",
+    "file": "patches/patch_0.1.185.bin",
+    "size": 55676,
+    "sha256": "d41d5d9078f9dae3a59ee16f5978985a3b566c1040ae846c5bacc9b78e9bffd2"
+  },
   "legacy": {
     "0.1.156": {
       "version": "0.1.184",
@@ -20,6 +26,21 @@
     }
   },
   "notes": [
+    {
+      "version": "0.1.185",
+      "items": [
+        {
+          "t": "fix",
+          "es": "Satan Morroc ya no aparece en la Torre Infinita.",
+          "en": "Satan Morroc no longer shows up in the Endless Tower."
+        },
+        {
+          "t": "fix",
+          "es": "Clima: corregido un error que se repet\u00eda cada fotograma al despejarse la niebla o las nubes.",
+          "en": "Weather: fixed an error repeating every frame when fog or clouds cleared."
+        }
+      ]
+    },
     {
       "version": "0.1.184",
       "items": [
@@ -362,31 +383,6 @@
           "t": "up",
           "es": "Meteor Storm de las cartas: pega la mitad y Bloody Knight lo lanza la mitad de seguido (2.5%).",
           "en": "Card Meteor Storm: hits half as hard, and Bloody Knight casts it half as often (2.5%)."
-        }
-      ]
-    },
-    {
-      "version": "0.1.173",
-      "items": [
-        {
-          "t": "up",
-          "es": "Las ilustraciones de los NPCs vuelven a su tama\u00f1o grande.",
-          "en": "NPC illustrations are back to their big size."
-        },
-        {
-          "t": "new",
-          "es": "Lucile te habla en un globo al abrir la Endless Tower.",
-          "en": "Lucile talks to you in a speech bubble when you open the Endless Tower."
-        },
-        {
-          "t": "fix",
-          "es": "El portal de la entrada de la torre ya no se ve cortado.",
-          "en": "The tower gate's portal no longer looks cut off."
-        },
-        {
-          "t": "fix",
-          "es": "Plagiarism: las habilidades copiadas ya no se activan solas; las eliges t\u00fa en el \u00c1lbum.",
-          "en": "Plagiarism: copied skills no longer switch on by themselves; you pick them in the Album."
         }
       ]
     }
