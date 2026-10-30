@@ -2,10 +2,10 @@
   "base": "0.1.169",
   "page": "https://nearq.itch.io/midgard-survivors",
   "patch": {
-    "version": "0.1.179",
-    "file": "patches/patch_0.1.179.bin",
-    "size": 36836908,
-    "sha256": "06517e422492b227570ff8aee7b2178c15d8d4bef137adc5fa6e39ff89983510"
+    "version": "0.1.180",
+    "file": "patches/patch_0.1.180.bin",
+    "size": 36839484,
+    "sha256": "d72702b1b378f540cdb95a482f7b001fab6bb79b7b50194cc48955840ad72231"
   },
   "legacy": {
     "0.1.156": {
@@ -16,6 +16,31 @@
     }
   },
   "notes": [
+    {
+      "version": "0.1.180",
+      "items": [
+        {
+          "t": "up",
+          "es": "Los Oridecon y Elunium que encuentras en una partida van todos a tu Almac\u00e9n al terminar, aunque los gastes refinando en la partida.",
+          "en": "Every Oridecon and Elunium you find in a run goes to your Storage when it ends, even the ones spent refining during the run."
+        },
+        {
+          "t": "up",
+          "es": "Refinamiento con Nakurusa: solo se muestran los objetos que se pueden refinar y se ve cu\u00e1nto mejora el objeto si sale bien.",
+          "en": "Refining with Nakurusa: only items that can be refined are shown, and you see how much the item improves if it succeeds."
+        },
+        {
+          "t": "up",
+          "es": "Cada nivel de refine mejora m\u00e1s el objeto; los Enriched y HD dan un poco menos de probabilidad de \u00e9xito.",
+          "en": "Each refine level improves the item more; Enriched and HD ores give a bit less success chance."
+        },
+        {
+          "t": "up",
+          "es": "Las ilustraciones de los NPCs se acomodan mejor junto a su ventana.",
+          "en": "NPC portraits sit better beside their window."
+        }
+      ]
+    },
     {
       "version": "0.1.179",
       "items": [
@@ -333,26 +358,6 @@
           "t": "up",
           "es": "Las ilustraciones de los NPCs quedan m\u00e1s armoniosas: m\u00e1s contenidas, centradas y con la ventana a su altura.",
           "en": "NPC portraits look more balanced: smaller, centred and with the window at their height."
-        }
-      ]
-    },
-    {
-      "version": "0.1.168",
-      "items": [
-        {
-          "t": "fix",
-          "es": "El cartel de la Endless Tower en el mapa del mundo ya no se queda cargando.",
-          "en": "The Endless Tower sign on the world map no longer gets stuck loading."
-        },
-        {
-          "t": "up",
-          "es": "Las ilustraciones de los NPCs ya no tapan su ventana: la ventana va a la izquierda y el dibujo a la derecha.",
-          "en": "NPC portraits no longer cover their window: the window goes left and the art right."
-        },
-        {
-          "t": "up",
-          "es": "Gray y Klauss quedan sim\u00e9tricos frente al portal de Prontera.",
-          "en": "Gray and Klauss now stand symmetrically in front of Prontera's portal."
         }
       ]
     }
