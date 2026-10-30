@@ -2,10 +2,10 @@
   "base": "0.1.169",
   "page": "https://nearq.itch.io/midgard-survivors",
   "patch": {
-    "version": "0.1.178",
-    "file": "patches/patch_0.1.178.bin",
-    "size": 36801356,
-    "sha256": "28b9a8e6689a603c60d21ea2b9cd39d3cb71749e37a4de6dee6d40621b1e306f"
+    "version": "0.1.179",
+    "file": "patches/patch_0.1.179.bin",
+    "size": 36836908,
+    "sha256": "06517e422492b227570ff8aee7b2178c15d8d4bef137adc5fa6e39ff89983510"
   },
   "legacy": {
     "0.1.156": {
@@ -16,6 +16,36 @@
     }
   },
   "notes": [
+    {
+      "version": "0.1.179",
+      "items": [
+        {
+          "t": "up",
+          "es": "Frenes\u00ed: la pelea contra Satan Morroc va a velocidad normal, como las de MVP.",
+          "en": "Frenzy: the Satan Morroc fight runs at normal speed, like the MVP fights."
+        },
+        {
+          "t": "up",
+          "es": "Co-op: Satan Morroc aparece tambi\u00e9n en grupo y todos ven su presagio, su ca\u00edda y su pelea.",
+          "en": "Co-op: Satan Morroc also comes for a party, and everyone sees his omen, his fall and his fight."
+        },
+        {
+          "t": "up",
+          "es": "Co-op: el Hipnotista y los altares de los dioses funcionan para cualquiera del grupo.",
+          "en": "Co-op: the Hypnotist and the gods' altars work for anyone in the party."
+        },
+        {
+          "t": "fix",
+          "es": "Co-op: tu h\u00e9roe ya no salta de sitio cuando el juego lo mueve (saltos, tirones de MVP) y las esferas espirituales se ven en todas las pantallas.",
+          "en": "Co-op: your hero no longer jumps around when the game moves it (leaps, MVP pulls) and spirit spheres show on every screen."
+        },
+        {
+          "t": "fix",
+          "es": "Co-op: los \u00fanicos no se repiten para quien ya los tiene en su Almac\u00e9n Kafra.",
+          "en": "Co-op: uniques no longer drop again for whoever already has them in their Kafra storage."
+        }
+      ]
+    },
     {
       "version": "0.1.178",
       "items": [
@@ -323,16 +353,6 @@
           "t": "up",
           "es": "Gray y Klauss quedan sim\u00e9tricos frente al portal de Prontera.",
           "en": "Gray and Klauss now stand symmetrically in front of Prontera's portal."
-        }
-      ]
-    },
-    {
-      "version": "0.1.167",
-      "items": [
-        {
-          "t": "up",
-          "es": "El Engarzador de Prontera ahora es Oscar, con su ilustraci\u00f3n completa.",
-          "en": "Prontera's Socket Enchanter is now Oscar, with his full illustration."
         }
       ]
     }
