@@ -2,10 +2,10 @@
   "base": "0.1.169",
   "page": "https://nearq.itch.io/midgard-survivors",
   "patch": {
-    "version": "0.1.177",
-    "file": "patches/patch_0.1.177.bin",
-    "size": 34974732,
-    "sha256": "5196e8abe4b30e2b3e5086d173f6ede5d3d844cc22acd9317aa0af1b4dd91889"
+    "version": "0.1.178",
+    "file": "patches/patch_0.1.178.bin",
+    "size": 36801356,
+    "sha256": "28b9a8e6689a603c60d21ea2b9cd39d3cb71749e37a4de6dee6d40621b1e306f"
   },
   "legacy": {
     "0.1.156": {
@@ -16,6 +16,31 @@
     }
   },
   "notes": [
+    {
+      "version": "0.1.178",
+      "items": [
+        {
+          "t": "up",
+          "es": "Hordas enormes: cuando el mapa se llena, los monstruos llegan fusionados (menos cuerpos, la misma vida total) y los que quedan atrapados lejos vuelven cerca de ti. M\u00e1s FPS en las partidas largas.",
+          "en": "Huge hordes: when the map fills up, monsters arrive merged (fewer bodies, the same total HP) and the ones stuck far away come back near you. More FPS in long runs."
+        },
+        {
+          "t": "up",
+          "es": "Endless Tower: Lucile te pide confirmar antes de entrar (la build se gasta y no vuelve), y en la pausa el bot\u00f3n dice \u00abTerminar la subida\u00bb.",
+          "en": "Endless Tower: Lucile asks you to confirm before going in (the build is spent and never comes back), and the pause button reads \u201cEnd the climb\u201d."
+        },
+        {
+          "t": "fix",
+          "es": "La cara superior acepta las mismas cartas que el headgear.",
+          "en": "Upper face gear takes the same cards as headgear."
+        },
+        {
+          "t": "fix",
+          "es": "La cara inferior ya no tiene huecos para cartas.",
+          "en": "Lower face gear no longer has card slots."
+        }
+      ]
+    },
     {
       "version": "0.1.177",
       "items": [
@@ -308,51 +333,6 @@
           "t": "up",
           "es": "El Engarzador de Prontera ahora es Oscar, con su ilustraci\u00f3n completa.",
           "en": "Prontera's Socket Enchanter is now Oscar, with his full illustration."
-        }
-      ]
-    },
-    {
-      "version": "0.1.166",
-      "items": [
-        {
-          "t": "new",
-          "es": "\u00a1Endless Tower! En el mapa del mundo, el cartel de la torre lleva a su entrada, donde te espera Lucile. Al terminar una partida (Nv 20+) puedes guardar la build y subir la torre con ella: piso tras piso, cada vez m\u00e1s dif\u00edcil, sin final.",
-          "en": "Endless Tower! On the world map, the tower's sign leads to its gate, where Lucile awaits. When a run ends (Lv 20+) you can save the build and climb the tower with it: floor after floor, harder each time, endlessly."
-        },
-        {
-          "t": "new",
-          "es": "Naght Sieger, el se\u00f1or de la torre, en el piso 100: una pelea de raid de 4 fases con sus espadas de fuego y hielo, trampas por todo el sal\u00f3n, un intermedio con los ecos de sus espadas y la cima derrumb\u00e1ndose.",
-          "en": "Naght Sieger, lord of the tower, on floor 100: a 4-phase raid fight with his fire and ice blades, traps all over the hall, an intermission with his blades' echoes and the summit crumbling."
-        },
-        {
-          "t": "new",
-          "es": "La torre: cada 10 pisos un MVP, puntos de control para volver a empezar m\u00e1s arriba, pisos con reglas (Horda, Furia, Oro, \u00c9lites, Gigantes), bendiciones de Lucile y sus regalos (m\u00e1s da\u00f1o y vida en la torre, m\u00e1s huecos de legendaria en el equipo inicial).",
-          "en": "The tower: an MVP every 10 floors, checkpoints to start again higher up, floors with rules (Horde, Fury, Gold, Elites, Giants), Lucile's blessings and her gifts (more damage and HP in the tower, more legendary slots in your starting gear)."
-        },
-        {
-          "t": "new",
-          "es": "Equipo de cara (cara superior e inferior): solo sale en la torre, morado o legendario, con stats nuevos: da\u00f1o a MVP, % de atributos, poder seg\u00fan tu r\u00e9cord en la torre y vidas extra.",
-          "en": "Face gear (upper and lower face): only drops in the tower, purple or legendary, with new stats: MVP damage, % attributes, power by your tower record and extra lives."
-        },
-        {
-          "t": "new",
-          "es": "Sets legendarios de 2 piezas para cada build y 11 legendarias nuevas.",
-          "en": "Two-piece legendary sets for every build and 11 new legendaries."
-        },
-        {
-          "t": "new",
-          "es": "Puedes elegir qu\u00e9 Kafra te atiende en Prontera, y los NPCs muestran su ilustraci\u00f3n al hablarles.",
-          "en": "You can choose which Kafra serves you in Prontera, and NPCs show their portrait when you talk to them."
-        },
-        {
-          "t": "new",
-          "es": "Blue Gemstone (Kafra): golpes extra en el ataque b\u00e1sico cuerpo a cuerpo. La Red Gemstone suma flechas y balas al ataque b\u00e1sico a distancia.",
-          "en": "Blue Gemstone (Kafra): extra blows on the melee basic attack. The Red Gemstone adds arrows and bullets to the ranged basic attack."
-        },
-        {
-          "t": "up",
-          "es": "Veneno, quemadura y sangrado se ven sobre los monstruos con los iconos del cliente.",
-          "en": "Poison, burn and bleeding show over the monsters with the client's icons."
         }
       ]
     }
