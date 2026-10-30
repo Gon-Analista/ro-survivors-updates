@@ -1,6 +1,12 @@
 {
   "base": "0.1.186",
   "page": "https://nearq.itch.io/midgard-survivors",
+  "patch": {
+    "version": "0.1.187",
+    "file": "patches/patch_0.1.187.bin",
+    "size": 1756172,
+    "sha256": "b9a5da4381d79ded39d0885e49730687e38605d7d009352a4a8c1f3eb2654c53"
+  },
   "legacy": {
     "0.1.156": {
       "version": "0.1.186",
@@ -26,6 +32,26 @@
     }
   },
   "notes": [
+    {
+      "version": "0.1.187",
+      "items": [
+        {
+          "t": "new",
+          "es": "Comercio en Prontera: clic derecho sobre otro jugador de la sala para intercambiar equipo del Almac\u00e9n Kafra (con su refine y Cartas Eternas), cartas del \u00e1lbum, minerales y zeny. Ventana al estilo de RO con OK, Comerciar y confirmaci\u00f3n de los dos.",
+          "en": "Trading in Prontera: right-click another player in your room to swap Kafra Storage gear (with its refine and Eternal Cards), album cards, ores and zeny. RO-style window with OK, Trade and a confirmation from both."
+        },
+        {
+          "t": "up",
+          "es": "Ventana de Klauss renovada: m\u00e1s simple, con tu mesa arriba y las recetas en una grilla de \u00edconos.",
+          "en": "Klauss's window redesigned: simpler, with your table on top and the recipes as an icon grid."
+        },
+        {
+          "t": "up",
+          "es": "Ingl\u00e9s revisado: casi 500 textos corregidos y con los nombres de Ragnarok Online en ingl\u00e9s.",
+          "en": "English reviewed: almost 500 lines fixed, using Ragnarok Online's English names."
+        }
+      ]
+    },
     {
       "version": "0.1.186",
       "items": [
@@ -338,21 +364,6 @@
           "t": "fix",
           "es": "El cartel de las pociones ya no tapa la vida del jefe; la lista de builds y el cartel de la torre ya no se cortan.",
           "en": "The potion banner no longer covers the boss's HP; the builds list and the tower pin no longer get cut off."
-        }
-      ]
-    },
-    {
-      "version": "0.1.175",
-      "items": [
-        {
-          "t": "new",
-          "es": "Clima y d\u00eda/noche en los mapas abiertos: lluvia, tormentas, niebla, nieve, p\u00e9talos, hojas y noches con murci\u00e9lagos. Solo visual.",
-          "en": "Weather and day/night on open maps: rain, storms, fog, snow, petals, leaves and nights with bats. Visual only."
-        },
-        {
-          "t": "new",
-          "es": "Opci\u00f3n para apagar el clima (Opciones \u2192 Pantalla).",
-          "en": "Option to turn the weather off (Options \u2192 Display)."
         }
       ]
     }
