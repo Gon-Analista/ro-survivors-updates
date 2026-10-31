@@ -2,10 +2,10 @@
   "base": "0.1.186",
   "page": "https://nearq.itch.io/midgard-survivors",
   "patch": {
-    "version": "0.1.199",
-    "file": "patches/patch_0.1.199.bin",
-    "size": 3714892,
-    "sha256": "fd2ec8a56fcd1b6480ffd98e3ef0b763912491f0805a2464d99a108453664ce9"
+    "version": "0.1.200",
+    "file": "patches/patch_0.1.200.bin",
+    "size": 3716316,
+    "sha256": "5ccd06e7e4cc1a199ecaefb429253391a0af8f5dbac3457bb980658f5851ec19"
   },
   "legacy": {
     "0.1.156": {
@@ -32,6 +32,21 @@
     }
   },
   "notes": [
+    {
+      "version": "0.1.200",
+      "items": [
+        {
+          "t": "up",
+          "es": "Infierno: desde el nivel 5 suben las probabilidades de legendarias y \u00fanicas.",
+          "en": "Hell: legendary and unique chances rise from level 5."
+        },
+        {
+          "t": "up",
+          "es": "Selecci\u00f3n de peligro: las recompensas muestran las \u00fanicas y explican cada valor al pasar el mouse.",
+          "en": "Danger select: rewards show uniques and explain each value on hover."
+        }
+      ]
+    },
     {
       "version": "0.1.199",
       "items": [
@@ -559,101 +574,6 @@
           "t": "fix",
           "es": "Creaci\u00f3n de personaje: el bot\u00f3n Al azar ya no tapa tu personaje con su texto.",
           "en": "Character creation: the Random button's hint no longer covers your character."
-        }
-      ]
-    },
-    {
-      "version": "0.1.188",
-      "items": [
-        {
-          "t": "fix",
-          "es": "El comercio en Prontera ya no cierra el juego al ofrecer o quitar cosas.",
-          "en": "Trading in Prontera no longer crashes when offering or taking items back."
-        },
-        {
-          "t": "fix",
-          "es": "Hablar con NPC con ilustraci\u00f3n en ingl\u00e9s ya no deja el globo gigante.",
-          "en": "NPCs with an illustration no longer show a giant speech bubble in English."
-        },
-        {
-          "t": "up",
-          "es": "Habilidades de suelo (Acid Terror, Demonstration...) mucho m\u00e1s livianas: pasado cierto n\u00famero a la vez solo se dibuja lo justo, y siguen haciendo da\u00f1o.",
-          "en": "Ground skills (Acid Terror, Demonstration...) are much lighter: past a number at once only the essentials are drawn, and they still deal damage."
-        },
-        {
-          "t": "up",
-          "es": "Cooperativo: los efectos de tus compa\u00f1eros tienen un l\u00edmite propio m\u00e1s bajo; los tuyos se ven todos.",
-          "en": "Co-op: your allies' effects have their own lower limit; yours always show."
-        },
-        {
-          "t": "fix",
-          "es": "Cooperativo: minimizado, el invitado ya no acumula efectos (memoria y lag al volver).",
-          "en": "Co-op: a minimized guest no longer piles up effects (memory and lag when coming back)."
-        },
-        {
-          "t": "fix",
-          "es": "Cooperativo: la siguiente mejora se abre sola al subir varios niveles, puedes elegir mejoras estando ca\u00eddo y ya no salen mejoras repetidas que no se pod\u00edan elegir.",
-          "en": "Co-op: the next upgrade opens by itself, you can pick upgrades while down, and stale unpickable upgrades are gone."
-        },
-        {
-          "t": "fix",
-          "es": "Cooperativo: si el l\u00edder cae y solo quedan bots, la partida termina normal; y se puede guardar la build para la Endless Tower.",
-          "en": "Co-op: if the leader falls with only bots left the run ends normally; and you can save the build for the Endless Tower."
-        },
-        {
-          "t": "up",
-          "es": "N\u00fameros de da\u00f1o: m\u00e1s lejos de tu personaje y un poco m\u00e1s arriba, m\u00e1s n\u00fameros en pantalla, los golpes directos y a jefes tienen prioridad sobre charcos.",
-          "en": "Damage numbers: farther from your hero and a bit higher, more on screen, direct and boss hits take priority over puddles."
-        },
-        {
-          "t": "up",
-          "es": "Los enemigos se juntan m\u00e1s: ya no se empujan hacia atr\u00e1s en hordas grandes.",
-          "en": "Enemies bunch up more: big hordes no longer push each other backwards."
-        },
-        {
-          "t": "up",
-          "es": "Los MVP, Satan Morroc y las Valkyries nunca ganan velocidad; al enfurecerse pegan m\u00e1s fuerte.",
-          "en": "MVPs, Satan Morroc and the Valkyries never gain speed; when enraged they hit harder."
-        },
-        {
-          "t": "up",
-          "es": "Pacto de Hel: ya no consume tu vida; ahora recibes +20% de da\u00f1o.",
-          "en": "Hel's Pact: no longer drains your HP; you take +20% damage instead."
-        },
-        {
-          "t": "up",
-          "es": "Corrupted Spear Shard renovada: tus cr\u00edticos hacen caer la lanza corrupta y dejan un charco m\u00e1s grande que cura m\u00e1s.",
-          "en": "Corrupted Spear Shard reworked: your crits bring down the corrupted spear and leave a bigger, more healing pool."
-        },
-        {
-          "t": "up",
-          "es": "\u00c1rea de habilidades con tope de +250%. Mystical Amplification: tope de \u00e1rea +120% y +80% a +200% de da\u00f1o m\u00e1gico.",
-          "en": "Skill area capped at +250%. Mystical Amplification: area cap +120% and +80% to +200% magic damage."
-        },
-        {
-          "t": "new",
-          "es": "Medidor de da\u00f1o: pesta\u00f1a de Curaci\u00f3n, y la lista ya no vuelve arriba al actualizarse.",
-          "en": "Damage meter: a Healing tab, and the list no longer jumps to the top when it updates."
-        },
-        {
-          "t": "up",
-          "es": "Cofre Corrupto con el cofre rojo del cliente de RO; las cartas del \u00e1lbum dicen de d\u00f3nde salen (MVP, ruta, quest...).",
-          "en": "Corrupt Chest uses the RO client's red chest; album cards say where they come from (MVP, route, quest...)."
-        },
-        {
-          "t": "fix",
-          "es": "Call Homunculus ya no vuelve a salir si ya lo evolucionaste; Steamed Tongue carga por monstruo derrotado.",
-          "en": "Call Homunculus no longer shows up again once evolved; Steamed Tongue charges per monster defeated."
-        },
-        {
-          "t": "up",
-          "es": "Efectos autom\u00e1ticos plegados por defecto; sin el sonido de 'gas' en portales y marcas; sin sombras en los pasos de Lydia.",
-          "en": "Automatic effects folded by default; no more 'gas' sound on portals and marks; no shadows on Lydia's steps."
-        },
-        {
-          "t": "up",
-          "es": "Interfaz m\u00e1s n\u00edtida en pantallas 1080p.",
-          "en": "Sharper interface on 1080p screens."
         }
       ]
     }
