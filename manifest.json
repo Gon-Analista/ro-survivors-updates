@@ -2,10 +2,10 @@
   "base": "0.1.186",
   "page": "https://nearq.itch.io/midgard-survivors",
   "patch": {
-    "version": "0.1.197",
-    "file": "patches/patch_0.1.197.bin",
-    "size": 3693644,
-    "sha256": "eddf5644213a43dc564fbbeeaec0bb9c00d1a1d1b4f273133d5b6e00cfad457f"
+    "version": "0.1.198",
+    "file": "patches/patch_0.1.198.bin",
+    "size": 3696684,
+    "sha256": "ba4d4a48844ad8e87dbf8a37c8b596c50c6427830e516c115bc3b3da3333ccfd"
   },
   "legacy": {
     "0.1.156": {
@@ -32,6 +32,66 @@
     }
   },
   "notes": [
+    {
+      "version": "0.1.198",
+      "items": [
+        {
+          "t": "up",
+          "es": "Endless Tower: cada evento se anuncia con un cartel de 2 segundos antes de empezar.",
+          "en": "Endless Tower: each event is announced with a 2-second sign before it starts."
+        },
+        {
+          "t": "up",
+          "es": "\u00a1Sobrevive!: en vez de flechas, trampas y un estallido del que debes refugiarte en la zona verde.",
+          "en": "Survive!: instead of arrows, traps and a blast you must escape in the green zone."
+        },
+        {
+          "t": "up",
+          "es": "Endless Tower: m\u00e1s trampas, m\u00e1s seguido y desde pisos m\u00e1s bajos.",
+          "en": "Endless Tower: more traps, more often and from lower floors."
+        },
+        {
+          "t": "up",
+          "es": "Emperium: inamovible, mucho m\u00e1s grande y siempre visible.",
+          "en": "Emperium: immovable, much bigger and always visible."
+        },
+        {
+          "t": "up",
+          "es": "Lucile avisa cuando un regalo ya fue reclamado.",
+          "en": "Lucile tells you when a gift was already claimed."
+        },
+        {
+          "t": "up",
+          "es": "Ventana de Lucile: entra completa en pantalla con muchas builds.",
+          "en": "Lucile's window: fits on screen with many builds."
+        },
+        {
+          "t": "up",
+          "es": "Cr\u00edticos un 20% m\u00e1s peque\u00f1os; los n\u00fameros de da\u00f1o salen encima de los monstruos.",
+          "en": "Criticals 20% smaller; damage numbers start above monsters."
+        },
+        {
+          "t": "up",
+          "es": "MVP: habilidades un 5% m\u00e1s seguidas de base, y el bono de hasta 20% tambi\u00e9n en la torre.",
+          "en": "MVPs: skills 5% more often by default, and the up to 20% bonus in the tower too."
+        },
+        {
+          "t": "fix",
+          "es": "Veneno inflado por Envenom corregido: los golpes guardados suman acumulaciones.",
+          "en": "Fixed poison inflated by Envenom: saved hits add stacks."
+        },
+        {
+          "t": "fix",
+          "es": "Poring Dorados del piso del tesoro con vida acorde a tu build.",
+          "en": "Treasure floor Golden Porings have HP that fits your build."
+        },
+        {
+          "t": "fix",
+          "es": "Las \u00fanicas ya no salen en la Endless Tower.",
+          "en": "Uniques no longer drop in the Endless Tower."
+        }
+      ]
+    },
     {
       "version": "0.1.197",
       "items": [
@@ -584,16 +644,6 @@
           "t": "up",
           "es": "Ingl\u00e9s revisado: casi 500 textos corregidos y con los nombres de Ragnarok Online en ingl\u00e9s.",
           "en": "English reviewed: almost 500 lines fixed, using Ragnarok Online's English names."
-        }
-      ]
-    },
-    {
-      "version": "0.1.186",
-      "items": [
-        {
-          "t": "fix",
-          "es": "Hablar con Klauss (y otros NPC con ilustraci\u00f3n) ya no cierra el juego con el idioma en ingl\u00e9s.",
-          "en": "Talking to Klauss (and other NPCs with an illustration) no longer crashes the game in English."
         }
       ]
     }
