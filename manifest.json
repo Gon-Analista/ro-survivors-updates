@@ -2,10 +2,10 @@
   "base": "0.1.186",
   "page": "https://nearq.itch.io/midgard-survivors",
   "patch": {
-    "version": "0.1.189",
-    "file": "patches/patch_0.1.189.bin",
-    "size": 2942620,
-    "sha256": "8c004a8dcd7d08cfa96183f0a3af9989ad785ee83649b5fbb8ff988b7140f49f"
+    "version": "0.1.190",
+    "file": "patches/patch_0.1.190.bin",
+    "size": 2943916,
+    "sha256": "ea91748222eeaa3443a723bc8b74e900ac7eb33d6e28bacc18f5a3844c441099"
   },
   "legacy": {
     "0.1.156": {
@@ -32,6 +32,21 @@
     }
   },
   "notes": [
+    {
+      "version": "0.1.190",
+      "items": [
+        {
+          "t": "up",
+          "es": "Ventana de Preparaci\u00f3n m\u00e1s compacta: entra completa en pantalla aunque lleves mucho equipo, platos y mejoras. Lo que hace cada plato se ve al pasar el mouse.",
+          "en": "More compact Preparation window: it fits on screen however much gear, dishes and upgrades you carry. Hover a dish to see what it does."
+        },
+        {
+          "t": "new",
+          "es": "Sets de equipo, cartas y Super Novice: el bot\u00f3n \u21bb actualiza un set con lo que tienes puesto, sin borrarlo ni crear otro.",
+          "en": "Gear, card and Super Novice sets: the \u21bb button updates a set with what you have on, without deleting it or making a new one."
+        }
+      ]
+    },
     {
       "version": "0.1.189",
       "items": [
@@ -379,31 +394,6 @@
           "t": "fix",
           "es": "Co-op: los \u00fanicos no se repiten para quien ya los tiene en su Almac\u00e9n Kafra.",
           "en": "Co-op: uniques no longer drop again for whoever already has them in their Kafra storage."
-        }
-      ]
-    },
-    {
-      "version": "0.1.178",
-      "items": [
-        {
-          "t": "up",
-          "es": "Hordas enormes: cuando el mapa se llena, los monstruos llegan fusionados (menos cuerpos, la misma vida total) y los que quedan atrapados lejos vuelven cerca de ti. M\u00e1s FPS en las partidas largas.",
-          "en": "Huge hordes: when the map fills up, monsters arrive merged (fewer bodies, the same total HP) and the ones stuck far away come back near you. More FPS in long runs."
-        },
-        {
-          "t": "up",
-          "es": "Endless Tower: Lucile te pide confirmar antes de entrar (la build se gasta y no vuelve), y en la pausa el bot\u00f3n dice \u00abTerminar la subida\u00bb.",
-          "en": "Endless Tower: Lucile asks you to confirm before going in (the build is spent and never comes back), and the pause button reads \u201cEnd the climb\u201d."
-        },
-        {
-          "t": "fix",
-          "es": "La cara superior acepta las mismas cartas que el headgear.",
-          "en": "Upper face gear takes the same cards as headgear."
-        },
-        {
-          "t": "fix",
-          "es": "La cara inferior ya no tiene huecos para cartas.",
-          "en": "Lower face gear no longer has card slots."
         }
       ]
     }
