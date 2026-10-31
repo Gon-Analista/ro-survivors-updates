@@ -2,10 +2,10 @@
   "base": "0.1.186",
   "page": "https://nearq.itch.io/midgard-survivors",
   "patch": {
-    "version": "0.1.187",
-    "file": "patches/patch_0.1.187.bin",
-    "size": 1756172,
-    "sha256": "b9a5da4381d79ded39d0885e49730687e38605d7d009352a4a8c1f3eb2654c53"
+    "version": "0.1.188",
+    "file": "patches/patch_0.1.188.bin",
+    "size": 2939260,
+    "sha256": "fc8f363c34a7c38660e97ef1515b38b3c4f7bca3f5f334254a20824c3c7d39ff"
   },
   "legacy": {
     "0.1.156": {
@@ -32,6 +32,101 @@
     }
   },
   "notes": [
+    {
+      "version": "0.1.188",
+      "items": [
+        {
+          "t": "fix",
+          "es": "El comercio en Prontera ya no cierra el juego al ofrecer o quitar cosas.",
+          "en": "Trading in Prontera no longer crashes when offering or taking items back."
+        },
+        {
+          "t": "fix",
+          "es": "Hablar con NPC con ilustraci\u00f3n en ingl\u00e9s ya no deja el globo gigante.",
+          "en": "NPCs with an illustration no longer show a giant speech bubble in English."
+        },
+        {
+          "t": "up",
+          "es": "Habilidades de suelo (Acid Terror, Demonstration...) mucho m\u00e1s livianas: pasado cierto n\u00famero a la vez solo se dibuja lo justo, y siguen haciendo da\u00f1o.",
+          "en": "Ground skills (Acid Terror, Demonstration...) are much lighter: past a number at once only the essentials are drawn, and they still deal damage."
+        },
+        {
+          "t": "up",
+          "es": "Cooperativo: los efectos de tus compa\u00f1eros tienen un l\u00edmite propio m\u00e1s bajo; los tuyos se ven todos.",
+          "en": "Co-op: your allies' effects have their own lower limit; yours always show."
+        },
+        {
+          "t": "fix",
+          "es": "Cooperativo: minimizado, el invitado ya no acumula efectos (memoria y lag al volver).",
+          "en": "Co-op: a minimized guest no longer piles up effects (memory and lag when coming back)."
+        },
+        {
+          "t": "fix",
+          "es": "Cooperativo: la siguiente mejora se abre sola al subir varios niveles, puedes elegir mejoras estando ca\u00eddo y ya no salen mejoras repetidas que no se pod\u00edan elegir.",
+          "en": "Co-op: the next upgrade opens by itself, you can pick upgrades while down, and stale unpickable upgrades are gone."
+        },
+        {
+          "t": "fix",
+          "es": "Cooperativo: si el l\u00edder cae y solo quedan bots, la partida termina normal; y se puede guardar la build para la Endless Tower.",
+          "en": "Co-op: if the leader falls with only bots left the run ends normally; and you can save the build for the Endless Tower."
+        },
+        {
+          "t": "up",
+          "es": "N\u00fameros de da\u00f1o: m\u00e1s lejos de tu personaje y un poco m\u00e1s arriba, m\u00e1s n\u00fameros en pantalla, los golpes directos y a jefes tienen prioridad sobre charcos.",
+          "en": "Damage numbers: farther from your hero and a bit higher, more on screen, direct and boss hits take priority over puddles."
+        },
+        {
+          "t": "up",
+          "es": "Los enemigos se juntan m\u00e1s: ya no se empujan hacia atr\u00e1s en hordas grandes.",
+          "en": "Enemies bunch up more: big hordes no longer push each other backwards."
+        },
+        {
+          "t": "up",
+          "es": "Los MVP, Satan Morroc y las Valkyries nunca ganan velocidad; al enfurecerse pegan m\u00e1s fuerte.",
+          "en": "MVPs, Satan Morroc and the Valkyries never gain speed; when enraged they hit harder."
+        },
+        {
+          "t": "up",
+          "es": "Pacto de Hel: ya no consume tu vida; ahora recibes +20% de da\u00f1o.",
+          "en": "Hel's Pact: no longer drains your HP; you take +20% damage instead."
+        },
+        {
+          "t": "up",
+          "es": "Corrupted Spear Shard renovada: tus cr\u00edticos hacen caer la lanza corrupta y dejan un charco m\u00e1s grande que cura m\u00e1s.",
+          "en": "Corrupted Spear Shard reworked: your crits bring down the corrupted spear and leave a bigger, more healing pool."
+        },
+        {
+          "t": "up",
+          "es": "\u00c1rea de habilidades con tope de +250%. Mystical Amplification: tope de \u00e1rea +120% y +80% a +200% de da\u00f1o m\u00e1gico.",
+          "en": "Skill area capped at +250%. Mystical Amplification: area cap +120% and +80% to +200% magic damage."
+        },
+        {
+          "t": "new",
+          "es": "Medidor de da\u00f1o: pesta\u00f1a de Curaci\u00f3n, y la lista ya no vuelve arriba al actualizarse.",
+          "en": "Damage meter: a Healing tab, and the list no longer jumps to the top when it updates."
+        },
+        {
+          "t": "up",
+          "es": "Cofre Corrupto con el cofre rojo del cliente de RO; las cartas del \u00e1lbum dicen de d\u00f3nde salen (MVP, ruta, quest...).",
+          "en": "Corrupt Chest uses the RO client's red chest; album cards say where they come from (MVP, route, quest...)."
+        },
+        {
+          "t": "fix",
+          "es": "Call Homunculus ya no vuelve a salir si ya lo evolucionaste; Steamed Tongue carga por monstruo derrotado.",
+          "en": "Call Homunculus no longer shows up again once evolved; Steamed Tongue charges per monster defeated."
+        },
+        {
+          "t": "up",
+          "es": "Efectos autom\u00e1ticos plegados por defecto; sin el sonido de 'gas' en portales y marcas; sin sombras en los pasos de Lydia.",
+          "en": "Automatic effects folded by default; no more 'gas' sound on portals and marks; no shadows on Lydia's steps."
+        },
+        {
+          "t": "up",
+          "es": "Interfaz m\u00e1s n\u00edtida en pantallas 1080p.",
+          "en": "Sharper interface on 1080p screens."
+        }
+      ]
+    },
     {
       "version": "0.1.187",
       "items": [
@@ -284,86 +379,6 @@
           "t": "fix",
           "es": "Los accesorios de cara muestran todos sus efectos.",
           "en": "Face accessories show all their effects."
-        }
-      ]
-    },
-    {
-      "version": "0.1.176",
-      "items": [
-        {
-          "t": "new",
-          "es": "Endless Tower: al superar un piso se abre un portal arriba y el Viento de la torre te lleva r\u00e1pido hasta \u00e9l.",
-          "en": "Endless Tower: clearing a floor opens a portal up ahead and the Tower Wind rushes you to it."
-        },
-        {
-          "t": "new",
-          "es": "Endless Tower: zona de descanso cada 10 pisos, donde Lucile te entrega su regalo.",
-          "en": "Endless Tower: a rest area every 10 floors, where Lucile hands you her gift."
-        },
-        {
-          "t": "new",
-          "es": "Transmutaci\u00f3n con Nakurusa: Oridecon/Elunium en Enriched y Enriched en HD (ya no se compran).",
-          "en": "Transmutation with Nakurusa: Oridecon/Elunium into Enriched and Enriched into HD (no longer sold)."
-        },
-        {
-          "t": "new",
-          "es": "Nuevas mec\u00e1nicas de MVP: Remolino que te arrastra y Marca que deja un charco permanente.",
-          "en": "New MVP mechanics: a Vortex that drags you in and a Mark that leaves a permanent pool."
-        },
-        {
-          "t": "new",
-          "es": "La pantalla final muestra qu\u00e9 te derrot\u00f3: el monstruo y su ataque.",
-          "en": "The end screen shows what defeated you: the monster and its attack."
-        },
-        {
-          "t": "new",
-          "es": "Las armas explosivas estallan al golpear, con efecto y sonido del cliente.",
-          "en": "Explosive weapons burst on hit, with the client's effect and sound."
-        },
-        {
-          "t": "up",
-          "es": "DES ya no da velocidad de ataque: da duraci\u00f3n de habilidades y m\u00e1s efecto de Apoyo.",
-          "en": "DEX no longer gives attack speed: it gives skill duration and more Support effect."
-        },
-        {
-          "t": "up",
-          "es": "Satan Morroc: su Juicio Infernal te arrastra, tiene algo menos de vida en peligros altos y los monstruos fuera de su arena no se pueden apuntar.",
-          "en": "Satan Morroc: his Infernal Judgement drags you in, he has a bit less HP at high danger and monsters outside his arena can't be targeted."
-        },
-        {
-          "t": "up",
-          "es": "Almac\u00e9n Kafra: hasta nivel 8 de mejora y filtros por parte de equipo.",
-          "en": "Kafra Storage: up to upgrade level 8 and filters by gear slot."
-        },
-        {
-          "t": "up",
-          "es": "Yggdrasil Leaf: efecto de Resurrection al revivir y un segundo nivel de compra.",
-          "en": "Yggdrasil Leaf: a Resurrection effect when reviving and a second purchase level."
-        },
-        {
-          "t": "up",
-          "es": "Ventana del Cofre Corrupto, barra de karma (con explicaci\u00f3n al pasar el mouse) y selector de peligro con nuevo estilo.",
-          "en": "New style for the Corrupt Chest window, the karma bar (with an explanation on hover) and the danger selector."
-        },
-        {
-          "t": "up",
-          "es": "De noche tu personaje lleva una luz propia; sin p\u00e9talos de cerezo en el clima.",
-          "en": "At night your character carries their own light; no more cherry petals in the weather."
-        },
-        {
-          "t": "fix",
-          "es": "Ya se puede arrastrar del inventario al equipo.",
-          "en": "You can drag from the inventory to the equipment again."
-        },
-        {
-          "t": "fix",
-          "es": "La ventana de equipo muestra los accesorios de cara.",
-          "en": "The equipment window shows face accessories."
-        },
-        {
-          "t": "fix",
-          "es": "El cartel de las pociones ya no tapa la vida del jefe; la lista de builds y el cartel de la torre ya no se cortan.",
-          "en": "The potion banner no longer covers the boss's HP; the builds list and the tower pin no longer get cut off."
         }
       ]
     }
