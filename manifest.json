@@ -2,10 +2,10 @@
   "base": "0.1.186",
   "page": "https://nearq.itch.io/midgard-survivors",
   "patch": {
-    "version": "0.1.195",
-    "file": "patches/patch_0.1.195.bin",
-    "size": 3660300,
-    "sha256": "fab2fe244a682c6493c2885cd92c4959f58549264c6ae5b8d83d985bc4a1f58c"
+    "version": "0.1.196",
+    "file": "patches/patch_0.1.196.bin",
+    "size": 3678444,
+    "sha256": "3b42e036978d9572981fffba5b98de286cc6ebde5cd2c461325d8ba7c7722f06"
   },
   "legacy": {
     "0.1.156": {
@@ -32,6 +32,26 @@
     }
   },
   "notes": [
+    {
+      "version": "0.1.196",
+      "items": [
+        {
+          "t": "up",
+          "es": "Cr\u00edticos ultra y letales: solo algunos muestran brillo y chispas; los dem\u00e1s salen como n\u00fameros de color y se suman.",
+          "en": "Ultra and lethal criticals: only some show glow and sparks; the rest appear as coloured numbers and add up."
+        },
+        {
+          "t": "up",
+          "es": "Envenom y procs de golpe en arco: se lanzan menos seguido, pero cada golpe vale por los que representa.",
+          "en": "Envenom and arc swing procs: they cast less often, but each swing counts for the ones it stands for."
+        },
+        {
+          "t": "fix",
+          "es": "Arreglada la ca\u00edda de FPS con muchos cr\u00edticos o procs r\u00e1pidos.",
+          "en": "Fixed the FPS drop with many criticals or fast procs."
+        }
+      ]
+    },
     {
       "version": "0.1.195",
       "items": [
@@ -539,36 +559,6 @@
           "t": "fix",
           "es": "Clima: corregido un error que se repet\u00eda cada fotograma al despejarse la niebla o las nubes.",
           "en": "Weather: fixed an error repeating every frame when fog or clouds cleared."
-        }
-      ]
-    },
-    {
-      "version": "0.1.184",
-      "items": [
-        {
-          "t": "new",
-          "es": "Twin Spice Skewers reemplaza al Bomber Steak: +10% de doble lanzamiento de habilidades.",
-          "en": "Twin Spice Skewers replaces Bomber Steak: +10% skill double cast."
-        },
-        {
-          "t": "up",
-          "es": "Platos m\u00e1s parejos: los que serv\u00edan a todos bajan un poco y los de builds concretas suben.",
-          "en": "More even dishes: the ones good for everyone go down a bit, the build-specific ones go up."
-        },
-        {
-          "t": "up",
-          "es": "Muchas cartas flojas mejoradas: doble lanzamiento, veneno, sangrado, quemadura, invocaciones, bufos, reflejo y velocidad de proyectiles.",
-          "en": "Many weak cards improved: double cast, poison, bleeding, burning, summons, buffs, reflect and projectile speed."
-        },
-        {
-          "t": "fix",
-          "es": "Los efectos autom\u00e1ticos (procs con su % y da\u00f1o) vuelven a verse: Equipo (Q / C) \u2192 \u00abVer efectos y detalles\u00bb.",
-          "en": "Automatic effects (procs with their % and damage) are visible again: Equipment (Q / C) \u2192 \u00abSee effects and details\u00bb."
-        },
-        {
-          "t": "fix",
-          "es": "El equipo inicial muestra el set como activo cuando lo llevas completo.",
-          "en": "The starting gear shows a set as active when you wear all of it."
         }
       ]
     }
