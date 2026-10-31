@@ -2,10 +2,10 @@
   "base": "0.1.186",
   "page": "https://nearq.itch.io/midgard-survivors",
   "patch": {
-    "version": "0.1.193",
-    "file": "patches/patch_0.1.193.bin",
-    "size": 3645516,
-    "sha256": "171f27c944bc0af4d2f499512492cce716796b189d8e482b00ccaf440b69bba3"
+    "version": "0.1.194",
+    "file": "patches/patch_0.1.194.bin",
+    "size": 3654668,
+    "sha256": "d41346b3a046fef11f00ee4fd51e94b1af25d540ab4308614c0770cec7740ce0"
   },
   "legacy": {
     "0.1.156": {
@@ -32,6 +32,61 @@
     }
   },
   "notes": [
+    {
+      "version": "0.1.194",
+      "items": [
+        {
+          "t": "up",
+          "es": "INT ahora da +15% de da\u00f1o de habilidades por punto (antes +7%).",
+          "en": "INT now gives +15% skill damage per point (was +7%)."
+        },
+        {
+          "t": "up",
+          "es": "Sharp Shooting: m\u00e1s ancho y m\u00e1s da\u00f1o base.",
+          "en": "Sharp Shooting: wider and more base damage."
+        },
+        {
+          "t": "up",
+          "es": "Back Stab Nv10: 8 saltos, la SUE suma m\u00e1s sin l\u00edmite, y con Ginnungagap m\u00ednimo 12. Los proyectiles ya no lo afectan.",
+          "en": "Back Stab Nv10: 8 jumps, LUK adds more without limit, and at least 12 with Ginnungagap. Projectiles no longer affect it."
+        },
+        {
+          "t": "up",
+          "es": "Envenom: efecto m\u00e1s sobrio y 20% menos de da\u00f1o.",
+          "en": "Envenom: cleaner effect and 20% less damage."
+        },
+        {
+          "t": "up",
+          "es": "El medidor de da\u00f1o deja libre el espacio de las quests.",
+          "en": "The damage meter leaves room for quests."
+        },
+        {
+          "t": "fix",
+          "es": "Hunter, Sniper, Bard, Dancer, Sage, Professor y Super Novice ya muestran su arma al atacar.",
+          "en": "Hunter, Sniper, Bard, Dancer, Sage, Professor and Super Novice now show their weapon when attacking."
+        },
+        {
+          "t": "fix",
+          "es": "Mucho menos parpadeo de pantalla al subir de nivel y con otros destellos.",
+          "en": "Far less screen flashing on level up and from other flashes."
+        },
+        {
+          "t": "fix",
+          "es": "Menos lag con Blitz Beat y menos memoria usada en partidas largas.",
+          "en": "Less lag with Blitz Beat and less memory used in long runs."
+        },
+        {
+          "t": "fix",
+          "es": "La mascota ya no se queda pegada con los cofres, y estos siempre se pueden recoger.",
+          "en": "Pets no longer get stuck with chests, and those can always be picked up."
+        },
+        {
+          "t": "fix",
+          "es": "El c\u00edrculo de cambio de fase de los MVP ya no atraviesa el suelo.",
+          "en": "The MVP phase-change circle no longer cuts through the ground."
+        }
+      ]
+    },
     {
       "version": "0.1.193",
       "items": [
@@ -514,21 +569,6 @@
           "t": "fix",
           "es": "Los textos del bot\u00edn legendario del grupo y los globos de di\u00e1logo ya no se cortan.",
           "en": "Party legendary loot texts and speech bubbles no longer get cut off."
-        }
-      ]
-    },
-    {
-      "version": "0.1.182",
-      "items": [
-        {
-          "t": "fix",
-          "es": "Torre Infinita: agarrar un Emperium ya no cierra el juego.",
-          "en": "Endless Tower: picking up an Emperium no longer crashes the game."
-        },
-        {
-          "t": "fix",
-          "es": "La pieza superior de la cara acepta en el Almac\u00e9n Kafra las mismas Cartas Eternas que el headgear.",
-          "en": "Upper face gear now takes the same Eternal Cards as headgear in Kafra Storage."
         }
       ]
     }
