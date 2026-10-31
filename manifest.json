@@ -2,10 +2,10 @@
   "base": "0.1.186",
   "page": "https://nearq.itch.io/midgard-survivors",
   "patch": {
-    "version": "0.1.194",
-    "file": "patches/patch_0.1.194.bin",
-    "size": 3654668,
-    "sha256": "d41346b3a046fef11f00ee4fd51e94b1af25d540ab4308614c0770cec7740ce0"
+    "version": "0.1.195",
+    "file": "patches/patch_0.1.195.bin",
+    "size": 3660300,
+    "sha256": "fab2fe244a682c6493c2885cd92c4959f58549264c6ae5b8d83d985bc4a1f58c"
   },
   "legacy": {
     "0.1.156": {
@@ -32,6 +32,46 @@
     }
   },
   "notes": [
+    {
+      "version": "0.1.195",
+      "items": [
+        {
+          "t": "up",
+          "es": "Monstruos: mucha menos memoria de video.",
+          "en": "Monsters: far less video memory."
+        },
+        {
+          "t": "up",
+          "es": "Lex Aeterna suma cantidad en vez de duraci\u00f3n al pasar su nivel m\u00e1ximo.",
+          "en": "Lex Aeterna adds count instead of duration past its max level."
+        },
+        {
+          "t": "up",
+          "es": "Sharp Shooting: el largo crece con el \u00e1rea.",
+          "en": "Sharp Shooting: length grows with area."
+        },
+        {
+          "t": "up",
+          "es": "Solo veneno, quemadura y sangrado agrandan sus n\u00fameros con el da\u00f1o; golpes normales y cr\u00edticos mantienen su tama\u00f1o.",
+          "en": "Only poison, burn and bleed numbers grow with damage; normal hits and criticals keep their size."
+        },
+        {
+          "t": "up",
+          "es": "Gray se acerc\u00f3 al borde del otro suelo en Prontera.",
+          "en": "Gray moved closer to the edge of the other floor in Prontera."
+        },
+        {
+          "t": "fix",
+          "es": "Arreglados los freezes durante la partida.",
+          "en": "Fixed freezes during runs."
+        },
+        {
+          "t": "fix",
+          "es": "Los n\u00fameros de da\u00f1o ya no tapan al personaje.",
+          "en": "Damage numbers no longer cover the character."
+        }
+      ]
+    },
     {
       "version": "0.1.194",
       "items": [
@@ -529,46 +569,6 @@
           "t": "fix",
           "es": "El equipo inicial muestra el set como activo cuando lo llevas completo.",
           "en": "The starting gear shows a set as active when you wear all of it."
-        }
-      ]
-    },
-    {
-      "version": "0.1.183",
-      "items": [
-        {
-          "t": "new",
-          "es": "Endless Tower en grupo: el l\u00edder llama a la party, cada uno elige y gasta su build, y hay un ranking aparte de grupo.",
-          "en": "Endless Tower as a party: the leader calls everyone, each player picks and spends their build, with its own party ranking."
-        },
-        {
-          "t": "new",
-          "es": "Klauss sube de nivel su cocina (1M y 3M de zeny): hasta 3 platos a la vez, en una ventana nueva.",
-          "en": "Klauss can upgrade his kitchen (1M and 3M zeny): up to 3 dishes at once, in a new window."
-        },
-        {
-          "t": "new",
-          "es": "6 platos nuevos para cada tipo de build y quests en los 12 mapas que no ten\u00edan (platos, mascotas y cartas).",
-          "en": "6 new dishes for each kind of build, and quests on the 12 maps that had none (dishes, pets and cards)."
-        },
-        {
-          "t": "up",
-          "es": "Los platos de siempre ahora dan bonos para su build (el Immortal Stew queda igual).",
-          "en": "The old dishes now give bonuses for their build (Immortal Stew stays the same)."
-        },
-        {
-          "t": "up",
-          "es": "Satan Morroc tiene menos vida: unas 1,5 veces la de un MVP.",
-          "en": "Satan Morroc has less HP: about 1.5 times an MVP's."
-        },
-        {
-          "t": "up",
-          "es": "HUD de la party y ventana de Lydia redise\u00f1ados.",
-          "en": "Party HUD and Lydia's window redesigned."
-        },
-        {
-          "t": "fix",
-          "es": "Los textos del bot\u00edn legendario del grupo y los globos de di\u00e1logo ya no se cortan.",
-          "en": "Party legendary loot texts and speech bubbles no longer get cut off."
         }
       ]
     }
