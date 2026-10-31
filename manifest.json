@@ -2,10 +2,10 @@
   "base": "0.1.186",
   "page": "https://nearq.itch.io/midgard-survivors",
   "patch": {
-    "version": "0.1.196",
-    "file": "patches/patch_0.1.196.bin",
-    "size": 3678444,
-    "sha256": "3b42e036978d9572981fffba5b98de286cc6ebde5cd2c461325d8ba7c7722f06"
+    "version": "0.1.197",
+    "file": "patches/patch_0.1.197.bin",
+    "size": 3693644,
+    "sha256": "eddf5644213a43dc564fbbeeaec0bb9c00d1a1d1b4f273133d5b6e00cfad457f"
   },
   "legacy": {
     "0.1.156": {
@@ -32,6 +32,56 @@
     }
   },
   "notes": [
+    {
+      "version": "0.1.197",
+      "items": [
+        {
+          "t": "up",
+          "es": "Todos los cr\u00edticos ultra y letales recuperan su estallido.",
+          "en": "All ultra and lethal criticals get their burst back."
+        },
+        {
+          "t": "up",
+          "es": "Falcon Assault: nueva picada desde el cielo con columna de luz y ondas de choque.",
+          "en": "Falcon Assault: new dive from the sky with a pillar of light and shockwaves."
+        },
+        {
+          "t": "up",
+          "es": "Las pociones se juntan en las versiones m\u00e1s fuertes del RO y, desde 6 juntas, vuelan hacia ti.",
+          "en": "Potions merge into RO's stronger versions and, from 6 together, fly to you."
+        },
+        {
+          "t": "up",
+          "es": "Telescope sube a 6 niveles: hasta +3 de alcance a distancia.",
+          "en": "Telescope now has 6 levels: up to +3 ranged reach."
+        },
+        {
+          "t": "up",
+          "es": "Las legendarias salen menos como arma: 30% arma, 70% otras piezas.",
+          "en": "Legendaries drop as weapons less often: 30% weapons, 70% other pieces."
+        },
+        {
+          "t": "up",
+          "es": "Poring Dorado: la mitad de vida.",
+          "en": "Golden Poring: half the HP."
+        },
+        {
+          "t": "up",
+          "es": "MVP: ganan velocidad con Peligro y Endless, hasta el 60% de la tuya.",
+          "en": "MVPs: gain speed with Danger and Endless, up to 60% of yours."
+        },
+        {
+          "t": "up",
+          "es": "MVP: usan sus habilidades hasta un 20% m\u00e1s seguido seg\u00fan Peligro y Endless.",
+          "en": "MVPs: use their skills up to 20% more often with Danger and Endless."
+        },
+        {
+          "t": "fix",
+          "es": "Las flechas ya no se quedan pegadas para siempre sobre un monstruo.",
+          "en": "Arrows no longer stay stuck on a monster forever."
+        }
+      ]
+    },
     {
       "version": "0.1.196",
       "items": [
@@ -544,21 +594,6 @@
           "t": "fix",
           "es": "Hablar con Klauss (y otros NPC con ilustraci\u00f3n) ya no cierra el juego con el idioma en ingl\u00e9s.",
           "en": "Talking to Klauss (and other NPCs with an illustration) no longer crashes the game in English."
-        }
-      ]
-    },
-    {
-      "version": "0.1.185",
-      "items": [
-        {
-          "t": "fix",
-          "es": "Satan Morroc ya no aparece en la Torre Infinita.",
-          "en": "Satan Morroc no longer shows up in the Endless Tower."
-        },
-        {
-          "t": "fix",
-          "es": "Clima: corregido un error que se repet\u00eda cada fotograma al despejarse la niebla o las nubes.",
-          "en": "Weather: fixed an error repeating every frame when fog or clouds cleared."
         }
       ]
     }
