@@ -2,10 +2,10 @@
   "base": "0.1.186",
   "page": "https://nearq.itch.io/midgard-survivors",
   "patch": {
-    "version": "0.1.192",
-    "file": "patches/patch_0.1.192.bin",
-    "size": 3516332,
-    "sha256": "6d9f2c7740a91753f5476cf414924551b384351632d918f4fdf05938a4253c7f"
+    "version": "0.1.193",
+    "file": "patches/patch_0.1.193.bin",
+    "size": 3645516,
+    "sha256": "171f27c944bc0af4d2f499512492cce716796b189d8e482b00ccaf440b69bba3"
   },
   "legacy": {
     "0.1.156": {
@@ -32,6 +32,101 @@
     }
   },
   "notes": [
+    {
+      "version": "0.1.193",
+      "items": [
+        {
+          "t": "new",
+          "es": "Endless Tower: pisos de evento (5, 15, 25...): Piso del tesoro, Emboscada, Duelo, Sobrevive, Prueba del Emperium y la Ruleta de Lucile.",
+          "en": "Endless Tower: event floors (5, 15, 25...): Treasure floor, Ambush, Duel, Survive, Emperium trial and Lucile's wheel."
+        },
+        {
+          "t": "new",
+          "es": "Endless Tower: trampas desde el piso 5 (rayos, vigas, p\u00faas y rocas) que se pueden esquivar y curan un poco si lo logras.",
+          "en": "Endless Tower: traps from floor 5 (lightning, beams, spikes and boulders); dodging them heals you a little."
+        },
+        {
+          "t": "new",
+          "es": "Stalker: build de procs con Gangster's Paradise, Intimidate y Preserve (lanza solo tus habilidades copiadas).",
+          "en": "Stalker: proc build with Gangster's Paradise, Intimidate and Preserve (casts your copied skills on its own)."
+        },
+        {
+          "t": "up",
+          "es": "Mago: +15% de da\u00f1o base y Mystical Amplification ahora multiplica \u00d72 a \u00d73,6.",
+          "en": "Mage: +15% base damage, and Mystical Amplification now multiplies by x2 to x3.6."
+        },
+        {
+          "t": "up",
+          "es": "Veneno: tope a las cargas y mucho menos da\u00f1o por % de vida; las cargas m\u00e1ximas suben el tope.",
+          "en": "Poison: capped stacking and far less %HP damage; max stacks raise the cap."
+        },
+        {
+          "t": "up",
+          "es": "Quemadura: se contagia sola y quema m\u00e1s con muchos monstruos encendidos. Sangrado: su explosi\u00f3n puede ser cr\u00edtica.",
+          "en": "Burn: spreads on its own and burns harder with many monsters on fire. Bleeding: its burst can crit."
+        },
+        {
+          "t": "up",
+          "es": "Cofres de jefes, MVP, Valquirias y Satan Morroc: morado como m\u00ednimo.",
+          "en": "Boss, MVP, Valkyrie and Satan Morroc chests: purple at least."
+        },
+        {
+          "t": "up",
+          "es": "Rice Cake: un golpe normal no te mata de una (cada 4 s).",
+          "en": "Rice Cake: a normal hit can't one-shot you (every 4 s)."
+        },
+        {
+          "t": "up",
+          "es": "Monstruos Veloces m\u00e1s lentos y con menos da\u00f1o; los especiales tienen velocidad m\u00e1xima.",
+          "en": "Swift monsters are slower and hit less; specials have a top speed."
+        },
+        {
+          "t": "up",
+          "es": "Los n\u00fameros de da\u00f1o crecen seg\u00fan el golpe y se alejan m\u00e1s de tu personaje.",
+          "en": "Damage numbers grow with the hit and stay further from your hero."
+        },
+        {
+          "t": "up",
+          "es": "Throw Stone con rocas nuevas y mejores impactos en shuriken, kunai, huuma, Freezing Spear, flechas y Earth Spike.",
+          "en": "Throw Stone has new boulders, plus better impacts on shuriken, kunai, huuma, Freezing Spear, arrows and Earth Spike."
+        },
+        {
+          "t": "up",
+          "es": "Medidor de da\u00f1o: Veneno, Quemadura y Sangrado tienen fila propia.",
+          "en": "Damage meter: Poison, Burn and Bleeding have their own rows."
+        },
+        {
+          "t": "up",
+          "es": "Resumen final: pregunta antes de salir si no elegiste objeto para el almac\u00e9n.",
+          "en": "End report: it asks before leaving if you didn't pick an item for the Storage."
+        },
+        {
+          "t": "up",
+          "es": "\u00abElegir al azar\u00bb se apaga en cada partida nueva.",
+          "en": "\"Pick at random\" turns off on each new run."
+        },
+        {
+          "t": "fix",
+          "es": "Los golpes siguientes a una habilidad autom\u00e1tica ya no cuentan como ella ni reciben su bono: algunas builds de procs pegar\u00e1n menos.",
+          "en": "Blows after an autocast no longer count as it or get its bonus: some proc builds will hit less."
+        },
+        {
+          "t": "fix",
+          "es": "Con ataques muy r\u00e1pidos los monstruos ya no salen volando.",
+          "en": "Very fast attacks no longer send monsters flying."
+        },
+        {
+          "t": "fix",
+          "es": "Quitado el sonido feo del portal de Niflheim y del demonio corrupto; la mascota ya no se queda atascada.",
+          "en": "Removed the ugly sound from the Niflheim portal and the corrupt demon; pets no longer get stuck."
+        },
+        {
+          "t": "fix",
+          "es": "Endless Tower: el Hipnotizador y los altares desaparecen al cambiar de piso; legendarias de cara desde el piso 21.",
+          "en": "Endless Tower: the Hypnotist and altars vanish on floor change; legendary face gear from floor 21."
+        }
+      ]
+    },
     {
       "version": "0.1.192",
       "items": [
@@ -434,16 +529,6 @@
           "t": "fix",
           "es": "La pieza superior de la cara acepta en el Almac\u00e9n Kafra las mismas Cartas Eternas que el headgear.",
           "en": "Upper face gear now takes the same Eternal Cards as headgear in Kafra Storage."
-        }
-      ]
-    },
-    {
-      "version": "0.1.181",
-      "items": [
-        {
-          "t": "fix",
-          "es": "Cooperativo: el Frenes\u00ed es el del l\u00edder para todo el grupo (nadie se mueve a otra velocidad).",
-          "en": "Co-op: Frenzy follows the leader for the whole party (nobody moves at a different speed)."
         }
       ]
     }
