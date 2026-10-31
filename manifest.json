@@ -2,10 +2,10 @@
   "base": "0.1.186",
   "page": "https://nearq.itch.io/midgard-survivors",
   "patch": {
-    "version": "0.1.188",
-    "file": "patches/patch_0.1.188.bin",
-    "size": 2939260,
-    "sha256": "fc8f363c34a7c38660e97ef1515b38b3c4f7bca3f5f334254a20824c3c7d39ff"
+    "version": "0.1.189",
+    "file": "patches/patch_0.1.189.bin",
+    "size": 2942620,
+    "sha256": "8c004a8dcd7d08cfa96183f0a3af9989ad785ee83649b5fbb8ff988b7140f49f"
   },
   "legacy": {
     "0.1.156": {
@@ -32,6 +32,66 @@
     }
   },
   "notes": [
+    {
+      "version": "0.1.189",
+      "items": [
+        {
+          "t": "fix",
+          "es": "Comercio: pasar el mouse sobre un objeto del comercio ya no puede cerrar el juego.",
+          "en": "Trading: hovering an item in the trade window can no longer crash the game."
+        },
+        {
+          "t": "fix",
+          "es": "Cooperativo: el cambio de job ya no se pierde si llega con la ventana de mejoras abierta (Tab dejaba de funcionar).",
+          "en": "Co-op: the job change is no longer lost if it arrives while the upgrade window is open (Tab stopped working)."
+        },
+        {
+          "t": "fix",
+          "es": "Cooperativo: mientras eliges una mejora tu h\u00e9roe ya no ataca.",
+          "en": "Co-op: your hero no longer attacks while you pick an upgrade."
+        },
+        {
+          "t": "up",
+          "es": "Cooperativo: la EXP del grupo es la mitad.",
+          "en": "Co-op: party EXP is halved."
+        },
+        {
+          "t": "fix",
+          "es": "Cooperativo: el NPC de la quest (Rex) se ve bien en la pantalla de los invitados.",
+          "en": "Co-op: the quest NPC (Rex) now shows properly on guests' screens."
+        },
+        {
+          "t": "up",
+          "es": "Cooperativo: el ataque de tus compa\u00f1eros se ve completo (no acelerado) y sus balas no tapan tus habilidades.",
+          "en": "Co-op: your allies' attacks play whole (not sped up) and their bullets no longer cover your skills."
+        },
+        {
+          "t": "up",
+          "es": "\u00abElegir al azar\u00bb desde el inicio de la partida: toma la mejora de mayor rareza que te ofrezcan (solo de lo que te queda; lo descartado con Agua Bendita no vuelve).",
+          "en": "\u201cPick at random\u201d from the start of the run: it takes the rarest upgrade offered (only from what you can still get; what you banished never comes back)."
+        },
+        {
+          "t": "up",
+          "es": "Duraci\u00f3n de habilidades con tope de +150%.",
+          "en": "Skill duration capped at +150%."
+        },
+        {
+          "t": "up",
+          "es": "El bot\u00f3n \u00abArmar el set\u00bb del Super Novice brilla hasta que lo abres.",
+          "en": "The Super Novice's \u201cBuild the set\u201d button glows until you open it."
+        },
+        {
+          "t": "fix",
+          "es": "El resumen final dice qu\u00e9 te derrot\u00f3 tambi\u00e9n al morir en Infinito y en cooperativo.",
+          "en": "The end report shows what defeated you also when you die in Endless and in co-op."
+        },
+        {
+          "t": "fix",
+          "es": "Creaci\u00f3n de personaje: el bot\u00f3n Al azar ya no tapa tu personaje con su texto.",
+          "en": "Character creation: the Random button's hint no longer covers your character."
+        }
+      ]
+    },
     {
       "version": "0.1.188",
       "items": [
@@ -344,41 +404,6 @@
           "t": "fix",
           "es": "La cara inferior ya no tiene huecos para cartas.",
           "en": "Lower face gear no longer has card slots."
-        }
-      ]
-    },
-    {
-      "version": "0.1.177",
-      "items": [
-        {
-          "t": "new",
-          "es": "Valkyrias renovadas: arenas nuevas y m\u00e1s grandes con m\u00fasica \u00e9pica, habilidades propias y un escudo que, al romperlo, las deja aturdidas y vulnerables.",
-          "en": "Revamped Valkyries: new, bigger arenas with epic music, their own skills and a shield that, once broken, leaves them stunned and vulnerable."
-        },
-        {
-          "t": "up",
-          "es": "Las Valkyrias son algo m\u00e1s fuertes; su \u00fanica ya no es segura, pero sale m\u00e1s que las de los mapas.",
-          "en": "The Valkyries are a bit stronger; their unique is no longer guaranteed, but drops more often than map uniques."
-        },
-        {
-          "t": "up",
-          "es": "El Coraz\u00f3n de Ymir despierta antes en las peleas de MVP, Valkyrias y Satan Morroc.",
-          "en": "Ymir's Heart wakes sooner in MVP, Valkyrie and Satan Morroc fights."
-        },
-        {
-          "t": "up",
-          "es": "Satan Morroc queda aturdido y vulnerable m\u00e1s tiempo.",
-          "en": "Satan Morroc stays stunned and vulnerable longer."
-        },
-        {
-          "t": "up",
-          "es": "Nuevo men\u00fa de la Kafra y etiquetas m\u00e1s limpias.",
-          "en": "New Kafra menu and cleaner tags."
-        },
-        {
-          "t": "fix",
-          "es": "Los accesorios de cara muestran todos sus efectos.",
-          "en": "Face accessories show all their effects."
         }
       ]
     }
