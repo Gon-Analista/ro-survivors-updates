@@ -2,10 +2,10 @@
   "base": "0.1.186",
   "page": "https://nearq.itch.io/midgard-survivors",
   "patch": {
-    "version": "0.1.191",
-    "file": "patches/patch_0.1.191.bin",
-    "size": 3503628,
-    "sha256": "b77030b07240fce1c8088127abb67d02d22270b9514b923a0bcdf472db075da9"
+    "version": "0.1.192",
+    "file": "patches/patch_0.1.192.bin",
+    "size": 3516332,
+    "sha256": "6d9f2c7740a91753f5476cf414924551b384351632d918f4fdf05938a4253c7f"
   },
   "legacy": {
     "0.1.156": {
@@ -32,6 +32,41 @@
     }
   },
   "notes": [
+    {
+      "version": "0.1.192",
+      "items": [
+        {
+          "t": "new",
+          "es": "Crusader y Paladin: Provoke reemplaza a Shield Boomerang. Atrae a monstruos, MVP y Satan Morroc, y dirige sus mec\u00e1nicas hacia ti.",
+          "en": "Crusader and Paladin: Provoke replaces Shield Boomerang. It draws monsters, MVPs and Satan Morroc, and aims their mechanics at you."
+        },
+        {
+          "t": "new",
+          "es": "Nuevas evoluciones: Provoke, Gospel y Martyr's Reckoning.",
+          "en": "New evolutions: Provoke, Gospel and Martyr's Reckoning."
+        },
+        {
+          "t": "new",
+          "es": "Shield Mastery reemplaza a Increase HP Recovery en el Swordsman: con escudo da vida, defensa y bloqueo, y bloquear cura.",
+          "en": "Shield Mastery replaces Increase HP Recovery on the Swordsman: with a shield it gives HP, defense and block, and blocking heals."
+        },
+        {
+          "t": "up",
+          "es": "Holy Cross y Grand Cross evolucionadas escalan con tu vida y defensa.",
+          "en": "Evolved Holy Cross and Grand Cross scale with your HP and defense."
+        },
+        {
+          "t": "fix",
+          "es": "Las cartas que se activan al recibir un golpe tambi\u00e9n saltan cuando un escudo lo absorbe entero y con Auto Counter.",
+          "en": "Cards that trigger when hit now also trigger when a barrier fully absorbs the blow and on Auto Counter."
+        },
+        {
+          "t": "up",
+          "es": "Selecci\u00f3n de personaje: los FPS pasan a la izquierda y el coraz\u00f3n del bot\u00f3n de caf\u00e9 sube un poco.",
+          "en": "Character select: the FPS counter moves to the left and the coffee button's heart sits a bit higher."
+        }
+      ]
+    },
     {
       "version": "0.1.191",
       "items": [
@@ -409,31 +444,6 @@
           "t": "fix",
           "es": "Cooperativo: el Frenes\u00ed es el del l\u00edder para todo el grupo (nadie se mueve a otra velocidad).",
           "en": "Co-op: Frenzy follows the leader for the whole party (nobody moves at a different speed)."
-        }
-      ]
-    },
-    {
-      "version": "0.1.180",
-      "items": [
-        {
-          "t": "up",
-          "es": "Los Oridecon y Elunium que encuentras en una partida van todos a tu Almac\u00e9n al terminar, aunque los gastes refinando en la partida.",
-          "en": "Every Oridecon and Elunium you find in a run goes to your Storage when it ends, even the ones spent refining during the run."
-        },
-        {
-          "t": "up",
-          "es": "Refinamiento con Nakurusa: solo se muestran los objetos que se pueden refinar y se ve cu\u00e1nto mejora el objeto si sale bien.",
-          "en": "Refining with Nakurusa: only items that can be refined are shown, and you see how much the item improves if it succeeds."
-        },
-        {
-          "t": "up",
-          "es": "Cada nivel de refine mejora m\u00e1s el objeto; los Enriched y HD dan un poco menos de probabilidad de \u00e9xito.",
-          "en": "Each refine level improves the item more; Enriched and HD ores give a bit less success chance."
-        },
-        {
-          "t": "up",
-          "es": "Las ilustraciones de los NPCs se acomodan mejor junto a su ventana.",
-          "en": "NPC portraits sit better beside their window."
         }
       ]
     }
