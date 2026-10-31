@@ -2,10 +2,10 @@
   "base": "0.1.186",
   "page": "https://nearq.itch.io/midgard-survivors",
   "patch": {
-    "version": "0.1.198",
-    "file": "patches/patch_0.1.198.bin",
-    "size": 3696684,
-    "sha256": "ba4d4a48844ad8e87dbf8a37c8b596c50c6427830e516c115bc3b3da3333ccfd"
+    "version": "0.1.199",
+    "file": "patches/patch_0.1.199.bin",
+    "size": 3714892,
+    "sha256": "fd2ec8a56fcd1b6480ffd98e3ef0b763912491f0805a2464d99a108453664ce9"
   },
   "legacy": {
     "0.1.156": {
@@ -32,6 +32,36 @@
     }
   },
   "notes": [
+    {
+      "version": "0.1.199",
+      "items": [
+        {
+          "t": "up",
+          "es": "\u00danicas: revisadas una por una, con m\u00e1s poder y efectos propios.",
+          "en": "Uniques: reviewed one by one, with more power and their own effects."
+        },
+        {
+          "t": "up",
+          "es": "Juperos Railgun: el rayo hace 150% de tu disparo b\u00e1sico, golpea al objetivo y tiene un efecto nuevo; +40% de da\u00f1o cr\u00edtico.",
+          "en": "Juperos Railgun: the beam deals 150% of your basic shot, hits the target and has a new effect; +40% critical damage."
+        },
+        {
+          "t": "up",
+          "es": "Todas las \u00fanicas tienen al menos dos estad\u00edsticas base.",
+          "en": "All uniques have at least two base stats."
+        },
+        {
+          "t": "up",
+          "es": "El Almac\u00e9n y equipo inicial ahora est\u00e1 en Servicios Kafra.",
+          "en": "Storage and starting gear is now in Kafra Services."
+        },
+        {
+          "t": "fix",
+          "es": "Orbes de Bio Lab y llamas de Sight ya no cruzan el cuerpo del personaje por detr\u00e1s.",
+          "en": "Bio Lab orbs and Sight flames no longer cross the character's body from behind."
+        }
+      ]
+    },
     {
       "version": "0.1.198",
       "items": [
@@ -624,26 +654,6 @@
           "t": "up",
           "es": "Interfaz m\u00e1s n\u00edtida en pantallas 1080p.",
           "en": "Sharper interface on 1080p screens."
-        }
-      ]
-    },
-    {
-      "version": "0.1.187",
-      "items": [
-        {
-          "t": "new",
-          "es": "Comercio en Prontera: clic derecho sobre otro jugador de la sala para intercambiar equipo del Almac\u00e9n Kafra (con su refine y Cartas Eternas), cartas del \u00e1lbum, minerales y zeny. Ventana al estilo de RO con OK, Comerciar y confirmaci\u00f3n de los dos.",
-          "en": "Trading in Prontera: right-click another player in your room to swap Kafra Storage gear (with its refine and Eternal Cards), album cards, ores and zeny. RO-style window with OK, Trade and a confirmation from both."
-        },
-        {
-          "t": "up",
-          "es": "Ventana de Klauss renovada: m\u00e1s simple, con tu mesa arriba y las recetas en una grilla de \u00edconos.",
-          "en": "Klauss's window redesigned: simpler, with your table on top and the recipes as an icon grid."
-        },
-        {
-          "t": "up",
-          "es": "Ingl\u00e9s revisado: casi 500 textos corregidos y con los nombres de Ragnarok Online en ingl\u00e9s.",
-          "en": "English reviewed: almost 500 lines fixed, using Ragnarok Online's English names."
         }
       ]
     }
